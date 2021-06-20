@@ -195,7 +195,7 @@ void Drone::HorizontalFlight(double distance, double angle, PzG::LaczeDoGNUPlota
     }
 } 
 
-void Drone::PlanPath(double angle, double distance) {
+void Drone::PlanPath(double angle, double distance, Vector3D loc) {
 
     rotationAngle = rotationAngle + angle;
 
@@ -205,7 +205,7 @@ void Drone::PlanPath(double angle, double distance) {
     Vector3D tmp, BodyCenter;
     tmp[0] = distance;
 
-    BodyCenter = location;
+    BodyCenter = loc;
 
     FileStream << BodyCenter << std::endl;
 

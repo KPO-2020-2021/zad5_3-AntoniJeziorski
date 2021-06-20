@@ -144,7 +144,7 @@ class Drone : public  SceneObject {
          * \param distance - dlugosc lotu
          */
 
-        void PlanPath(double angle, double distance); 
+        void PlanPath(double angle, double distance, Vector3D loc); 
 
         /*!
          *

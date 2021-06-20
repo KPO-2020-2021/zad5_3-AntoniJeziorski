@@ -34,7 +34,7 @@
 int main() {
 
     double tab2[3] = {0,0,80},   t[3] = {0,0,-80}, h[3] = {79, 80, 0},  angle, distance;
-    Vector3D tr(tab2),  tr2(t), hor(h), obstacleScale, obstacleLocation;
+    Vector3D tr(tab2),  tr2(t), hor(h), obstacleScale, obstacleLocation, tmpDroneLocation;
 
     int droneNumber = 1, obstacle, obstacleNumber, tmpDroneNumber;
 
@@ -156,6 +156,7 @@ int main() {
 
                 case 'p':
 
+                    tmpDroneLocation = scene.UseDrone(droneNumber-1)->Location();
                     std::cout << "Podaj kierunek lotu (kat w stopniach)" << std::endl;
                     std::cin >> angle;
                     if(std::cin.fail()) {
@@ -178,7 +179,7 @@ int main() {
                     }
 
                     Link.DodajNazwePliku("../datasets/path.dat");
-                    scene.UseDrone(droneNumber-1)->PlanPath(angle, distance);
+                    scene.UseDrone(droneNumber-1)->PlanPath(angle, distance, tmpDroneLocation);
                     std::cout << "Planuje sciezke..." << std::endl;
                     usleep(1000000);
                     Link.Rysuj();
@@ -188,8 +189,8 @@ int main() {
                     std::cout << "Lot..." << std::endl;
                     scene.UseDrone(droneNumber-1)->HorizontalFlight(distance, angle, Link, droneNumber);
                     while(scene.CheckCollision(droneNumber-1)) {
-
-                        scene.UseDrone(droneNumber-1)->PlanPath(0, 15);
+                        
+                        scene.UseDrone(droneNumber-1)->PlanPath(0, distance+=15, tmpDroneLocation);
                         std::cout << "Planuje sciezke..." << std::endl;
                         usleep(1000000);
                         Link.Rysuj();
