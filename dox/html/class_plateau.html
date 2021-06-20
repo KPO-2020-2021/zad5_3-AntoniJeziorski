@@ -1,0 +1,415 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "https://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=9"/>
+<meta name="generator" content="Doxygen 1.8.17"/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<title>Dron 5.2: Dokumentacja klasy Plateau</title>
+<link href="tabs.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="dynsections.js"></script>
+<link href="navtree.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="resize.js"></script>
+<script type="text/javascript" src="navtreedata.js"></script>
+<script type="text/javascript" src="navtree.js"></script>
+<link href="search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="search/searchdata.js"></script>
+<script type="text/javascript" src="search/search.js"></script>
+<link href="doxygen.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr style="height: 56px;">
+  <td id="projectalign" style="padding-left: 0.5em;">
+   <div id="projectname">Dron 5.2
+   &#160;<span id="projectnumber">1.1</span>
+   </div>
+   <div id="projectbrief">Antoni Jeziorski 259254</div>
+  </td>
+ </tr>
+ </tbody>
+</table>
+</div>
+<!-- end header part -->
+<!-- Wygenerowano przez Doxygen 1.8.17 -->
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:cf05388f2679ee054f2beb29a391d25f4e673ac3&amp;dn=gpl-2.0.txt GPL-v2 */
+var searchBox = new SearchBox("searchBox", "search",false,'Szukaj');
+/* @license-end */
+</script>
+<script type="text/javascript" src="menudata.js"></script>
+<script type="text/javascript" src="menu.js"></script>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:cf05388f2679ee054f2beb29a391d25f4e673ac3&amp;dn=gpl-2.0.txt GPL-v2 */
+$(function() {
+  initMenu('',true,false,'search.php','Szukaj');
+  $(document).ready(function() { init_search(); });
+});
+/* @license-end */</script>
+<div id="main-nav"></div>
+</div><!-- top -->
+<div id="side-nav" class="ui-resizable side-nav-resizable">
+  <div id="nav-tree">
+    <div id="nav-tree-contents">
+      <div id="nav-sync" class="sync"></div>
+    </div>
+  </div>
+  <div id="splitbar" style="-moz-user-select:none;" 
+       class="ui-resizable-handle">
+  </div>
+</div>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:cf05388f2679ee054f2beb29a391d25f4e673ac3&amp;dn=gpl-2.0.txt GPL-v2 */
+$(document).ready(function(){initNavTree('class_plateau.html',''); initResizable(); });
+/* @license-end */
+</script>
+<div id="doc-content">
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+</div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<iframe src="javascript:void(0)" frameborder="0" 
+        name="MSearchResults" id="MSearchResults">
+</iframe>
+</div>
+
+<div class="header">
+  <div class="summary">
+<a href="#pub-methods">Metody publiczne</a> &#124;
+<a href="class_plateau-members.html">Lista wszystkich składowych</a>  </div>
+  <div class="headertitle">
+<div class="title">Dokumentacja klasy Plateau</div>  </div>
+</div><!--header-->
+<div class="contents">
+
+<p>Definicja klasy <a class="el" href="class_plateau.html" title="Definicja klasy Plateau modelujaca plaskowyz w trojwymiarowym ukladzie wspolrzednych.">Plateau</a> modelujaca plaskowyz w trojwymiarowym ukladzie wspolrzednych.  
+ <a href="class_plateau.html#details">Więcej...</a></p>
+
+<p><code>#include &lt;<a class="el" href="plateau_8hh_source.html">plateau.hh</a>&gt;</code></p>
+<div class="dynheader">
+Diagram dziedziczenia dla Plateau</div>
+<div class="dyncontent">
+<div class="center"><img src="class_plateau__inherit__graph.png" border="0" usemap="#_plateau_inherit__map" alt="Inheritance graph"/></div>
+<map name="_plateau_inherit__map" id="_plateau_inherit__map">
+<area shape="rect" title="Definicja klasy Plateau modelujaca plaskowyz w trojwymiarowym ukladzie wspolrzednych." alt="" coords="76,155,147,181"/>
+<area shape="rect" href="class_scene_object.html" title="Definicja klasy SceneObject reprezentujaca obiekt na scenie." alt="" coords="5,80,108,107"/>
+<area shape="rect" href="class_cuboid.html" title="Definicja klasy Cuboid reprezentujaca prostopadloscian jako bryle geometryczna &#160;w trojwymiarowym ukla..." alt="" coords="133,80,199,107"/>
+<area shape="rect" href="class_solid.html" title="Definicja klasy Solid." alt="" coords="139,5,193,32"/>
+</map>
+<center><span class="legend">[<a target="top" href="graph_legend.html">legenda</a>]</span></center></div>
+<div class="dynheader">
+Diagram współpracy dla Plateau:</div>
+<div class="dyncontent">
+<div class="center"><img src="class_plateau__coll__graph.png" border="0" usemap="#_plateau_coll__map" alt="Collaboration graph"/></div>
+<map name="_plateau_coll__map" id="_plateau_coll__map">
+<area shape="rect" title="Definicja klasy Plateau modelujaca plaskowyz w trojwymiarowym ukladzie wspolrzednych." alt="" coords="37,264,108,291"/>
+<area shape="rect" href="class_scene_object.html" title="Definicja klasy SceneObject reprezentujaca obiekt na scenie." alt="" coords="5,188,108,215"/>
+<area shape="rect" href="class_cuboid.html" title="Definicja klasy Cuboid reprezentujaca prostopadloscian jako bryle geometryczna &#160;w trojwymiarowym ukla..." alt="" coords="133,188,199,215"/>
+<area shape="rect" href="class_solid.html" title="Definicja klasy Solid." alt="" coords="237,103,292,130"/>
+<area shape="rect" href="class_vector.html" title=" " alt="" coords="93,5,194,32"/>
+</map>
+<center><span class="legend">[<a target="top" href="graph_legend.html">legenda</a>]</span></center></div>
+<table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
+Metody publiczne</h2></td></tr>
+<tr class="memitem:a3fc1348928530cbe9ba20ee22fe93687"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_plateau.html#a3fc1348928530cbe9ba20ee22fe93687">Plateau</a> (<a class="el" href="vector3_d_8hh.html#a01090a0f6a3d1e7e9606819bd0fafda0">Vector3D</a> scale, int number)</td></tr>
+<tr class="memdesc:a3fc1348928530cbe9ba20ee22fe93687"><td class="mdescLeft">&#160;</td><td class="mdescRight">Konstruktor parametryczny klasu <a class="el" href="class_plateau.html" title="Definicja klasy Plateau modelujaca plaskowyz w trojwymiarowym ukladzie wspolrzednych.">Plateau</a>.  <a href="class_plateau.html#a3fc1348928530cbe9ba20ee22fe93687">Więcej...</a><br /></td></tr>
+<tr class="separator:a3fc1348928530cbe9ba20ee22fe93687"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0e6ae72e4d7e9923f996c1247e6a6c8b"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_plateau.html#a0e6ae72e4d7e9923f996c1247e6a6c8b">~Plateau</a> ()</td></tr>
+<tr class="memdesc:a0e6ae72e4d7e9923f996c1247e6a6c8b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Destruktor klasu <a class="el" href="class_plateau.html" title="Definicja klasy Plateau modelujaca plaskowyz w trojwymiarowym ukladzie wspolrzednych.">Plateau</a>.  <a href="class_plateau.html#a0e6ae72e4d7e9923f996c1247e6a6c8b">Więcej...</a><br /></td></tr>
+<tr class="separator:a0e6ae72e4d7e9923f996c1247e6a6c8b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a730282f3cd8a9c53b535ba266301bdce"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_plateau.html#a730282f3cd8a9c53b535ba266301bdce">SavePlateau</a> (<a class="el" href="vector3_d_8hh.html#a01090a0f6a3d1e7e9606819bd0fafda0">Vector3D</a> loc)</td></tr>
+<tr class="memdesc:a730282f3cd8a9c53b535ba266301bdce"><td class="mdescLeft">&#160;</td><td class="mdescRight">Metoda zapisujaca plaskowyz do pliku.  <a href="class_plateau.html#a730282f3cd8a9c53b535ba266301bdce">Więcej...</a><br /></td></tr>
+<tr class="separator:a730282f3cd8a9c53b535ba266301bdce"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a48136ccae1707dcb7661613edf1fab4f"><td class="memItemLeft" align="right" valign="top">std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_plateau.html#a48136ccae1707dcb7661613edf1fab4f">Filename</a> () override final</td></tr>
+<tr class="memdesc:a48136ccae1707dcb7661613edf1fab4f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Metoda zwracajaca nazwe pliku plaskowyzu.  <a href="class_plateau.html#a48136ccae1707dcb7661613edf1fab4f">Więcej...</a><br /></td></tr>
+<tr class="separator:a48136ccae1707dcb7661613edf1fab4f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1e295891a103caba5fed7fa35e3c1968"><td class="memItemLeft" align="right" valign="top"><a class="el" href="vector3_d_8hh.html#a01090a0f6a3d1e7e9606819bd0fafda0">Vector3D</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_plateau.html#a1e295891a103caba5fed7fa35e3c1968">Location</a> () const override final</td></tr>
+<tr class="memdesc:a1e295891a103caba5fed7fa35e3c1968"><td class="mdescLeft">&#160;</td><td class="mdescRight">Metoda zwracajaca polozenie plaskowyzu.  <a href="class_plateau.html#a1e295891a103caba5fed7fa35e3c1968">Więcej...</a><br /></td></tr>
+<tr class="separator:a1e295891a103caba5fed7fa35e3c1968"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="inherit_header pub_methods_class_scene_object"><td colspan="2" onclick="javascript:toggleInherit('pub_methods_class_scene_object')"><img src="closed.png" alt="-"/>&#160;Metody publiczne dziedziczone z <a class="el" href="class_scene_object.html">SceneObject</a></td></tr>
+<tr class="memitem:a0d268d96d77dbeb45b07a6442e2f4d0d inherit pub_methods_class_scene_object"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_scene_object.html#a0d268d96d77dbeb45b07a6442e2f4d0d">SceneObject</a> ()</td></tr>
+<tr class="memdesc:a0d268d96d77dbeb45b07a6442e2f4d0d inherit pub_methods_class_scene_object"><td class="mdescLeft">&#160;</td><td class="mdescRight">Konstruktor bezparametryczny klasy <a class="el" href="class_scene_object.html" title="Definicja klasy SceneObject reprezentujaca obiekt na scenie.">SceneObject</a>.  <a href="class_scene_object.html#a0d268d96d77dbeb45b07a6442e2f4d0d">Więcej...</a><br /></td></tr>
+<tr class="separator:a0d268d96d77dbeb45b07a6442e2f4d0d inherit pub_methods_class_scene_object"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5760ce1fe8c1ab4df6a0b9ce195404a0 inherit pub_methods_class_scene_object"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_scene_object.html#a5760ce1fe8c1ab4df6a0b9ce195404a0">SceneObject</a> (int number, const std::string type)</td></tr>
+<tr class="memdesc:a5760ce1fe8c1ab4df6a0b9ce195404a0 inherit pub_methods_class_scene_object"><td class="mdescLeft">&#160;</td><td class="mdescRight">Konstruktor parametryczny klasy <a class="el" href="class_scene.html" title="Definicja klasy Scene reprezentujacej scene z dronami i przeszkodami.">Scene</a> object.  <a href="class_scene_object.html#a5760ce1fe8c1ab4df6a0b9ce195404a0">Więcej...</a><br /></td></tr>
+<tr class="separator:a5760ce1fe8c1ab4df6a0b9ce195404a0 inherit pub_methods_class_scene_object"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a83761e486fe39b6634f31e862fd3b66f inherit pub_methods_class_scene_object"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_scene_object.html#a83761e486fe39b6634f31e862fd3b66f">GetNumber</a> () const</td></tr>
+<tr class="memdesc:a83761e486fe39b6634f31e862fd3b66f inherit pub_methods_class_scene_object"><td class="mdescLeft">&#160;</td><td class="mdescRight">Metoda zwracajaca numer obiektu na liscie.  <a href="class_scene_object.html#a83761e486fe39b6634f31e862fd3b66f">Więcej...</a><br /></td></tr>
+<tr class="separator:a83761e486fe39b6634f31e862fd3b66f inherit pub_methods_class_scene_object"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a85a0e1801879b1adc8eb91ae841fd5fc inherit pub_methods_class_scene_object"><td class="memItemLeft" align="right" valign="top">std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_scene_object.html#a85a0e1801879b1adc8eb91ae841fd5fc">GetType</a> () const</td></tr>
+<tr class="memdesc:a85a0e1801879b1adc8eb91ae841fd5fc inherit pub_methods_class_scene_object"><td class="mdescLeft">&#160;</td><td class="mdescRight">Metoda zwracajaca typ obiektu.  <a href="class_scene_object.html#a85a0e1801879b1adc8eb91ae841fd5fc">Więcej...</a><br /></td></tr>
+<tr class="separator:a85a0e1801879b1adc8eb91ae841fd5fc inherit pub_methods_class_scene_object"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab258d6b94e982d5ae71ad4d7652381f4 inherit pub_methods_class_scene_object"><td class="memItemLeft" align="right" valign="top">virtual&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_scene_object.html#ab258d6b94e982d5ae71ad4d7652381f4">~SceneObject</a> ()</td></tr>
+<tr class="memdesc:ab258d6b94e982d5ae71ad4d7652381f4 inherit pub_methods_class_scene_object"><td class="mdescLeft">&#160;</td><td class="mdescRight">Destruktor wirtualny klasy <a class="el" href="class_scene_object.html" title="Definicja klasy SceneObject reprezentujaca obiekt na scenie.">SceneObject</a>.  <a href="class_scene_object.html#ab258d6b94e982d5ae71ad4d7652381f4">Więcej...</a><br /></td></tr>
+<tr class="separator:ab258d6b94e982d5ae71ad4d7652381f4 inherit pub_methods_class_scene_object"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="inherit_header pub_methods_class_cuboid"><td colspan="2" onclick="javascript:toggleInherit('pub_methods_class_cuboid')"><img src="closed.png" alt="-"/>&#160;Metody publiczne dziedziczone z <a class="el" href="class_cuboid.html">Cuboid</a></td></tr>
+<tr class="memitem:a1abf60e93d024b7a01ee5b1a48f1f08a inherit pub_methods_class_cuboid"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_cuboid.html#a1abf60e93d024b7a01ee5b1a48f1f08a">Cuboid</a> ()</td></tr>
+<tr class="memdesc:a1abf60e93d024b7a01ee5b1a48f1f08a inherit pub_methods_class_cuboid"><td class="mdescLeft">&#160;</td><td class="mdescRight">Konstruktor bezparametryczny klasy <a class="el" href="class_cuboid.html" title="Definicja klasy Cuboid reprezentujaca prostopadloscian jako bryle geometryczna  w trojwymiarowym ukla...">Cuboid</a> Tworzy prostopadloscian o dlugosciach bokow 1 i przekazuje wspolrzedne do lokalnego ukladu wspolrzednych.  <a href="class_cuboid.html#a1abf60e93d024b7a01ee5b1a48f1f08a">Więcej...</a><br /></td></tr>
+<tr class="separator:a1abf60e93d024b7a01ee5b1a48f1f08a inherit pub_methods_class_cuboid"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6c363f6bd27a8da3ec0c46c83eb180ee inherit pub_methods_class_cuboid"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_cuboid.html#a6c363f6bd27a8da3ec0c46c83eb180ee">ToGlobal</a> (<a class="el" href="vector3_d_8hh.html#a01090a0f6a3d1e7e9606819bd0fafda0">Vector3D</a> &amp;Translation)</td></tr>
+<tr class="memdesc:a6c363f6bd27a8da3ec0c46c83eb180ee inherit pub_methods_class_cuboid"><td class="mdescLeft">&#160;</td><td class="mdescRight">Metoda obliczajaca wspolrzedne globalne wierzcholkow prostopadloscianu.  <a href="class_cuboid.html#a6c363f6bd27a8da3ec0c46c83eb180ee">Więcej...</a><br /></td></tr>
+<tr class="separator:a6c363f6bd27a8da3ec0c46c83eb180ee inherit pub_methods_class_cuboid"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8a2bbb8949b81152fc8ff3b828cbeada inherit pub_methods_class_cuboid"><td class="memItemLeft" align="right" valign="top"><a class="el" href="vector3_d_8hh.html#a01090a0f6a3d1e7e9606819bd0fafda0">Vector3D</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_cuboid.html#a8a2bbb8949b81152fc8ff3b828cbeada">operator()</a> (int index)</td></tr>
+<tr class="memdesc:a8a2bbb8949b81152fc8ff3b828cbeada inherit pub_methods_class_cuboid"><td class="mdescLeft">&#160;</td><td class="mdescRight">Przeciazenie operatora funkcyjnego () dla zapisu.  <a href="class_cuboid.html#a8a2bbb8949b81152fc8ff3b828cbeada">Więcej...</a><br /></td></tr>
+<tr class="separator:a8a2bbb8949b81152fc8ff3b828cbeada inherit pub_methods_class_cuboid"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af4a06a0e84f6cd5576929ff203324445 inherit pub_methods_class_cuboid"><td class="memItemLeft" align="right" valign="top"><a class="el" href="vector3_d_8hh.html#a01090a0f6a3d1e7e9606819bd0fafda0">Vector3D</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_cuboid.html#af4a06a0e84f6cd5576929ff203324445">operator[]</a> (int index)</td></tr>
+<tr class="memdesc:af4a06a0e84f6cd5576929ff203324445 inherit pub_methods_class_cuboid"><td class="mdescLeft">&#160;</td><td class="mdescRight">Przeciazenie operatora indeksujacego.  <a href="class_cuboid.html#af4a06a0e84f6cd5576929ff203324445">Więcej...</a><br /></td></tr>
+<tr class="separator:af4a06a0e84f6cd5576929ff203324445 inherit pub_methods_class_cuboid"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0fb5b55235048bf35b8ece32ecc2a529 inherit pub_methods_class_cuboid"><td class="memItemLeft" align="right" valign="top"><a class="el" href="vector3_d_8hh.html#a01090a0f6a3d1e7e9606819bd0fafda0">Vector3D</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_cuboid.html#a0fb5b55235048bf35b8ece32ecc2a529">GetLocation</a> () const</td></tr>
+<tr class="memdesc:a0fb5b55235048bf35b8ece32ecc2a529 inherit pub_methods_class_cuboid"><td class="mdescLeft">&#160;</td><td class="mdescRight">Metoda zwracajaca wspolrzedne srodka prostopadloscianu.  <a href="class_cuboid.html#a0fb5b55235048bf35b8ece32ecc2a529">Więcej...</a><br /></td></tr>
+<tr class="separator:a0fb5b55235048bf35b8ece32ecc2a529 inherit pub_methods_class_cuboid"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2a6f2b82c6f76deccf9b84cb73606f9f inherit pub_methods_class_cuboid"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_cuboid.html#a2a6f2b82c6f76deccf9b84cb73606f9f">Rotate</a> (double angle)</td></tr>
+<tr class="memdesc:a2a6f2b82c6f76deccf9b84cb73606f9f inherit pub_methods_class_cuboid"><td class="mdescLeft">&#160;</td><td class="mdescRight">Metoda aktualizujaca kat obrotu prostopadloscianu.  <a href="class_cuboid.html#a2a6f2b82c6f76deccf9b84cb73606f9f">Więcej...</a><br /></td></tr>
+<tr class="separator:a2a6f2b82c6f76deccf9b84cb73606f9f inherit pub_methods_class_cuboid"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4240058165986243295525580442e128 inherit pub_methods_class_cuboid"><td class="memItemLeft" align="right" valign="top">double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_cuboid.html#a4240058165986243295525580442e128">GetRotationAngle</a> ()</td></tr>
+<tr class="memdesc:a4240058165986243295525580442e128 inherit pub_methods_class_cuboid"><td class="mdescLeft">&#160;</td><td class="mdescRight">Metoda zwracajaca calkowity kat obrotu prostopadloscianu.  <a href="class_cuboid.html#a4240058165986243295525580442e128">Więcej...</a><br /></td></tr>
+<tr class="separator:a4240058165986243295525580442e128 inherit pub_methods_class_cuboid"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="inherit_header pub_methods_class_solid"><td colspan="2" onclick="javascript:toggleInherit('pub_methods_class_solid')"><img src="closed.png" alt="-"/>&#160;Metody publiczne dziedziczone z <a class="el" href="class_solid.html">Solid</a></td></tr>
+<tr class="memitem:a2cf157c87df66dc3eb8722f9b3ee8f66 inherit pub_methods_class_solid"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_solid.html#a2cf157c87df66dc3eb8722f9b3ee8f66">Solid</a> ()</td></tr>
+<tr class="memdesc:a2cf157c87df66dc3eb8722f9b3ee8f66 inherit pub_methods_class_solid"><td class="mdescLeft">&#160;</td><td class="mdescRight">konstruktor bezparametryczny klasy <a class="el" href="class_solid.html" title="Definicja klasy Solid.">Solid</a>  <a href="class_solid.html#a2cf157c87df66dc3eb8722f9b3ee8f66">Więcej...</a><br /></td></tr>
+<tr class="separator:a2cf157c87df66dc3eb8722f9b3ee8f66 inherit pub_methods_class_solid"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a67f02f29d97224fbff6d86ea2c5e483a inherit pub_methods_class_solid"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_solid.html#a67f02f29d97224fbff6d86ea2c5e483a">Scale</a> (const <a class="el" href="vector3_d_8hh.html#a01090a0f6a3d1e7e9606819bd0fafda0">Vector3D</a> &amp;s)</td></tr>
+<tr class="memdesc:a67f02f29d97224fbff6d86ea2c5e483a inherit pub_methods_class_solid"><td class="mdescLeft">&#160;</td><td class="mdescRight">Metoda aktualizujaca wartosc skali.  <a href="class_solid.html#a67f02f29d97224fbff6d86ea2c5e483a">Więcej...</a><br /></td></tr>
+<tr class="separator:a67f02f29d97224fbff6d86ea2c5e483a inherit pub_methods_class_solid"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab7a520167039a7953dde20c1a33bd38b inherit pub_methods_class_solid"><td class="memItemLeft" align="right" valign="top">std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_solid.html#ab7a520167039a7953dde20c1a33bd38b">GetFilename</a> ()</td></tr>
+<tr class="memdesc:ab7a520167039a7953dde20c1a33bd38b inherit pub_methods_class_solid"><td class="mdescLeft">&#160;</td><td class="mdescRight">Metoda zwracajaca nazwe pliku.  <a href="class_solid.html#ab7a520167039a7953dde20c1a33bd38b">Więcej...</a><br /></td></tr>
+<tr class="separator:ab7a520167039a7953dde20c1a33bd38b inherit pub_methods_class_solid"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac3b158c6297df4b0a6e71cd72eacf311 inherit pub_methods_class_solid"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_solid.html#ac3b158c6297df4b0a6e71cd72eacf311">ChangeFilename</a> (std::string name)</td></tr>
+<tr class="memdesc:ac3b158c6297df4b0a6e71cd72eacf311 inherit pub_methods_class_solid"><td class="mdescLeft">&#160;</td><td class="mdescRight">Metoda aktualizujaca nazwe pliku bryly.  <a href="class_solid.html#ac3b158c6297df4b0a6e71cd72eacf311">Więcej...</a><br /></td></tr>
+<tr class="separator:ac3b158c6297df4b0a6e71cd72eacf311 inherit pub_methods_class_solid"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="inherited"></a>
+Dodatkowe Dziedziczone Składowe</h2></td></tr>
+<tr class="inherit_header pub_attribs_class_solid"><td colspan="2" onclick="javascript:toggleInherit('pub_attribs_class_solid')"><img src="closed.png" alt="-"/>&#160;Atrybuty publiczne dziedziczone z <a class="el" href="class_solid.html">Solid</a></td></tr>
+<tr class="memitem:a91d5693a13ab663717cb351731892cf4 inherit pub_attribs_class_solid"><td class="memItemLeft" align="right" valign="top"><a class="el" href="vector3_d_8hh.html#a01090a0f6a3d1e7e9606819bd0fafda0">Vector3D</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_solid.html#a91d5693a13ab663717cb351731892cf4">scaleVector</a></td></tr>
+<tr class="memdesc:a91d5693a13ab663717cb351731892cf4 inherit pub_attribs_class_solid"><td class="mdescLeft">&#160;</td><td class="mdescRight">Vector3D przetrzymujacy wartosci skali w osiach X Y Z.  <a href="class_solid.html#a91d5693a13ab663717cb351731892cf4">Więcej...</a><br /></td></tr>
+<tr class="separator:a91d5693a13ab663717cb351731892cf4 inherit pub_attribs_class_solid"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac54b01a636e9437e5750213a1f4055d9 inherit pub_attribs_class_solid"><td class="memItemLeft" align="right" valign="top">std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_solid.html#ac54b01a636e9437e5750213a1f4055d9">filename</a></td></tr>
+<tr class="memdesc:ac54b01a636e9437e5750213a1f4055d9 inherit pub_attribs_class_solid"><td class="mdescLeft">&#160;</td><td class="mdescRight">std::string przetrzymujacy nazwe pliku bryly  <a href="class_solid.html#ac54b01a636e9437e5750213a1f4055d9">Więcej...</a><br /></td></tr>
+<tr class="separator:ac54b01a636e9437e5750213a1f4055d9 inherit pub_attribs_class_solid"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table>
+<a name="details" id="details"></a><h2 class="groupheader">Opis szczegółowy</h2>
+<div class="textblock"><p>Definicja klasy <a class="el" href="class_plateau.html" title="Definicja klasy Plateau modelujaca plaskowyz w trojwymiarowym ukladzie wspolrzednych.">Plateau</a> modelujaca plaskowyz w trojwymiarowym ukladzie wspolrzednych. </p>
+
+<p class="definition">Definicja w linii <a class="el" href="plateau_8hh_source.html#l00017">17</a> pliku <a class="el" href="plateau_8hh_source.html">plateau.hh</a>.</p>
+</div><h2 class="groupheader">Dokumentacja konstruktora i destruktora</h2>
+<a id="a3fc1348928530cbe9ba20ee22fe93687"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a3fc1348928530cbe9ba20ee22fe93687">&#9670;&nbsp;</a></span>Plateau()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">Plateau::Plateau </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="vector3_d_8hh.html#a01090a0f6a3d1e7e9606819bd0fafda0">Vector3D</a>&#160;</td>
+          <td class="paramname"><em>scale</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>number</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Konstruktor parametryczny klasu <a class="el" href="class_plateau.html" title="Definicja klasy Plateau modelujaca plaskowyz w trojwymiarowym ukladzie wspolrzednych.">Plateau</a>. </p>
+<dl class="params"><dt>Parametry</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">scale</td><td>- skala plaskowyzu</td></tr>
+    <tr><td class="paramname">number</td><td>- numer na liscie obiektow sceny </td></tr>
+  </table>
+  </dd>
+</dl>
+
+<p class="definition">Definicja w linii <a class="el" href="plateau_8cpp_source.html#l00010">10</a> pliku <a class="el" href="plateau_8cpp_source.html">plateau.cpp</a>.</p>
+<div class="dynheader">
+Oto graf wywołań dla tej funkcji:</div>
+<div class="dyncontent">
+<div class="center"><img src="class_plateau_a3fc1348928530cbe9ba20ee22fe93687_cgraph.png" border="0" usemap="#class_plateau_a3fc1348928530cbe9ba20ee22fe93687_cgraph" alt=""/></div>
+<map name="class_plateau_a3fc1348928530cbe9ba20ee22fe93687_cgraph" id="class_plateau_a3fc1348928530cbe9ba20ee22fe93687_cgraph">
+<area shape="rect" title="Konstruktor parametryczny klasu Plateau." alt="" coords="5,5,133,32"/>
+<area shape="rect" href="class_solid.html#a67f02f29d97224fbff6d86ea2c5e483a" title="Metoda aktualizujaca wartosc skali." alt="" coords="181,5,279,32"/>
+</map>
+</div>
+
+</div>
+</div>
+<a id="a0e6ae72e4d7e9923f996c1247e6a6c8b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a0e6ae72e4d7e9923f996c1247e6a6c8b">&#9670;&nbsp;</a></span>~Plateau()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">Plateau::~Plateau </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Destruktor klasu <a class="el" href="class_plateau.html" title="Definicja klasy Plateau modelujaca plaskowyz w trojwymiarowym ukladzie wspolrzednych.">Plateau</a>. </p>
+
+<p class="definition">Definicja w linii <a class="el" href="plateau_8cpp_source.html#l00016">16</a> pliku <a class="el" href="plateau_8cpp_source.html">plateau.cpp</a>.</p>
+
+</div>
+</div>
+<h2 class="groupheader">Dokumentacja funkcji składowych</h2>
+<a id="a48136ccae1707dcb7661613edf1fab4f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a48136ccae1707dcb7661613edf1fab4f">&#9670;&nbsp;</a></span>Filename()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">std::string Plateau::Filename </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">final</span><span class="mlabel">override</span><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Metoda zwracajaca nazwe pliku plaskowyzu. </p>
+<dl class="section return"><dt>Zwraca</dt><dd>Nazwa pliku jako std::string </dd></dl>
+
+<p>Implementuje <a class="el" href="class_scene_object.html#aa59e7115aef32468981a4f3c7cd859f6">SceneObject</a>.</p>
+
+<p class="definition">Definicja w linii <a class="el" href="plateau_8cpp_source.html#l00049">49</a> pliku <a class="el" href="plateau_8cpp_source.html">plateau.cpp</a>.</p>
+<div class="dynheader">
+Oto graf wywołań dla tej funkcji:</div>
+<div class="dyncontent">
+<div class="center"><img src="class_plateau_a48136ccae1707dcb7661613edf1fab4f_cgraph.png" border="0" usemap="#class_plateau_a48136ccae1707dcb7661613edf1fab4f_cgraph" alt=""/></div>
+<map name="class_plateau_a48136ccae1707dcb7661613edf1fab4f_cgraph" id="class_plateau_a48136ccae1707dcb7661613edf1fab4f_cgraph">
+<area shape="rect" title="Metoda zwracajaca nazwe pliku plaskowyzu." alt="" coords="5,5,144,32"/>
+<area shape="rect" href="class_solid.html#ab7a520167039a7953dde20c1a33bd38b" title="Metoda zwracajaca nazwe pliku." alt="" coords="192,5,337,32"/>
+</map>
+</div>
+
+</div>
+</div>
+<a id="a1e295891a103caba5fed7fa35e3c1968"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a1e295891a103caba5fed7fa35e3c1968">&#9670;&nbsp;</a></span>Location()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="vector3_d_8hh.html#a01090a0f6a3d1e7e9606819bd0fafda0">Vector3D</a> Plateau::Location </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">final</span><span class="mlabel">override</span><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Metoda zwracajaca polozenie plaskowyzu. </p>
+<dl class="section return"><dt>Zwraca</dt><dd>wspolrzedne srodka plaskowyzu jako wektor </dd></dl>
+
+<p>Implementuje <a class="el" href="class_scene_object.html#a8bbb2f2c15ec6a1cdc06d9f40a259bb3">SceneObject</a>.</p>
+
+<p class="definition">Definicja w linii <a class="el" href="plateau_8cpp_source.html#l00055">55</a> pliku <a class="el" href="plateau_8cpp_source.html">plateau.cpp</a>.</p>
+<div class="dynheader">
+Oto graf wywołań dla tej funkcji:</div>
+<div class="dyncontent">
+<div class="center"><img src="class_plateau_a1e295891a103caba5fed7fa35e3c1968_cgraph.png" border="0" usemap="#class_plateau_a1e295891a103caba5fed7fa35e3c1968_cgraph" alt=""/></div>
+<map name="class_plateau_a1e295891a103caba5fed7fa35e3c1968_cgraph" id="class_plateau_a1e295891a103caba5fed7fa35e3c1968_cgraph">
+<area shape="rect" title="Metoda zwracajaca polozenie plaskowyzu." alt="" coords="5,5,140,32"/>
+<area shape="rect" href="class_cuboid.html#a0fb5b55235048bf35b8ece32ecc2a529" title="Metoda zwracajaca wspolrzedne srodka prostopadloscianu." alt="" coords="188,5,341,32"/>
+</map>
+</div>
+
+</div>
+</div>
+<a id="a730282f3cd8a9c53b535ba266301bdce"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a730282f3cd8a9c53b535ba266301bdce">&#9670;&nbsp;</a></span>SavePlateau()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void Plateau::SavePlateau </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="vector3_d_8hh.html#a01090a0f6a3d1e7e9606819bd0fafda0">Vector3D</a>&#160;</td>
+          <td class="paramname"><em>loc</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Metoda zapisujaca plaskowyz do pliku. </p>
+<dl class="params"><dt>Parametry</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">loc</td><td>- polozenie plaskowyzu </td></tr>
+  </table>
+  </dd>
+</dl>
+
+<p class="definition">Definicja w linii <a class="el" href="plateau_8cpp_source.html#l00020">20</a> pliku <a class="el" href="plateau_8cpp_source.html">plateau.cpp</a>.</p>
+<div class="dynheader">
+Oto graf wywołań dla tej funkcji:</div>
+<div class="dyncontent">
+<div class="center"><img src="class_plateau_a730282f3cd8a9c53b535ba266301bdce_cgraph.png" border="0" usemap="#class_plateau_a730282f3cd8a9c53b535ba266301bdce_cgraph" alt=""/></div>
+<map name="class_plateau_a730282f3cd8a9c53b535ba266301bdce_cgraph" id="class_plateau_a730282f3cd8a9c53b535ba266301bdce_cgraph">
+<area shape="rect" title="Metoda zapisujaca plaskowyz do pliku." alt="" coords="5,81,165,108"/>
+<area shape="rect" href="class_solid.html#ac3b158c6297df4b0a6e71cd72eacf311" title="Metoda aktualizujaca nazwe pliku bryly." alt="" coords="221,5,392,32"/>
+<area shape="rect" href="class_solid.html#ab7a520167039a7953dde20c1a33bd38b" title="Metoda zwracajaca nazwe pliku." alt="" coords="234,56,379,83"/>
+<area shape="rect" href="class_scene_object.html#a83761e486fe39b6634f31e862fd3b66f" title="Metoda zwracajaca numer obiektu na liscie." alt="" coords="213,107,400,133"/>
+<area shape="rect" href="class_cuboid.html#a6c363f6bd27a8da3ec0c46c83eb180ee" title="Metoda obliczajaca wspolrzedne globalne wierzcholkow prostopadloscianu." alt="" coords="241,157,372,184"/>
+<area shape="rect" href="matrix3_d_8hh.html#abb063b994dec3955ed7e058d36058d01" title="Funkcja wypełniająca macierz odpowiendimi wartościami, które tworzą macierz rotacji w osi OZ." alt="" coords="448,157,583,184"/>
+</map>
+</div>
+
+</div>
+</div>
+<hr/>Dokumentacja dla tej klasy została wygenerowana z plików:<ul>
+<li>/home/antek/Documents/PO/zad5/zad5_2-AntoniJeziorski/inc/<a class="el" href="plateau_8hh_source.html">plateau.hh</a></li>
+<li>/home/antek/Documents/PO/zad5/zad5_2-AntoniJeziorski/src/<a class="el" href="plateau_8cpp_source.html">plateau.cpp</a></li>
+</ul>
+</div><!-- contents -->
+</div><!-- doc-content -->
+<!-- start footer part -->
+<div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
+  <ul>
+    <li class="navelem"><a class="el" href="class_plateau.html">Plateau</a></li>
+    <li class="footer">Wygenerowano przez
+    <a href="http://www.doxygen.org/index.html">
+    <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.17 </li>
+  </ul>
+</div>
+</body>
+</html>

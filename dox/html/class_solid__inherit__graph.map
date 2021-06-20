@@ -1,0 +1,8 @@
+<map id="Solid" name="Solid">
+<area shape="rect" id="node1" title="Definicja klasy Solid." alt="" coords="149,5,204,32"/>
+<area shape="rect" id="node2" href="$class_cuboid.html" title="Definicja klasy Cuboid reprezentujaca prostopadloscian jako bryle geometryczna &#160;w trojwymiarowym ukla..." alt="" coords="94,80,161,107"/>
+<area shape="rect" id="node6" href="$class_hex_prism.html" title="Definicja klasy HexPrism dziedziczacej po klasie Solid modelujaca prostopadloscian szesciokatny w tro..." alt="" coords="185,80,270,107"/>
+<area shape="rect" id="node3" href="$class_mount.html" title="Definicja klasy Mount modelujaca gore w trojwymiarowym ukladzie wspolrzednych." alt="" coords="5,155,68,181"/>
+<area shape="rect" id="node4" href="$class_plateau.html" title="Definicja klasy Plateau modelujaca plaskowyz w trojwymiarowym ukladzie wspolrzednych." alt="" coords="92,155,163,181"/>
+<area shape="rect" id="node5" href="$class_slope.html" title="Definicja klasy Slope modelujaca zbocze w trojwymiarowym ukladzie wspolrzednych." alt="" coords="187,155,246,181"/>
+</map>

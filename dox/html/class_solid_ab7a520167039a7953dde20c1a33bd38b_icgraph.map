@@ -1,0 +1,10 @@
+<map id="Solid::GetFilename" name="Solid::GetFilename">
+<area shape="rect" id="node1" title="Metoda zwracajaca nazwe pliku." alt="" coords="213,157,359,184"/>
+<area shape="rect" id="node2" href="$class_mount.html#a2992dc0dd41a6e1223897cfc55264404" title="Metoda zwracajaca nazwe pliku gory." alt="" coords="20,5,151,32"/>
+<area shape="rect" id="node3" href="$class_plateau.html#a48136ccae1707dcb7661613edf1fab4f" title="Metoda zwracajaca nazwe pliku plaskowyzu." alt="" coords="16,56,155,83"/>
+<area shape="rect" id="node4" href="$class_slope.html#a73f80603aafee7770db4a09cc5a79b21" title="Metoda zwracajaca nazwe pliku zbocza." alt="" coords="22,107,149,133"/>
+<area shape="rect" id="node5" href="$class_drone.html#a7adea3c70f609297f218a9b3d38cac2f" title="Metoda zwracajaca nazwe pliku korpusu." alt="" coords="21,157,150,184"/>
+<area shape="rect" id="node6" href="$class_mount.html#a5ac0a70b723c695678e1d0c133a6de21" title="Metoda zapisujaca gore do pliku." alt="" coords="13,208,157,235"/>
+<area shape="rect" id="node7" href="$class_plateau.html#a730282f3cd8a9c53b535ba266301bdce" title="Metoda zapisujaca plaskowyz do pliku." alt="" coords="5,259,165,285"/>
+<area shape="rect" id="node8" href="$class_slope.html#a7725c47502a15bb56e694dde247c6884" title="Metoda zapisujaca zbocze do pliku." alt="" coords="18,309,153,336"/>
+</map>

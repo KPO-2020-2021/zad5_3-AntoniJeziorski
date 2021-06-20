@@ -1,0 +1,28 @@
+<map id="/home/antek/Documents/PO/zad5/zad5_2&#45;AntoniJeziorski/inc/scene.hh" name="/home/antek/Documents/PO/zad5/zad5_2&#45;AntoniJeziorski/inc/scene.hh">
+<area shape="rect" id="node1" title="Plik zawierajacy definicje klasy Scene." alt="" coords="507,5,738,61"/>
+<area shape="rect" id="node2" href="$drone_8hh.html" title="Plik zawierajacy definicje klasy Drone." alt="" coords="366,109,445,136"/>
+<area shape="rect" id="node21" href="$scene__object_8hh.html" title="Plik zawierajacy definicje klasy SceneObject." alt="" coords="677,184,803,211"/>
+<area shape="rect" id="node24" href="$plateau_8hh.html" title="Plik zawierajacy definicje klasy Plateau." alt="" coords="469,109,560,136"/>
+<area shape="rect" id="node25" href="$slope_8hh.html" title="Plik zawierajacy definicje klasy Slope." alt="" coords="584,109,661,136"/>
+<area shape="rect" id="node26" href="$mount_8hh.html" title="Plik zawierajacy definicje klasy Mount." alt="" coords="686,109,770,136"/>
+<area shape="rect" id="node3" href="$lacze__do__gnuplota_8hh.html" title=" " alt="" coords="5,184,168,211"/>
+<area shape="rect" id="node7" href="$cuboid_8hh.html" title="Plik zawierajacy definicje klasy Cuboid." alt="" coords="469,184,555,211"/>
+<area shape="rect" id="node18" href="$hexagonal__prism_8hh.html" title="Plik zawierajacy definicje klasy HexPrism." alt="" coords="192,184,347,211"/>
+<area shape="rect" id="node19" title=" " alt="" coords="371,184,445,211"/>
+<area shape="rect" id="node20" title=" " alt="" coords="579,184,653,211"/>
+<area shape="rect" id="node4" title=" " alt="" coords="405,333,464,360"/>
+<area shape="rect" id="node5" title=" " alt="" coords="217,259,260,285"/>
+<area shape="rect" id="node6" title=" " alt="" coords="125,259,187,285"/>
+<area shape="rect" id="node8" href="$matrix3_d_8hh.html" title="Plik zawierający definicję klasy Matrix3D." alt="" coords="287,259,390,285"/>
+<area shape="rect" id="node16" href="$solid_8hh.html" title="Plik zawierający definicję klasy Solid." alt="" coords="474,259,547,285"/>
+<area shape="rect" id="node9" href="$matrix_8hh.html" title="Plik zawierający definicję szablonu macierzy." alt="" coords="296,333,381,360"/>
+<area shape="rect" id="node10" href="$size_8hh.html" title="Plik zawierajacy definicje stalych." alt="" coords="438,483,506,509"/>
+<area shape="rect" id="node11" href="$vector_8hh.html" title="Plik zawierający definicję szablonu wektora." alt="" coords="539,408,621,435"/>
+<area shape="rect" id="node12" title=" " alt="" coords="629,483,709,509"/>
+<area shape="rect" id="node14" title=" " alt="" coords="311,408,377,435"/>
+<area shape="rect" id="node15" title=" " alt="" coords="401,408,463,435"/>
+<area shape="rect" id="node13" title=" " alt="" coords="531,483,605,509"/>
+<area shape="rect" id="node17" href="$vector3_d_8hh.html" title="Plik zawierający definicję klasy Vector3D." alt="" coords="599,333,700,360"/>
+<area shape="rect" id="node22" title=" " alt="" coords="775,259,852,285"/>
+<area shape="rect" id="node23" title=" " alt="" coords="876,259,961,285"/>
+</map>

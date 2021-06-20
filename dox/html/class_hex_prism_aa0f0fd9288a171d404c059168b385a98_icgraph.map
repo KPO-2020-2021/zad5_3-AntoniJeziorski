@@ -1,0 +1,6 @@
+<map id="HexPrism::Rotate" name="HexPrism::Rotate">
+<area shape="rect" id="node1" title="Metoda aktualizujaca wartosc calkowitego kata obrotu." alt="" coords="383,31,519,57"/>
+<area shape="rect" id="node2" href="$class_drone.html#a17966e2db825caf84830b227e8a205e0" title="Metoda realizujaca lot poziomy drona." alt="" coords="161,5,335,32"/>
+<area shape="rect" id="node4" href="$class_drone.html#ab02fd50346da5007b0c0d7de073843a4" title="Metoda realizujaca lot pionowy drona." alt="" coords="171,56,325,83"/>
+<area shape="rect" id="node3" href="$class_drone.html#a58b3f97c7e76a862bac36e7dde14d0ef" title="Metoda realizujaca zwiad drona." alt="" coords="5,31,113,57"/>
+</map>

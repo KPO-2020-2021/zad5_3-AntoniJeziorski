@@ -1,0 +1,7 @@
+<map id="Slope" name="Slope">
+<area shape="rect" id="node1" title="Definicja klasy Slope modelujaca zbocze w trojwymiarowym ukladzie wspolrzednych." alt="" coords="43,264,102,291"/>
+<area shape="rect" id="node2" href="$class_scene_object.html" title="Definicja klasy SceneObject reprezentujaca obiekt na scenie." alt="" coords="5,188,108,215"/>
+<area shape="rect" id="node3" href="$class_cuboid.html" title="Definicja klasy Cuboid reprezentujaca prostopadloscian jako bryle geometryczna &#160;w trojwymiarowym ukla..." alt="" coords="133,188,199,215"/>
+<area shape="rect" id="node4" href="$class_solid.html" title="Definicja klasy Solid." alt="" coords="237,103,292,130"/>
+<area shape="rect" id="node5" href="$class_vector.html" title=" " alt="" coords="93,5,194,32"/>
+</map>

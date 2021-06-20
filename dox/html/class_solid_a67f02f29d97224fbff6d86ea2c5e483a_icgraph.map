@@ -1,0 +1,7 @@
+<map id="Solid::Scale" name="Solid::Scale">
+<area shape="rect" id="node1" title="Metoda aktualizujaca wartosc skali." alt="" coords="181,81,279,108"/>
+<area shape="rect" id="node2" href="$class_drone.html#abe668b3745aa847846cde01b1dc1d049" title="Konstruktor parametryczny klasy Drone." alt="" coords="15,5,123,32"/>
+<area shape="rect" id="node3" href="$class_mount.html#a50feb60796d377e59eaa4cb5c65a56f7" title="Konstruktor parametryczny klasu Mount." alt="" coords="13,56,125,83"/>
+<area shape="rect" id="node4" href="$class_plateau.html#a3fc1348928530cbe9ba20ee22fe93687" title="Konstruktor parametryczny klasu Plateau." alt="" coords="5,107,133,133"/>
+<area shape="rect" id="node5" href="$class_slope.html#a7a8e1a071c52530d3bada42fbe9233ef" title="Konstruktor parametryczny klasu Slope." alt="" coords="18,157,121,184"/>
+</map>

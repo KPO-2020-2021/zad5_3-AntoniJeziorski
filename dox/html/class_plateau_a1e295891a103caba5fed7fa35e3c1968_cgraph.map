@@ -1,0 +1,4 @@
+<map id="Plateau::Location" name="Plateau::Location">
+<area shape="rect" id="node1" title="Metoda zwracajaca polozenie plaskowyzu." alt="" coords="5,5,140,32"/>
+<area shape="rect" id="node2" href="$class_cuboid.html#a0fb5b55235048bf35b8ece32ecc2a529" title="Metoda zwracajaca wspolrzedne srodka prostopadloscianu." alt="" coords="188,5,341,32"/>
+</map>

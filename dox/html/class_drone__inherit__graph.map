@@ -1,0 +1,4 @@
+<map id="Drone" name="Drone">
+<area shape="rect" id="node1" title="Definicja klasy Drone modelujacej drona w trojwymiarowych ukladzie wspolrzednych." alt="" coords="26,80,87,107"/>
+<area shape="rect" id="node2" href="$class_scene_object.html" title="Definicja klasy SceneObject reprezentujaca obiekt na scenie." alt="" coords="5,5,108,32"/>
+</map>

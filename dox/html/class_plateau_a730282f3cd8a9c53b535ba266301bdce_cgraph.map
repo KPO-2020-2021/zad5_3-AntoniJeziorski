@@ -1,0 +1,8 @@
+<map id="Plateau::SavePlateau" name="Plateau::SavePlateau">
+<area shape="rect" id="node1" title="Metoda zapisujaca plaskowyz do pliku." alt="" coords="5,81,165,108"/>
+<area shape="rect" id="node2" href="$class_solid.html#ac3b158c6297df4b0a6e71cd72eacf311" title="Metoda aktualizujaca nazwe pliku bryly." alt="" coords="221,5,392,32"/>
+<area shape="rect" id="node3" href="$class_solid.html#ab7a520167039a7953dde20c1a33bd38b" title="Metoda zwracajaca nazwe pliku." alt="" coords="234,56,379,83"/>
+<area shape="rect" id="node4" href="$class_scene_object.html#a83761e486fe39b6634f31e862fd3b66f" title="Metoda zwracajaca numer obiektu na liscie." alt="" coords="213,107,400,133"/>
+<area shape="rect" id="node5" href="$class_cuboid.html#a6c363f6bd27a8da3ec0c46c83eb180ee" title="Metoda obliczajaca wspolrzedne globalne wierzcholkow prostopadloscianu." alt="" coords="241,157,372,184"/>
+<area shape="rect" id="node6" href="$matrix3_d_8hh.html#abb063b994dec3955ed7e058d36058d01" title="Funkcja wypełniająca macierz odpowiendimi wartościami, które tworzą macierz rotacji w osi OZ." alt="" coords="448,157,583,184"/>
+</map>

@@ -1,0 +1,12 @@
+<map id="Cuboid::ToGlobal" name="Cuboid::ToGlobal">
+<area shape="rect" id="node1" title="Metoda obliczajaca wspolrzedne globalne wierzcholkow prostopadloscianu." alt="" coords="779,107,909,133"/>
+<area shape="rect" id="node2" href="$class_drone.html#abe668b3745aa847846cde01b1dc1d049" title="Konstruktor parametryczny klasy Drone." alt="" coords="597,5,705,32"/>
+<area shape="rect" id="node3" href="$class_drone.html#a5b9788c3ecdd59290c03c104c8653315" title="Metoda zapisujaca korpus drona do pliku." alt="" coords="583,56,718,83"/>
+<area shape="rect" id="node8" href="$class_mount.html#a5ac0a70b723c695678e1d0c133a6de21" title="Metoda zapisujaca gore do pliku." alt="" coords="579,107,723,133"/>
+<area shape="rect" id="node9" href="$class_plateau.html#a730282f3cd8a9c53b535ba266301bdce" title="Metoda zapisujaca plaskowyz do pliku." alt="" coords="571,157,731,184"/>
+<area shape="rect" id="node10" href="$class_slope.html#a7725c47502a15bb56e694dde247c6884" title="Metoda zapisujaca zbocze do pliku." alt="" coords="583,208,718,235"/>
+<area shape="rect" id="node4" href="$class_drone.html#ac802f8ea993d0a79a8407e4b9496c675" title="Metoda zapisujaca drona do plikow &#160;Wywoluje funkcje SaveBody i SaveDrone." alt="" coords="383,56,523,83"/>
+<area shape="rect" id="node5" href="$class_drone.html#a17966e2db825caf84830b227e8a205e0" title="Metoda realizujaca lot poziomy drona." alt="" coords="161,31,335,57"/>
+<area shape="rect" id="node7" href="$class_drone.html#ab02fd50346da5007b0c0d7de073843a4" title="Metoda realizujaca lot pionowy drona." alt="" coords="171,81,325,108"/>
+<area shape="rect" id="node6" href="$class_drone.html#a58b3f97c7e76a862bac36e7dde14d0ef" title="Metoda realizujaca zwiad drona." alt="" coords="5,56,113,83"/>
+</map>

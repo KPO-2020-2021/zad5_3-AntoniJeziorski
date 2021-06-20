@@ -1,0 +1,10 @@
+<map id="Graficzna hierarchia klas" name="Graficzna hierarchia klas">
+<area shape="rect" id="node1" href="$class_scene_object.html" title="Definicja klasy SceneObject reprezentujaca obiekt na scenie." alt="" coords="108,56,211,83"/>
+<area shape="rect" id="node2" href="$class_drone.html" title="Definicja klasy Drone modelujacej drona w trojwymiarowych ukladzie wspolrzednych." alt="" coords="263,5,325,32"/>
+<area shape="rect" id="node3" href="$class_mount.html" title="Definicja klasy Mount modelujaca gore w trojwymiarowym ukladzie wspolrzednych." alt="" coords="263,56,325,83"/>
+<area shape="rect" id="node4" href="$class_plateau.html" title="Definicja klasy Plateau modelujaca plaskowyz w trojwymiarowym ukladzie wspolrzednych." alt="" coords="259,107,329,133"/>
+<area shape="rect" id="node5" href="$class_slope.html" title="Definicja klasy Slope modelujaca zbocze w trojwymiarowym ukladzie wspolrzednych." alt="" coords="265,157,323,184"/>
+<area shape="rect" id="node6" href="$class_solid.html" title="Definicja klasy Solid." alt="" coords="5,132,60,159"/>
+<area shape="rect" id="node7" href="$class_cuboid.html" title="Definicja klasy Cuboid reprezentujaca prostopadloscian jako bryle geometryczna &#160;w trojwymiarowym ukla..." alt="" coords="126,157,193,184"/>
+<area shape="rect" id="node8" href="$class_hex_prism.html" title="Definicja klasy HexPrism dziedziczacej po klasie Solid modelujaca prostopadloscian szesciokatny w tro..." alt="" coords="117,107,202,133"/>
+</map>

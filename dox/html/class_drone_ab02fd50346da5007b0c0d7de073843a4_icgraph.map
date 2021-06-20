@@ -1,0 +1,4 @@
+<map id="Drone::VerticalFlight" name="Drone::VerticalFlight">
+<area shape="rect" id="node1" title="Metoda realizujaca lot pionowy drona." alt="" coords="161,5,316,32"/>
+<area shape="rect" id="node2" href="$class_drone.html#a58b3f97c7e76a862bac36e7dde14d0ef" title="Metoda realizujaca zwiad drona." alt="" coords="5,5,113,32"/>
+</map>

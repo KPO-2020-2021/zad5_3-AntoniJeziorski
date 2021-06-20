@@ -1,0 +1,6 @@
+<map id="Cuboid::GetLocation" name="Cuboid::GetLocation">
+<area shape="rect" id="node1" title="Metoda zwracajaca wspolrzedne srodka prostopadloscianu." alt="" coords="188,56,341,83"/>
+<area shape="rect" id="node2" href="$class_mount.html#a7b4bf7de50fe2c390eb8381e90d6a05a" title="Metoda zwracajaca polozenie gory." alt="" coords="9,5,136,32"/>
+<area shape="rect" id="node3" href="$class_slope.html#a0f10bc2a010e076a36f46182e1c6fbd4" title="Metoda zwracajaca polozenie zbocza." alt="" coords="12,56,133,83"/>
+<area shape="rect" id="node4" href="$class_plateau.html#a1e295891a103caba5fed7fa35e3c1968" title="Metoda zwracajaca polozenie plaskowyzu." alt="" coords="5,107,140,133"/>
+</map>
