@@ -7,6 +7,5 @@ var class_matrix =
     [ "operator*", "class_matrix.html#a11593fd87971d720dd8a000c42bc1f16", null ],
     [ "operator*", "class_matrix.html#a64a047f5bd8ce05b1d0715f910c5dc25", null ],
     [ "operator+", "class_matrix.html#afa73d23c8a5fd89d3f22e9a416a712b3", null ],
-    [ "operator==", "class_matrix.html#a1f750096352f39fba96834a081271f9c", null ],
-    [ "value", "class_matrix.html#a10f33870797838072ca4ea56bd5fe56c", null ]
+    [ "operator==", "class_matrix.html#a1f750096352f39fba96834a081271f9c", null ]
 ];

@@ -5,7 +5,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=9"/>
 <meta name="generator" content="Doxygen 1.8.17"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>Dron 5.2: Plik źródłowy /home/antek/Documents/PO/zad5/zad5_2-AntoniJeziorski/src/solid.cpp</title>
+<title>Dron5.3: Plik źródłowy /home/antek/Documents/PO/zad5/zad5_3-AntoniJeziorski/src/solid.cpp</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
@@ -25,7 +25,7 @@
  <tbody>
  <tr style="height: 56px;">
   <td id="projectalign" style="padding-left: 0.5em;">
-   <div id="projectname">Dron 5.2
+   <div id="projectname">Dron5.3
    &#160;<span id="projectnumber">1.1</span>
    </div>
    <div id="projectbrief">Antoni Jeziorski 259254</div>
@@ -93,7 +93,7 @@ $(document).ready(function(){initNavTree('solid_8cpp_source.html',''); initResiz
 <div class="line"><a name="l00010"></a><span class="lineno">   10</span>&#160; </div>
 <div class="line"><a name="l00011"></a><span class="lineno">   11</span>&#160;    <a class="code" href="class_solid.html#ac54b01a636e9437e5750213a1f4055d9">filename</a> = <span class="stringliteral">&quot;../datasets/&quot;</span>;</div>
 <div class="line"><a name="l00012"></a><span class="lineno">   12</span>&#160; </div>
-<div class="line"><a name="l00013"></a><span class="lineno">   13</span>&#160;    <span class="keywordflow">for</span> (<span class="keywordtype">int</span> i = 0; i &lt; <a class="code" href="size_8hh.html#a0ae4b10cd6576f2ccf0da832de940dae">SIZE</a>; ++i)</div>
+<div class="line"><a name="l00013"></a><span class="lineno">   13</span>&#160;    <span class="keywordflow">for</span> (<span class="keywordtype">int</span> i = 0; i &lt; SIZE; ++i)</div>
 <div class="line"><a name="l00014"></a><span class="lineno">   14</span>&#160;    {</div>
 <div class="line"><a name="l00015"></a><span class="lineno">   15</span>&#160;         <a class="code" href="class_solid.html#a91d5693a13ab663717cb351731892cf4">scaleVector</a>[i] = 1;</div>
 <div class="line"><a name="l00016"></a><span class="lineno">   16</span>&#160;    }</div>
@@ -102,7 +102,7 @@ $(document).ready(function(){initNavTree('solid_8cpp_source.html',''); initResiz
 <div class="line"><a name="l00019"></a><span class="lineno">   19</span>&#160; </div>
 <div class="line"><a name="l00020"></a><span class="lineno"><a class="line" href="class_solid.html#a67f02f29d97224fbff6d86ea2c5e483a">   20</a></span>&#160;<span class="keywordtype">void</span> <a class="code" href="class_solid.html#a67f02f29d97224fbff6d86ea2c5e483a">Solid::Scale</a>(<span class="keyword">const</span> <a class="code" href="class_vector.html">Vector3D</a>&amp; s) {</div>
 <div class="line"><a name="l00021"></a><span class="lineno">   21</span>&#160; </div>
-<div class="line"><a name="l00022"></a><span class="lineno">   22</span>&#160;    <span class="keywordflow">for</span> (<span class="keywordtype">int</span> i = 0; i &lt; <a class="code" href="size_8hh.html#a0ae4b10cd6576f2ccf0da832de940dae">SIZE</a>; i++)</div>
+<div class="line"><a name="l00022"></a><span class="lineno">   22</span>&#160;    <span class="keywordflow">for</span> (<span class="keywordtype">int</span> i = 0; i &lt; SIZE; i++)</div>
 <div class="line"><a name="l00023"></a><span class="lineno">   23</span>&#160;    {</div>
 <div class="line"><a name="l00024"></a><span class="lineno">   24</span>&#160;        <a class="code" href="class_solid.html#a91d5693a13ab663717cb351731892cf4">scaleVector</a>[i] = <a class="code" href="class_solid.html#a91d5693a13ab663717cb351731892cf4">scaleVector</a>[i] * s[i];</div>
 <div class="line"><a name="l00025"></a><span class="lineno">   25</span>&#160;    }</div>
@@ -120,13 +120,19 @@ $(document).ready(function(){initNavTree('solid_8cpp_source.html',''); initResiz
 <div class="line"><a name="l00037"></a><span class="lineno">   37</span>&#160;    <a class="code" href="class_solid.html#ac54b01a636e9437e5750213a1f4055d9">filename</a> += name;</div>
 <div class="line"><a name="l00038"></a><span class="lineno">   38</span>&#160; </div>
 <div class="line"><a name="l00039"></a><span class="lineno">   39</span>&#160;}</div>
+<div class="line"><a name="l00040"></a><span class="lineno">   40</span>&#160; </div>
+<div class="line"><a name="l00041"></a><span class="lineno"><a class="line" href="class_solid.html#ab359e65c7bbf50c9250d3a9e1aba7467">   41</a></span>&#160;<a class="code" href="class_vector.html">Vector3D</a> <span class="keyword">const</span>&amp; <a class="code" href="class_solid.html#ab359e65c7bbf50c9250d3a9e1aba7467">Solid::GetScale</a>() {</div>
+<div class="line"><a name="l00042"></a><span class="lineno">   42</span>&#160; </div>
+<div class="line"><a name="l00043"></a><span class="lineno">   43</span>&#160;    <span class="keywordflow">return</span> <a class="code" href="class_solid.html#a91d5693a13ab663717cb351731892cf4">scaleVector</a>;</div>
+<div class="line"><a name="l00044"></a><span class="lineno">   44</span>&#160; </div>
+<div class="line"><a name="l00045"></a><span class="lineno">   45</span>&#160;}</div>
 </div><!-- fragment --></div><!-- contents -->
 </div><!-- doc-content -->
 <div class="ttc" id="asolid_8hh_html"><div class="ttname"><a href="solid_8hh.html">solid.hh</a></div><div class="ttdoc">Plik zawierający definicję klasy Solid.</div></div>
 <div class="ttc" id="aclass_solid_html_a91d5693a13ab663717cb351731892cf4"><div class="ttname"><a href="class_solid.html#a91d5693a13ab663717cb351731892cf4">Solid::scaleVector</a></div><div class="ttdeci">Vector3D scaleVector</div><div class="ttdoc">Vector3D przetrzymujacy wartosci skali w osiach X Y Z.</div><div class="ttdef"><b>Definition:</b> <a href="solid_8hh_source.html#l00030">solid.hh:30</a></div></div>
 <div class="ttc" id="aclass_solid_html_a67f02f29d97224fbff6d86ea2c5e483a"><div class="ttname"><a href="class_solid.html#a67f02f29d97224fbff6d86ea2c5e483a">Solid::Scale</a></div><div class="ttdeci">void Scale(const Vector3D &amp;s)</div><div class="ttdoc">Metoda aktualizujaca wartosc skali.</div><div class="ttdef"><b>Definition:</b> <a href="solid_8cpp_source.html#l00020">solid.cpp:20</a></div></div>
 <div class="ttc" id="aclass_solid_html_a2cf157c87df66dc3eb8722f9b3ee8f66"><div class="ttname"><a href="class_solid.html#a2cf157c87df66dc3eb8722f9b3ee8f66">Solid::Solid</a></div><div class="ttdeci">Solid()</div><div class="ttdoc">konstruktor bezparametryczny klasy Solid</div><div class="ttdef"><b>Definition:</b> <a href="solid_8cpp_source.html#l00009">solid.cpp:9</a></div></div>
-<div class="ttc" id="asize_8hh_html_a0ae4b10cd6576f2ccf0da832de940dae"><div class="ttname"><a href="size_8hh.html#a0ae4b10cd6576f2ccf0da832de940dae">SIZE</a></div><div class="ttdeci">constexpr int SIZE</div><div class="ttdef"><b>Definition:</b> <a href="size_8hh_source.html#l00009">size.hh:9</a></div></div>
+<div class="ttc" id="aclass_solid_html_ab359e65c7bbf50c9250d3a9e1aba7467"><div class="ttname"><a href="class_solid.html#ab359e65c7bbf50c9250d3a9e1aba7467">Solid::GetScale</a></div><div class="ttdeci">Vector3D const  &amp; GetScale()</div><div class="ttdoc">Metoda zwracajaca skale.</div><div class="ttdef"><b>Definition:</b> <a href="solid_8cpp_source.html#l00041">solid.cpp:41</a></div></div>
 <div class="ttc" id="aclass_solid_html_ac3b158c6297df4b0a6e71cd72eacf311"><div class="ttname"><a href="class_solid.html#ac3b158c6297df4b0a6e71cd72eacf311">Solid::ChangeFilename</a></div><div class="ttdeci">void ChangeFilename(std::string name)</div><div class="ttdoc">Metoda aktualizujaca nazwe pliku bryly.</div><div class="ttdef"><b>Definition:</b> <a href="solid_8cpp_source.html#l00035">solid.cpp:35</a></div></div>
 <div class="ttc" id="aclass_solid_html_ac54b01a636e9437e5750213a1f4055d9"><div class="ttname"><a href="class_solid.html#ac54b01a636e9437e5750213a1f4055d9">Solid::filename</a></div><div class="ttdeci">std::string filename</div><div class="ttdoc">std::string przetrzymujacy nazwe pliku bryly</div><div class="ttdef"><b>Definition:</b> <a href="solid_8hh_source.html#l00037">solid.hh:37</a></div></div>
 <div class="ttc" id="aclass_vector_html"><div class="ttname"><a href="class_vector.html">Vector&lt; 3 &gt;</a></div></div>

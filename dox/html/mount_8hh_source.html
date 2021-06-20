@@ -5,7 +5,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=9"/>
 <meta name="generator" content="Doxygen 1.8.17"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>Dron 5.2: Plik źródłowy /home/antek/Documents/PO/zad5/zad5_2-AntoniJeziorski/inc/mount.hh</title>
+<title>Dron5.3: Plik źródłowy /home/antek/Documents/PO/zad5/zad5_3-AntoniJeziorski/inc/mount.hh</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
@@ -25,7 +25,7 @@
  <tbody>
  <tr style="height: 56px;">
   <td id="projectalign" style="padding-left: 0.5em;">
-   <div id="projectname">Dron 5.2
+   <div id="projectname">Dron5.3
    &#160;<span id="projectnumber">1.1</span>
    </div>
    <div id="projectbrief">Antoni Jeziorski 259254</div>
@@ -105,10 +105,15 @@ $(document).ready(function(){initNavTree('mount_8hh_source.html',''); initResiza
 <div class="line"><a name="l00057"></a><span class="lineno">   57</span>&#160; </div>
 <div class="line"><a name="l00065"></a><span class="lineno">   65</span>&#160;        <a class="code" href="class_vector.html">Vector3D</a> <a class="code" href="class_mount.html#a7b4bf7de50fe2c390eb8381e90d6a05a">Location</a>() <span class="keyword">const</span> <span class="keyword">override</span> <span class="keyword">final</span>;</div>
 <div class="line"><a name="l00066"></a><span class="lineno">   66</span>&#160; </div>
-<div class="line"><a name="l00067"></a><span class="lineno">   67</span>&#160;};</div>
+<div class="line"><a name="l00067"></a><span class="lineno"><a class="line" href="class_mount.html#adb20b848775d631e099d5e024d02a4b2">   67</a></span>&#160;        <span class="keywordtype">bool</span> <a class="code" href="class_mount.html#adb20b848775d631e099d5e024d02a4b2">Collision</a>(std::shared_ptr&lt;SceneObject&gt; ObjectPtr) <span class="keyword">override</span> <span class="keyword">final</span>{(void)ObjectPtr; <span class="keywordflow">return</span> <span class="keyword">false</span>;} </div>
+<div class="line"><a name="l00068"></a><span class="lineno">   68</span>&#160; </div>
+<div class="line"><a name="l00076"></a><span class="lineno">   76</span>&#160;        <a class="code" href="class_vector.html">Vector3D</a> <a class="code" href="class_mount.html#a4f709e7a0c745da5831abc45859050d1">Get_Scale</a>() override final;</div>
+<div class="line"><a name="l00077"></a><span class="lineno">   77</span>&#160; </div>
+<div class="line"><a name="l00078"></a><span class="lineno">   78</span>&#160;};</div>
 </div><!-- fragment --></div><!-- contents -->
 </div><!-- doc-content -->
 <div class="ttc" id="aclass_mount_html_a8673ff382a08d21ce81c64ed661537c1"><div class="ttname"><a href="class_mount.html#a8673ff382a08d21ce81c64ed661537c1">Mount::~Mount</a></div><div class="ttdeci">~Mount()</div><div class="ttdoc">Destruktor klasu Mount.</div><div class="ttdef"><b>Definition:</b> <a href="mount_8cpp_source.html#l00016">mount.cpp:16</a></div></div>
+<div class="ttc" id="aclass_mount_html_a4f709e7a0c745da5831abc45859050d1"><div class="ttname"><a href="class_mount.html#a4f709e7a0c745da5831abc45859050d1">Mount::Get_Scale</a></div><div class="ttdeci">Vector3D Get_Scale() override final</div><div class="ttdoc">Metoda zwracajaca skale gory.</div><div class="ttdef"><b>Definition:</b> <a href="mount_8cpp_source.html#l00072">mount.cpp:72</a></div></div>
 <div class="ttc" id="ascene__object_8hh_html"><div class="ttname"><a href="scene__object_8hh.html">scene_object.hh</a></div><div class="ttdoc">Plik zawierajacy definicje klasy SceneObject.</div></div>
 <div class="ttc" id="aclass_mount_html_a5ac0a70b723c695678e1d0c133a6de21"><div class="ttname"><a href="class_mount.html#a5ac0a70b723c695678e1d0c133a6de21">Mount::SaveMount</a></div><div class="ttdeci">void SaveMount(Vector3D loc)</div><div class="ttdoc">Metoda zapisujaca gore do pliku.</div><div class="ttdef"><b>Definition:</b> <a href="mount_8cpp_source.html#l00020">mount.cpp:20</a></div></div>
 <div class="ttc" id="aclass_scene_object_html"><div class="ttname"><a href="class_scene_object.html">SceneObject</a></div><div class="ttdoc">Definicja klasy SceneObject reprezentujaca obiekt na scenie.</div><div class="ttdef"><b>Definition:</b> <a href="scene__object_8hh_source.html#l00023">scene_object.hh:23</a></div></div>
@@ -117,6 +122,7 @@ $(document).ready(function(){initNavTree('mount_8hh_source.html',''); initResiza
 <div class="ttc" id="acuboid_8hh_html"><div class="ttname"><a href="cuboid_8hh.html">cuboid.hh</a></div><div class="ttdoc">Plik zawierajacy definicje klasy Cuboid.</div></div>
 <div class="ttc" id="aclass_mount_html_a7b4bf7de50fe2c390eb8381e90d6a05a"><div class="ttname"><a href="class_mount.html#a7b4bf7de50fe2c390eb8381e90d6a05a">Mount::Location</a></div><div class="ttdeci">Vector3D Location() const override final</div><div class="ttdoc">Metoda zwracajaca polozenie gory.</div><div class="ttdef"><b>Definition:</b> <a href="mount_8cpp_source.html#l00066">mount.cpp:66</a></div></div>
 <div class="ttc" id="aclass_vector_html"><div class="ttname"><a href="class_vector.html">Vector&lt; 3 &gt;</a></div></div>
+<div class="ttc" id="aclass_mount_html_adb20b848775d631e099d5e024d02a4b2"><div class="ttname"><a href="class_mount.html#adb20b848775d631e099d5e024d02a4b2">Mount::Collision</a></div><div class="ttdeci">bool Collision(std::shared_ptr&lt; SceneObject &gt; ObjectPtr) override final</div><div class="ttdoc">Metoda sprawdzajaca kolizje obiektu sceny.</div><div class="ttdef"><b>Definition:</b> <a href="mount_8hh_source.html#l00067">mount.hh:67</a></div></div>
 <div class="ttc" id="aclass_mount_html_a2992dc0dd41a6e1223897cfc55264404"><div class="ttname"><a href="class_mount.html#a2992dc0dd41a6e1223897cfc55264404">Mount::Filename</a></div><div class="ttdeci">std::string Filename() override final</div><div class="ttdoc">Metoda zwracajaca nazwe pliku gory.</div><div class="ttdef"><b>Definition:</b> <a href="mount_8cpp_source.html#l00060">mount.cpp:60</a></div></div>
 <div class="ttc" id="aclass_cuboid_html"><div class="ttname"><a href="class_cuboid.html">Cuboid</a></div><div class="ttdoc">Definicja klasy Cuboid reprezentujaca prostopadloscian jako bryle geometryczna  w trojwymiarowym ukla...</div><div class="ttdef"><b>Definition:</b> <a href="cuboid_8hh_source.html#l00018">cuboid.hh:18</a></div></div>
 <!-- start footer part -->

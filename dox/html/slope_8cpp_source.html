@@ -5,7 +5,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=9"/>
 <meta name="generator" content="Doxygen 1.8.17"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>Dron 5.2: Plik źródłowy /home/antek/Documents/PO/zad5/zad5_2-AntoniJeziorski/src/slope.cpp</title>
+<title>Dron5.3: Plik źródłowy /home/antek/Documents/PO/zad5/zad5_3-AntoniJeziorski/src/slope.cpp</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
@@ -25,7 +25,7 @@
  <tbody>
  <tr style="height: 56px;">
   <td id="projectalign" style="padding-left: 0.5em;">
-   <div id="projectname">Dron 5.2
+   <div id="projectname">Dron5.3
    &#160;<span id="projectnumber">1.1</span>
    </div>
    <div id="projectbrief">Antoni Jeziorski 259254</div>
@@ -142,6 +142,12 @@ $(document).ready(function(){initNavTree('slope_8cpp_source.html',''); initResiz
 <div class="line"><a name="l00060"></a><span class="lineno">   60</span>&#160;    <span class="keywordflow">return</span> <a class="code" href="class_cuboid.html#a0fb5b55235048bf35b8ece32ecc2a529">GetLocation</a>();</div>
 <div class="line"><a name="l00061"></a><span class="lineno">   61</span>&#160; </div>
 <div class="line"><a name="l00062"></a><span class="lineno">   62</span>&#160;}</div>
+<div class="line"><a name="l00063"></a><span class="lineno">   63</span>&#160; </div>
+<div class="line"><a name="l00064"></a><span class="lineno"><a class="line" href="class_slope.html#aca194953cd85edb758177412e54f9fde">   64</a></span>&#160;<a class="code" href="class_vector.html">Vector3D</a> <a class="code" href="class_slope.html#aca194953cd85edb758177412e54f9fde">Slope::Get_Scale</a>() {</div>
+<div class="line"><a name="l00065"></a><span class="lineno">   65</span>&#160; </div>
+<div class="line"><a name="l00066"></a><span class="lineno">   66</span>&#160;    <span class="keywordflow">return</span> <a class="code" href="class_solid.html#ab359e65c7bbf50c9250d3a9e1aba7467">GetScale</a>();</div>
+<div class="line"><a name="l00067"></a><span class="lineno">   67</span>&#160; </div>
+<div class="line"><a name="l00068"></a><span class="lineno">   68</span>&#160;}</div>
 </div><!-- fragment --></div><!-- contents -->
 </div><!-- doc-content -->
 <div class="ttc" id="aslope_8hh_html"><div class="ttname"><a href="slope_8hh.html">slope.hh</a></div><div class="ttdoc">Plik zawierajacy definicje klasy Slope.</div></div>
@@ -149,8 +155,10 @@ $(document).ready(function(){initNavTree('slope_8cpp_source.html',''); initResiz
 <div class="ttc" id="aclass_scene_object_html_a83761e486fe39b6634f31e862fd3b66f"><div class="ttname"><a href="class_scene_object.html#a83761e486fe39b6634f31e862fd3b66f">SceneObject::GetNumber</a></div><div class="ttdeci">int GetNumber() const</div><div class="ttdoc">Metoda zwracajaca numer obiektu na liscie.</div><div class="ttdef"><b>Definition:</b> <a href="scene__object_8cpp_source.html#l00022">scene_object.cpp:22</a></div></div>
 <div class="ttc" id="aclass_scene_object_html"><div class="ttname"><a href="class_scene_object.html">SceneObject</a></div><div class="ttdoc">Definicja klasy SceneObject reprezentujaca obiekt na scenie.</div><div class="ttdef"><b>Definition:</b> <a href="scene__object_8hh_source.html#l00023">scene_object.hh:23</a></div></div>
 <div class="ttc" id="aclass_solid_html_a67f02f29d97224fbff6d86ea2c5e483a"><div class="ttname"><a href="class_solid.html#a67f02f29d97224fbff6d86ea2c5e483a">Solid::Scale</a></div><div class="ttdeci">void Scale(const Vector3D &amp;s)</div><div class="ttdoc">Metoda aktualizujaca wartosc skali.</div><div class="ttdef"><b>Definition:</b> <a href="solid_8cpp_source.html#l00020">solid.cpp:20</a></div></div>
+<div class="ttc" id="aclass_slope_html_aca194953cd85edb758177412e54f9fde"><div class="ttname"><a href="class_slope.html#aca194953cd85edb758177412e54f9fde">Slope::Get_Scale</a></div><div class="ttdeci">Vector3D Get_Scale() override final</div><div class="ttdoc">Metoda zwracajaca skale zbocza.</div><div class="ttdef"><b>Definition:</b> <a href="slope_8cpp_source.html#l00064">slope.cpp:64</a></div></div>
 <div class="ttc" id="aclass_slope_html_a73f80603aafee7770db4a09cc5a79b21"><div class="ttname"><a href="class_slope.html#a73f80603aafee7770db4a09cc5a79b21">Slope::Filename</a></div><div class="ttdeci">std::string Filename() override final</div><div class="ttdoc">Metoda zwracajaca nazwe pliku zbocza.</div><div class="ttdef"><b>Definition:</b> <a href="slope_8cpp_source.html#l00052">slope.cpp:52</a></div></div>
 <div class="ttc" id="aclass_cuboid_html_a6c363f6bd27a8da3ec0c46c83eb180ee"><div class="ttname"><a href="class_cuboid.html#a6c363f6bd27a8da3ec0c46c83eb180ee">Cuboid::ToGlobal</a></div><div class="ttdeci">void ToGlobal(Vector3D &amp;Translation)</div><div class="ttdoc">Metoda obliczajaca wspolrzedne globalne wierzcholkow prostopadloscianu.</div><div class="ttdef"><b>Definition:</b> <a href="cuboid_8cpp_source.html#l00028">cuboid.cpp:28</a></div></div>
+<div class="ttc" id="aclass_solid_html_ab359e65c7bbf50c9250d3a9e1aba7467"><div class="ttname"><a href="class_solid.html#ab359e65c7bbf50c9250d3a9e1aba7467">Solid::GetScale</a></div><div class="ttdeci">Vector3D const  &amp; GetScale()</div><div class="ttdoc">Metoda zwracajaca skale.</div><div class="ttdef"><b>Definition:</b> <a href="solid_8cpp_source.html#l00041">solid.cpp:41</a></div></div>
 <div class="ttc" id="aclass_solid_html_ac3b158c6297df4b0a6e71cd72eacf311"><div class="ttname"><a href="class_solid.html#ac3b158c6297df4b0a6e71cd72eacf311">Solid::ChangeFilename</a></div><div class="ttdeci">void ChangeFilename(std::string name)</div><div class="ttdoc">Metoda aktualizujaca nazwe pliku bryly.</div><div class="ttdef"><b>Definition:</b> <a href="solid_8cpp_source.html#l00035">solid.cpp:35</a></div></div>
 <div class="ttc" id="aclass_vector_html"><div class="ttname"><a href="class_vector.html">Vector&lt; 3 &gt;</a></div></div>
 <div class="ttc" id="aclass_slope_html_a0f10bc2a010e076a36f46182e1c6fbd4"><div class="ttname"><a href="class_slope.html#a0f10bc2a010e076a36f46182e1c6fbd4">Slope::Location</a></div><div class="ttdeci">Vector3D Location() const override final</div><div class="ttdoc">Metoda zwracajaca polozenie zbocza.</div><div class="ttdef"><b>Definition:</b> <a href="slope_8cpp_source.html#l00058">slope.cpp:58</a></div></div>

@@ -1,16 +1,15 @@
 var indexSectionsWithContent =
 {
-  0: "_abcdfghiklmnoprstuvwxyz~",
+  0: "_abcdfghiklmoprstuvwxyz~",
   1: "acdhilmpsvw",
   2: "p",
   3: "cdhlmpsv",
   4: "abcdfghiklmoprstuvwxyz~",
-  5: "_abcfglmnorsvxy",
+  5: "_fsxy",
   6: "mtv",
   7: "t",
   8: "dst",
-  9: "drs",
-  10: "d"
+  9: "d"
 };
 
 var indexSectionNames =
@@ -24,8 +23,7 @@ var indexSectionNames =
   6: "typedefs",
   7: "enums",
   8: "enumvalues",
-  9: "defines",
-  10: "pages"
+  9: "pages"
 };
 
 var indexSectionLabels =
@@ -39,7 +37,6 @@ var indexSectionLabels =
   6: "Definicje typów",
   7: "Wyliczenia",
   8: "Wartości wyliczeń",
-  9: "Definicje",
-  10: "Strony"
+  9: "Strony"
 };
 

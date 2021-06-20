@@ -1,6 +1,6 @@
 var searchData=
 [
-  ['x_226',['x',['../class_pz_g_1_1_wektor2f.html#aacbc07ae23c748a3378c09353b0b3c4c',1,'PzG::Wektor2f']]],
-  ['xmax_227',['Xmax',['../class_pz_g_1_1_lacze_do_g_n_u_plota.html#a8e23479629af3df3d352b7839ae396b8',1,'PzG::LaczeDoGNUPlota']]],
-  ['xmin_228',['Xmin',['../class_pz_g_1_1_lacze_do_g_n_u_plota.html#a66836c9749bf179420e4ca3e9447efd7',1,'PzG::LaczeDoGNUPlota']]]
+  ['y_193',['y',['../class_pz_g_1_1_wektor2f.html#a7bea23077e29c234ff5b9fdc4f436fb8',1,'PzG::Wektor2f']]],
+  ['ymax_194',['Ymax',['../class_pz_g_1_1_lacze_do_g_n_u_plota.html#ac54e4e7448ce3bd324efdc94a999f535',1,'PzG::LaczeDoGNUPlota']]],
+  ['ymin_195',['Ymin',['../class_pz_g_1_1_lacze_do_g_n_u_plota.html#a9352c0382bfaeaaba9f65399a7383164',1,'PzG::LaczeDoGNUPlota']]]
 ];

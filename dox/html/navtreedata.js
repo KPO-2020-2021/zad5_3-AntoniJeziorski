@@ -22,8 +22,8 @@ for the JavaScript code in this file
 */
 var NAVTREE =
 [
-  [ "Dron 5.2", "index.html", [
-    [ "Dron5.2.", "index.html", null ],
+  [ "Dron5.3", "index.html", [
+    [ "Dron5.3.", "index.html", null ],
     [ "Przestrzenie nazw", "namespaces.html", [
       [ "Lista przestrzeni nazw", "namespaces.html", "namespaces_dup" ],
       [ "Składowe przestrzeni nazw", "namespacemembers.html", [
@@ -49,9 +49,7 @@ var NAVTREE =
       [ "Składowe plików", "globals.html", [
         [ "Wszystko", "globals.html", null ],
         [ "Funkcje", "globals_func.html", null ],
-        [ "Zmienne", "globals_vars.html", null ],
-        [ "Definicje typów", "globals_type.html", null ],
-        [ "Definicje", "globals_defs.html", null ]
+        [ "Definicje typów", "globals_type.html", null ]
       ] ]
     ] ]
   ] ]
@@ -60,7 +58,7 @@ var NAVTREE =
 var NAVTREEINDEX =
 [
 "annotated.html",
-"class_vector.html#a8098cec1b855059860cc0bc67298d627"
+"functions.html"
 ];
 
 var SYNCONMSG = 'click to disable panel synchronisation';

@@ -5,7 +5,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=9"/>
 <meta name="generator" content="Doxygen 1.8.17"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>Dron 5.2: Plik źródłowy /home/antek/Documents/PO/zad5/zad5_2-AntoniJeziorski/inc/plateau.hh</title>
+<title>Dron5.3: Plik źródłowy /home/antek/Documents/PO/zad5/zad5_3-AntoniJeziorski/inc/plateau.hh</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
@@ -25,7 +25,7 @@
  <tbody>
  <tr style="height: 56px;">
   <td id="projectalign" style="padding-left: 0.5em;">
-   <div id="projectname">Dron 5.2
+   <div id="projectname">Dron5.3
    &#160;<span id="projectnumber">1.1</span>
    </div>
    <div id="projectbrief">Antoni Jeziorski 259254</div>
@@ -105,12 +105,18 @@ $(document).ready(function(){initNavTree('plateau_8hh_source.html',''); initResi
 <div class="line"><a name="l00057"></a><span class="lineno">   57</span>&#160; </div>
 <div class="line"><a name="l00065"></a><span class="lineno">   65</span>&#160;        <a class="code" href="class_vector.html">Vector3D</a> <a class="code" href="class_plateau.html#a1e295891a103caba5fed7fa35e3c1968">Location</a>() <span class="keyword">const</span> <span class="keyword">override</span> <span class="keyword">final</span>;</div>
 <div class="line"><a name="l00066"></a><span class="lineno">   66</span>&#160; </div>
-<div class="line"><a name="l00067"></a><span class="lineno">   67</span>&#160;};</div>
+<div class="line"><a name="l00067"></a><span class="lineno"><a class="line" href="class_plateau.html#a77dc77823e134b605a2d737a458884e9">   67</a></span>&#160;        <span class="keywordtype">bool</span> <a class="code" href="class_plateau.html#a77dc77823e134b605a2d737a458884e9">Collision</a>(std::shared_ptr&lt;SceneObject&gt; ObjectPtr) <span class="keyword">override</span> <span class="keyword">final</span>{(void)ObjectPtr; <span class="keywordflow">return</span> <span class="keyword">false</span>;}  </div>
+<div class="line"><a name="l00068"></a><span class="lineno">   68</span>&#160; </div>
+<div class="line"><a name="l00076"></a><span class="lineno">   76</span>&#160;        <a class="code" href="class_vector.html">Vector3D</a> <a class="code" href="class_plateau.html#a4d63e2d5c06dcee3be3dffbef3c2b78e">Get_Scale</a>() override final;</div>
+<div class="line"><a name="l00077"></a><span class="lineno">   77</span>&#160; </div>
+<div class="line"><a name="l00078"></a><span class="lineno">   78</span>&#160;};</div>
 </div><!-- fragment --></div><!-- contents -->
 </div><!-- doc-content -->
+<div class="ttc" id="aclass_plateau_html_a4d63e2d5c06dcee3be3dffbef3c2b78e"><div class="ttname"><a href="class_plateau.html#a4d63e2d5c06dcee3be3dffbef3c2b78e">Plateau::Get_Scale</a></div><div class="ttdeci">Vector3D Get_Scale() override final</div><div class="ttdoc">Metoda zwracajaca skale plaskowyzu.</div><div class="ttdef"><b>Definition:</b> <a href="plateau_8cpp_source.html#l00061">plateau.cpp:61</a></div></div>
 <div class="ttc" id="aclass_plateau_html_a0e6ae72e4d7e9923f996c1247e6a6c8b"><div class="ttname"><a href="class_plateau.html#a0e6ae72e4d7e9923f996c1247e6a6c8b">Plateau::~Plateau</a></div><div class="ttdeci">~Plateau()</div><div class="ttdoc">Destruktor klasu Plateau.</div><div class="ttdef"><b>Definition:</b> <a href="plateau_8cpp_source.html#l00016">plateau.cpp:16</a></div></div>
 <div class="ttc" id="aclass_plateau_html_a48136ccae1707dcb7661613edf1fab4f"><div class="ttname"><a href="class_plateau.html#a48136ccae1707dcb7661613edf1fab4f">Plateau::Filename</a></div><div class="ttdeci">std::string Filename() override final</div><div class="ttdoc">Metoda zwracajaca nazwe pliku plaskowyzu.</div><div class="ttdef"><b>Definition:</b> <a href="plateau_8cpp_source.html#l00049">plateau.cpp:49</a></div></div>
 <div class="ttc" id="aclass_plateau_html_a3fc1348928530cbe9ba20ee22fe93687"><div class="ttname"><a href="class_plateau.html#a3fc1348928530cbe9ba20ee22fe93687">Plateau::Plateau</a></div><div class="ttdeci">Plateau(Vector3D scale, int number)</div><div class="ttdoc">Konstruktor parametryczny klasu Plateau.</div><div class="ttdef"><b>Definition:</b> <a href="plateau_8cpp_source.html#l00010">plateau.cpp:10</a></div></div>
+<div class="ttc" id="aclass_plateau_html_a77dc77823e134b605a2d737a458884e9"><div class="ttname"><a href="class_plateau.html#a77dc77823e134b605a2d737a458884e9">Plateau::Collision</a></div><div class="ttdeci">bool Collision(std::shared_ptr&lt; SceneObject &gt; ObjectPtr) override final</div><div class="ttdoc">Metoda sprawdzajaca kolizje obiektu sceny.</div><div class="ttdef"><b>Definition:</b> <a href="plateau_8hh_source.html#l00067">plateau.hh:67</a></div></div>
 <div class="ttc" id="aclass_plateau_html_a1e295891a103caba5fed7fa35e3c1968"><div class="ttname"><a href="class_plateau.html#a1e295891a103caba5fed7fa35e3c1968">Plateau::Location</a></div><div class="ttdeci">Vector3D Location() const override final</div><div class="ttdoc">Metoda zwracajaca polozenie plaskowyzu.</div><div class="ttdef"><b>Definition:</b> <a href="plateau_8cpp_source.html#l00055">plateau.cpp:55</a></div></div>
 <div class="ttc" id="ascene__object_8hh_html"><div class="ttname"><a href="scene__object_8hh.html">scene_object.hh</a></div><div class="ttdoc">Plik zawierajacy definicje klasy SceneObject.</div></div>
 <div class="ttc" id="aclass_scene_object_html"><div class="ttname"><a href="class_scene_object.html">SceneObject</a></div><div class="ttdoc">Definicja klasy SceneObject reprezentujaca obiekt na scenie.</div><div class="ttdef"><b>Definition:</b> <a href="scene__object_8hh_source.html#l00023">scene_object.hh:23</a></div></div>

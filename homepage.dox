@@ -1,6 +1,6 @@
 /*!
 
-\mainpage Dron5.2.
+\mainpage Dron5.3.
 
 \author Antoni Jeziorski, 259254
 
@@ -8,10 +8,10 @@
 
 \version 1.1
 
-Program 5.2 bedacy druga faza drona.\n Program pozwala na poruszanie sie dwoma dronami po powierzchni zawierajacej przeszkody, ktore mozna dodawac lub usuwac\n Diagram klas:
+Program 5.3 bedacy druga faza drona.\n Program pozwala na poruszanie sie dwoma dronami po powierzchni zawierajacej przeszkody, ktore mozna dodawac lub usuwac\n Dron wykrywa kolizje z innymi obiektami na scenie\n Diagram klas:
 
 
 
-\image html UML.png
+\image html UML5.3.png
 
 */

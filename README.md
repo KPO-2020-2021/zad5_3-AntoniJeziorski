@@ -8,7 +8,7 @@
 Wygenerowana dokumentacja znajduje sie w pliku "index.html" w folderze dox.
 
 ## Testy
-Po kompilacji w folderez build mozna uzyc polecenia ./unit_tests -s, aby wykonac testy i sprawdzic poprawnosc dzialania programu.
+Po kompilacji w folderze build mozna uzyc polecenia ./unit_tests -s, aby wykonac testy i sprawdzic poprawnosc dzialania programu.
 
 ## Building
 

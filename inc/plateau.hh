@@ -64,7 +64,7 @@ class Plateau : public SceneObject, public Cuboid {
 
         Vector3D Location() const override final;
 
-        bool Collision(std::shared_ptr<SceneObject> ObjectPtr) override final{std::cout <<ObjectPtr->GetType(); return false;} 
+        bool Collision(std::shared_ptr<SceneObject> ObjectPtr) override final{(void)ObjectPtr; return false;}  
 
         /*!
          *

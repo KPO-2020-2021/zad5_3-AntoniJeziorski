@@ -5,7 +5,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=9"/>
 <meta name="generator" content="Doxygen 1.8.17"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>Dron 5.2: Plik źródłowy /home/antek/Documents/PO/zad5/zad5_2-AntoniJeziorski/src/plateau.cpp</title>
+<title>Dron5.3: Plik źródłowy /home/antek/Documents/PO/zad5/zad5_3-AntoniJeziorski/src/plateau.cpp</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
@@ -25,7 +25,7 @@
  <tbody>
  <tr style="height: 56px;">
   <td id="projectalign" style="padding-left: 0.5em;">
-   <div id="projectname">Dron 5.2
+   <div id="projectname">Dron5.3
    &#160;<span id="projectnumber">1.1</span>
    </div>
    <div id="projectbrief">Antoni Jeziorski 259254</div>
@@ -139,8 +139,15 @@ $(document).ready(function(){initNavTree('plateau_8cpp_source.html',''); initRes
 <div class="line"><a name="l00057"></a><span class="lineno">   57</span>&#160;    <span class="keywordflow">return</span> <a class="code" href="class_cuboid.html#a0fb5b55235048bf35b8ece32ecc2a529">GetLocation</a>();</div>
 <div class="line"><a name="l00058"></a><span class="lineno">   58</span>&#160; </div>
 <div class="line"><a name="l00059"></a><span class="lineno">   59</span>&#160;}</div>
+<div class="line"><a name="l00060"></a><span class="lineno">   60</span>&#160; </div>
+<div class="line"><a name="l00061"></a><span class="lineno"><a class="line" href="class_plateau.html#a4d63e2d5c06dcee3be3dffbef3c2b78e">   61</a></span>&#160;<a class="code" href="class_vector.html">Vector3D</a> <a class="code" href="class_plateau.html#a4d63e2d5c06dcee3be3dffbef3c2b78e">Plateau::Get_Scale</a>() {</div>
+<div class="line"><a name="l00062"></a><span class="lineno">   62</span>&#160; </div>
+<div class="line"><a name="l00063"></a><span class="lineno">   63</span>&#160;    <span class="keywordflow">return</span> <a class="code" href="class_solid.html#ab359e65c7bbf50c9250d3a9e1aba7467">GetScale</a>();</div>
+<div class="line"><a name="l00064"></a><span class="lineno">   64</span>&#160; </div>
+<div class="line"><a name="l00065"></a><span class="lineno">   65</span>&#160;}</div>
 </div><!-- fragment --></div><!-- contents -->
 </div><!-- doc-content -->
+<div class="ttc" id="aclass_plateau_html_a4d63e2d5c06dcee3be3dffbef3c2b78e"><div class="ttname"><a href="class_plateau.html#a4d63e2d5c06dcee3be3dffbef3c2b78e">Plateau::Get_Scale</a></div><div class="ttdeci">Vector3D Get_Scale() override final</div><div class="ttdoc">Metoda zwracajaca skale plaskowyzu.</div><div class="ttdef"><b>Definition:</b> <a href="plateau_8cpp_source.html#l00061">plateau.cpp:61</a></div></div>
 <div class="ttc" id="aclass_plateau_html_a0e6ae72e4d7e9923f996c1247e6a6c8b"><div class="ttname"><a href="class_plateau.html#a0e6ae72e4d7e9923f996c1247e6a6c8b">Plateau::~Plateau</a></div><div class="ttdeci">~Plateau()</div><div class="ttdoc">Destruktor klasu Plateau.</div><div class="ttdef"><b>Definition:</b> <a href="plateau_8cpp_source.html#l00016">plateau.cpp:16</a></div></div>
 <div class="ttc" id="aclass_cuboid_html_a0fb5b55235048bf35b8ece32ecc2a529"><div class="ttname"><a href="class_cuboid.html#a0fb5b55235048bf35b8ece32ecc2a529">Cuboid::GetLocation</a></div><div class="ttdeci">Vector3D GetLocation() const</div><div class="ttdoc">Metoda zwracajaca wspolrzedne srodka prostopadloscianu.</div><div class="ttdef"><b>Definition:</b> <a href="cuboid_8cpp_source.html#l00071">cuboid.cpp:71</a></div></div>
 <div class="ttc" id="aclass_plateau_html_a48136ccae1707dcb7661613edf1fab4f"><div class="ttname"><a href="class_plateau.html#a48136ccae1707dcb7661613edf1fab4f">Plateau::Filename</a></div><div class="ttdeci">std::string Filename() override final</div><div class="ttdoc">Metoda zwracajaca nazwe pliku plaskowyzu.</div><div class="ttdef"><b>Definition:</b> <a href="plateau_8cpp_source.html#l00049">plateau.cpp:49</a></div></div>
@@ -151,6 +158,7 @@ $(document).ready(function(){initNavTree('plateau_8cpp_source.html',''); initRes
 <div class="ttc" id="aclass_solid_html_a67f02f29d97224fbff6d86ea2c5e483a"><div class="ttname"><a href="class_solid.html#a67f02f29d97224fbff6d86ea2c5e483a">Solid::Scale</a></div><div class="ttdeci">void Scale(const Vector3D &amp;s)</div><div class="ttdoc">Metoda aktualizujaca wartosc skali.</div><div class="ttdef"><b>Definition:</b> <a href="solid_8cpp_source.html#l00020">solid.cpp:20</a></div></div>
 <div class="ttc" id="aplateau_8hh_html"><div class="ttname"><a href="plateau_8hh.html">plateau.hh</a></div><div class="ttdoc">Plik zawierajacy definicje klasy Plateau.</div></div>
 <div class="ttc" id="aclass_cuboid_html_a6c363f6bd27a8da3ec0c46c83eb180ee"><div class="ttname"><a href="class_cuboid.html#a6c363f6bd27a8da3ec0c46c83eb180ee">Cuboid::ToGlobal</a></div><div class="ttdeci">void ToGlobal(Vector3D &amp;Translation)</div><div class="ttdoc">Metoda obliczajaca wspolrzedne globalne wierzcholkow prostopadloscianu.</div><div class="ttdef"><b>Definition:</b> <a href="cuboid_8cpp_source.html#l00028">cuboid.cpp:28</a></div></div>
+<div class="ttc" id="aclass_solid_html_ab359e65c7bbf50c9250d3a9e1aba7467"><div class="ttname"><a href="class_solid.html#ab359e65c7bbf50c9250d3a9e1aba7467">Solid::GetScale</a></div><div class="ttdeci">Vector3D const  &amp; GetScale()</div><div class="ttdoc">Metoda zwracajaca skale.</div><div class="ttdef"><b>Definition:</b> <a href="solid_8cpp_source.html#l00041">solid.cpp:41</a></div></div>
 <div class="ttc" id="aclass_solid_html_ac3b158c6297df4b0a6e71cd72eacf311"><div class="ttname"><a href="class_solid.html#ac3b158c6297df4b0a6e71cd72eacf311">Solid::ChangeFilename</a></div><div class="ttdeci">void ChangeFilename(std::string name)</div><div class="ttdoc">Metoda aktualizujaca nazwe pliku bryly.</div><div class="ttdef"><b>Definition:</b> <a href="solid_8cpp_source.html#l00035">solid.cpp:35</a></div></div>
 <div class="ttc" id="aclass_plateau_html_a730282f3cd8a9c53b535ba266301bdce"><div class="ttname"><a href="class_plateau.html#a730282f3cd8a9c53b535ba266301bdce">Plateau::SavePlateau</a></div><div class="ttdeci">void SavePlateau(Vector3D loc)</div><div class="ttdoc">Metoda zapisujaca plaskowyz do pliku.</div><div class="ttdef"><b>Definition:</b> <a href="plateau_8cpp_source.html#l00020">plateau.cpp:20</a></div></div>
 <div class="ttc" id="aclass_vector_html"><div class="ttname"><a href="class_vector.html">Vector&lt; 3 &gt;</a></div></div>

@@ -48,7 +48,6 @@ var menudata={children:[
 {text:"k",url:"functions_k.html#index_k"},
 {text:"l",url:"functions_l.html#index_l"},
 {text:"m",url:"functions_m.html#index_m"},
-{text:"n",url:"functions_n.html#index_n"},
 {text:"o",url:"functions_o.html#index_o"},
 {text:"p",url:"functions_p.html#index_p"},
 {text:"r",url:"functions_r.html#index_r"},
@@ -85,26 +84,10 @@ var menudata={children:[
 {text:"y",url:"functions_func.html#index_y"},
 {text:"z",url:"functions_func.html#index_z"},
 {text:"~",url:"functions_func.html#index__7E"}]},
-{text:"Zmienne",url:"functions_vars.html",children:[
-{text:"_",url:"functions_vars.html#index__5F"},
-{text:"a",url:"functions_vars.html#index_a"},
-{text:"b",url:"functions_vars.html#index_b"},
-{text:"c",url:"functions_vars.html#index_c"},
-{text:"f",url:"functions_vars.html#index_f"},
-{text:"g",url:"functions_vars.html#index_g"},
-{text:"l",url:"functions_vars.html#index_l"},
-{text:"n",url:"functions_vars.html#index_n"},
-{text:"o",url:"functions_vars.html#index_o"},
-{text:"r",url:"functions_vars.html#index_r"},
-{text:"s",url:"functions_vars.html#index_s"},
-{text:"v",url:"functions_vars.html#index_v"},
-{text:"x",url:"functions_vars.html#index_x"},
-{text:"y",url:"functions_vars.html#index_y"}]}]}]},
+{text:"Zmienne",url:"functions_vars.html"}]}]},
 {text:"Pliki",url:"files.html",children:[
 {text:"Lista plików",url:"files.html"},
 {text:"Składowe plików",url:"globals.html",children:[
 {text:"Wszystko",url:"globals.html"},
 {text:"Funkcje",url:"globals_func.html"},
-{text:"Zmienne",url:"globals_vars.html"},
-{text:"Definicje typów",url:"globals_type.html"},
-{text:"Definicje",url:"globals_defs.html"}]}]}]}
+{text:"Definicje typów",url:"globals_type.html"}]}]}]}

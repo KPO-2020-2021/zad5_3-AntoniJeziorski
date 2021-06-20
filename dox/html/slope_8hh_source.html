@@ -5,7 +5,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=9"/>
 <meta name="generator" content="Doxygen 1.8.17"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>Dron 5.2: Plik źródłowy /home/antek/Documents/PO/zad5/zad5_2-AntoniJeziorski/inc/slope.hh</title>
+<title>Dron5.3: Plik źródłowy /home/antek/Documents/PO/zad5/zad5_3-AntoniJeziorski/inc/slope.hh</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
@@ -25,7 +25,7 @@
  <tbody>
  <tr style="height: 56px;">
   <td id="projectalign" style="padding-left: 0.5em;">
-   <div id="projectname">Dron 5.2
+   <div id="projectname">Dron5.3
    &#160;<span id="projectnumber">1.1</span>
    </div>
    <div id="projectbrief">Antoni Jeziorski 259254</div>
@@ -105,13 +105,19 @@ $(document).ready(function(){initNavTree('slope_8hh_source.html',''); initResiza
 <div class="line"><a name="l00057"></a><span class="lineno">   57</span>&#160; </div>
 <div class="line"><a name="l00065"></a><span class="lineno">   65</span>&#160;        <a class="code" href="class_vector.html">Vector3D</a> <a class="code" href="class_slope.html#a0f10bc2a010e076a36f46182e1c6fbd4">Location</a>() <span class="keyword">const</span> <span class="keyword">override</span> <span class="keyword">final</span>;</div>
 <div class="line"><a name="l00066"></a><span class="lineno">   66</span>&#160; </div>
-<div class="line"><a name="l00067"></a><span class="lineno">   67</span>&#160;};</div>
+<div class="line"><a name="l00067"></a><span class="lineno"><a class="line" href="class_slope.html#aab8894c8f7364a6d8aae6c4e8afed87b">   67</a></span>&#160;        <span class="keywordtype">bool</span> <a class="code" href="class_slope.html#aab8894c8f7364a6d8aae6c4e8afed87b">Collision</a>(std::shared_ptr&lt;SceneObject&gt; ObjectPtr) <span class="keyword">override</span> <span class="keyword">final</span>{(void)ObjectPtr; <span class="keywordflow">return</span> <span class="keyword">false</span>;} </div>
+<div class="line"><a name="l00068"></a><span class="lineno">   68</span>&#160; </div>
+<div class="line"><a name="l00076"></a><span class="lineno">   76</span>&#160;        <a class="code" href="class_vector.html">Vector3D</a> <a class="code" href="class_slope.html#aca194953cd85edb758177412e54f9fde">Get_Scale</a>() override final;</div>
+<div class="line"><a name="l00077"></a><span class="lineno">   77</span>&#160; </div>
+<div class="line"><a name="l00078"></a><span class="lineno">   78</span>&#160;};</div>
 </div><!-- fragment --></div><!-- contents -->
 </div><!-- doc-content -->
 <div class="ttc" id="ascene__object_8hh_html"><div class="ttname"><a href="scene__object_8hh.html">scene_object.hh</a></div><div class="ttdoc">Plik zawierajacy definicje klasy SceneObject.</div></div>
 <div class="ttc" id="aclass_slope_html"><div class="ttname"><a href="class_slope.html">Slope</a></div><div class="ttdoc">Definicja klasy Slope modelujaca zbocze w trojwymiarowym ukladzie wspolrzednych.</div><div class="ttdef"><b>Definition:</b> <a href="slope_8hh_source.html#l00017">slope.hh:17</a></div></div>
 <div class="ttc" id="aclass_scene_object_html"><div class="ttname"><a href="class_scene_object.html">SceneObject</a></div><div class="ttdoc">Definicja klasy SceneObject reprezentujaca obiekt na scenie.</div><div class="ttdef"><b>Definition:</b> <a href="scene__object_8hh_source.html#l00023">scene_object.hh:23</a></div></div>
+<div class="ttc" id="aclass_slope_html_aca194953cd85edb758177412e54f9fde"><div class="ttname"><a href="class_slope.html#aca194953cd85edb758177412e54f9fde">Slope::Get_Scale</a></div><div class="ttdeci">Vector3D Get_Scale() override final</div><div class="ttdoc">Metoda zwracajaca skale zbocza.</div><div class="ttdef"><b>Definition:</b> <a href="slope_8cpp_source.html#l00064">slope.cpp:64</a></div></div>
 <div class="ttc" id="aclass_slope_html_a73f80603aafee7770db4a09cc5a79b21"><div class="ttname"><a href="class_slope.html#a73f80603aafee7770db4a09cc5a79b21">Slope::Filename</a></div><div class="ttdeci">std::string Filename() override final</div><div class="ttdoc">Metoda zwracajaca nazwe pliku zbocza.</div><div class="ttdef"><b>Definition:</b> <a href="slope_8cpp_source.html#l00052">slope.cpp:52</a></div></div>
+<div class="ttc" id="aclass_slope_html_aab8894c8f7364a6d8aae6c4e8afed87b"><div class="ttname"><a href="class_slope.html#aab8894c8f7364a6d8aae6c4e8afed87b">Slope::Collision</a></div><div class="ttdeci">bool Collision(std::shared_ptr&lt; SceneObject &gt; ObjectPtr) override final</div><div class="ttdoc">Metoda sprawdzajaca kolizje obiektu sceny.</div><div class="ttdef"><b>Definition:</b> <a href="slope_8hh_source.html#l00067">slope.hh:67</a></div></div>
 <div class="ttc" id="acuboid_8hh_html"><div class="ttname"><a href="cuboid_8hh.html">cuboid.hh</a></div><div class="ttdoc">Plik zawierajacy definicje klasy Cuboid.</div></div>
 <div class="ttc" id="aclass_vector_html"><div class="ttname"><a href="class_vector.html">Vector&lt; 3 &gt;</a></div></div>
 <div class="ttc" id="aclass_slope_html_a0f10bc2a010e076a36f46182e1c6fbd4"><div class="ttname"><a href="class_slope.html#a0f10bc2a010e076a36f46182e1c6fbd4">Slope::Location</a></div><div class="ttdeci">Vector3D Location() const override final</div><div class="ttdoc">Metoda zwracajaca polozenie zbocza.</div><div class="ttdef"><b>Definition:</b> <a href="slope_8cpp_source.html#l00058">slope.cpp:58</a></div></div>

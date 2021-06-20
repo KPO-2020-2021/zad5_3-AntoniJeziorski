@@ -1,12 +1,14 @@
 var searchData=
 [
-  ['planpath_128',['PlanPath',['../class_drone.html#ab0bff6a9487703b6918c901cdb991043',1,'Drone']]],
-  ['plateau_129',['Plateau',['../class_plateau.html',1,'Plateau'],['../class_plateau.html#a3fc1348928530cbe9ba20ee22fe93687',1,'Plateau::Plateau()']]],
-  ['plateau_2ecpp_130',['plateau.cpp',['../plateau_8cpp.html',1,'']]],
-  ['plateau_2ehh_131',['plateau.hh',['../plateau_8hh.html',1,'']]],
-  ['pokazos_5fox_132',['PokazOs_OX',['../class_pz_g_1_1_lacze_do_g_n_u_plota.html#a11421d7c67deab6b7524cc492407e897',1,'PzG::LaczeDoGNUPlota::PokazOs_OX(bool Pokaz)'],['../class_pz_g_1_1_lacze_do_g_n_u_plota.html#ae112972af57167c3b053bf922bce6bbf',1,'PzG::LaczeDoGNUPlota::PokazOs_OX() const']]],
-  ['pokazos_5foy_133',['PokazOs_OY',['../class_pz_g_1_1_lacze_do_g_n_u_plota.html#a7c3db909b266fc30808e86406c04b516',1,'PzG::LaczeDoGNUPlota::PokazOs_OY(bool Pokaz)'],['../class_pz_g_1_1_lacze_do_g_n_u_plota.html#a7298f469f6932f5c808dcf620650b4b8',1,'PzG::LaczeDoGNUPlota::PokazOs_OY() const']]],
-  ['printobstacles_134',['PrintObstacles',['../class_scene.html#abcb47c5169e5900b00295dbd15a3a1e9',1,'Scene']]],
-  ['przeslijdognuplota_135',['PrzeslijDoGNUPlota',['../class_pz_g_1_1_lacze_do_g_n_u_plota.html#a5063854b7232a7951d120a21df63f2b7',1,'PzG::LaczeDoGNUPlota']]],
-  ['pzg_136',['PzG',['../namespace_pz_g.html',1,'']]]
+  ['radius_108',['Radius',['../class_drone.html#a38387cc3c59c90362d41d99fb28babb0',1,'Drone']]],
+  ['recce_109',['Recce',['../class_drone.html#a58b3f97c7e76a862bac36e7dde14d0ef',1,'Drone']]],
+  ['rotacjax_110',['RotacjaX',['../class_pz_g_1_1_lacze_do_g_n_u_plota.html#addf0b844f626f3f5220de70efcbbdbb3',1,'PzG::LaczeDoGNUPlota']]],
+  ['rotacjaz_111',['RotacjaZ',['../class_pz_g_1_1_lacze_do_g_n_u_plota.html#a9dac73754fab10644b287756003e9c79',1,'PzG::LaczeDoGNUPlota']]],
+  ['rotate_112',['Rotate',['../class_cuboid.html#a2a6f2b82c6f76deccf9b84cb73606f9f',1,'Cuboid::Rotate()'],['../class_hex_prism.html#aa0f0fd9288a171d404c059168b385a98',1,'HexPrism::Rotate()']]],
+  ['rotationmatrix_5fx_113',['RotationMatrix_X',['../matrix3_d_8hh.html#a9dc0da0b8b54da3385bf9e1f5fad1200',1,'RotationMatrix_X(const double angle):&#160;matrix3D.cpp'],['../matrix3_d_8cpp.html#a9dc0da0b8b54da3385bf9e1f5fad1200',1,'RotationMatrix_X(const double angle):&#160;matrix3D.cpp']]],
+  ['rotationmatrix_5fy_114',['RotationMatrix_Y',['../matrix3_d_8hh.html#a87dc52124d1f5b2b3201799f36a93769',1,'RotationMatrix_Y(const double angle):&#160;matrix3D.cpp'],['../matrix3_d_8cpp.html#a87dc52124d1f5b2b3201799f36a93769',1,'RotationMatrix_Y(const double angle):&#160;matrix3D.cpp']]],
+  ['rotationmatrix_5fz_115',['RotationMatrix_Z',['../matrix3_d_8hh.html#abb063b994dec3955ed7e058d36058d01',1,'RotationMatrix_Z(const double angle):&#160;matrix3D.cpp'],['../matrix3_d_8cpp.html#abb063b994dec3955ed7e058d36058d01',1,'RotationMatrix_Z(const double angle):&#160;matrix3D.cpp']]],
+  ['rotortoglobal_116',['RotorToGlobal',['../class_drone.html#a56a3aa846eaf0a7f8ded390ae00e7f25',1,'Drone']]],
+  ['rysuj_117',['Rysuj',['../class_pz_g_1_1_lacze_do_g_n_u_plota.html#a065f5b8402737cc62b0ad4f66d028335',1,'PzG::LaczeDoGNUPlota']]],
+  ['rysujdopliku_118',['RysujDoPliku',['../class_pz_g_1_1_lacze_do_g_n_u_plota.html#aacb7ae45d283c741fb330f27b132e1a3',1,'PzG::LaczeDoGNUPlota']]]
 ];

@@ -104,9 +104,9 @@ int main() {
    //
     Link.ZmienTrybRys(PzG::TR_3D);
 
-    Link.UstawZakresY(0,200);
-    Link.UstawZakresX(0,200);
-    Link.UstawZakresZ(0,150);
+    Link.UstawZakresY(0,300);
+    Link.UstawZakresX(0,300);
+    Link.UstawZakresZ(0,300);
 
 
     scene.UseDrone(0)->SaveDrone(1);

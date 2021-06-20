@@ -5,7 +5,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=9"/>
 <meta name="generator" content="Doxygen 1.8.17"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>Dron 5.2: Plik źródłowy /home/antek/Documents/PO/zad5/zad5_2-AntoniJeziorski/inc/scene_object.hh</title>
+<title>Dron5.3: Plik źródłowy /home/antek/Documents/PO/zad5/zad5_3-AntoniJeziorski/inc/scene_object.hh</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
@@ -25,7 +25,7 @@
  <tbody>
  <tr style="height: 56px;">
   <td id="projectalign" style="padding-left: 0.5em;">
-   <div id="projectname">Dron 5.2
+   <div id="projectname">Dron5.3
    &#160;<span id="projectnumber">1.1</span>
    </div>
    <div id="projectbrief">Antoni Jeziorski 259254</div>
@@ -99,9 +99,9 @@ $(document).ready(function(){initNavTree('scene__object_8hh_source.html',''); in
 <div class="line"><a name="l00010"></a><span class="lineno">   10</span>&#160; </div>
 <div class="line"><a name="l00023"></a><span class="lineno"><a class="line" href="class_scene_object.html">   23</a></span>&#160;<span class="keyword">class </span><a class="code" href="class_scene_object.html">SceneObject</a> {</div>
 <div class="line"><a name="l00024"></a><span class="lineno">   24</span>&#160; </div>
-<div class="line"><a name="l00030"></a><span class="lineno"><a class="line" href="class_scene_object.html#a822b304132a1952ab328c14b3dea6fa1">   30</a></span>&#160;    std::string <a class="code" href="class_scene_object.html#a822b304132a1952ab328c14b3dea6fa1">objectType</a>;</div>
+<div class="line"><a name="l00030"></a><span class="lineno">   30</span>&#160;    std::string objectType;</div>
 <div class="line"><a name="l00031"></a><span class="lineno">   31</span>&#160; </div>
-<div class="line"><a name="l00037"></a><span class="lineno"><a class="line" href="class_scene_object.html#a0a098d608c26c9c0737cbdf2c5fb38dd">   37</a></span>&#160;    <span class="keywordtype">int</span> <a class="code" href="class_scene_object.html#a0a098d608c26c9c0737cbdf2c5fb38dd">objectNumber</a>;</div>
+<div class="line"><a name="l00037"></a><span class="lineno">   37</span>&#160;    <span class="keywordtype">int</span> objectNumber;</div>
 <div class="line"><a name="l00038"></a><span class="lineno">   38</span>&#160; </div>
 <div class="line"><a name="l00039"></a><span class="lineno">   39</span>&#160;    <span class="keyword">public</span>:</div>
 <div class="line"><a name="l00040"></a><span class="lineno">   40</span>&#160; </div>
@@ -119,11 +119,14 @@ $(document).ready(function(){initNavTree('scene__object_8hh_source.html',''); in
 <div class="line"><a name="l00092"></a><span class="lineno">   92</span>&#160; </div>
 <div class="line"><a name="l00100"></a><span class="lineno">  100</span>&#160;        <span class="keyword">virtual</span> <a class="code" href="class_vector.html">Vector3D</a> <a class="code" href="class_scene_object.html#a8bbb2f2c15ec6a1cdc06d9f40a259bb3">Location</a>() <span class="keyword">const</span> = 0;</div>
 <div class="line"><a name="l00101"></a><span class="lineno">  101</span>&#160; </div>
-<div class="line"><a name="l00102"></a><span class="lineno">  102</span>&#160;};</div>
+<div class="line"><a name="l00109"></a><span class="lineno">  109</span>&#160;        <span class="keyword">virtual</span> <span class="keywordtype">bool</span> <a class="code" href="class_scene_object.html#a2e1b05b44fbb77471bb869054e68183d">Collision</a>(std::shared_ptr&lt;SceneObject&gt; ObjectPtr) = 0;</div>
+<div class="line"><a name="l00110"></a><span class="lineno">  110</span>&#160; </div>
+<div class="line"><a name="l00118"></a><span class="lineno">  118</span>&#160;        <span class="keyword">virtual</span> <a class="code" href="class_vector.html">Vector3D</a> <a class="code" href="class_scene_object.html#a0dcf5fc2a3c0923cfcdbed3268c23c45">Get_Scale</a>() = 0;</div>
+<div class="line"><a name="l00119"></a><span class="lineno">  119</span>&#160; </div>
+<div class="line"><a name="l00120"></a><span class="lineno">  120</span>&#160;};</div>
 </div><!-- fragment --></div><!-- contents -->
 </div><!-- doc-content -->
 <div class="ttc" id="aclass_scene_object_html_a0d268d96d77dbeb45b07a6442e2f4d0d"><div class="ttname"><a href="class_scene_object.html#a0d268d96d77dbeb45b07a6442e2f4d0d">SceneObject::SceneObject</a></div><div class="ttdeci">SceneObject()</div><div class="ttdoc">Konstruktor bezparametryczny klasy SceneObject.</div><div class="ttdef"><b>Definition:</b> <a href="scene__object_8cpp_source.html#l00010">scene_object.cpp:10</a></div></div>
-<div class="ttc" id="aclass_scene_object_html_a0a098d608c26c9c0737cbdf2c5fb38dd"><div class="ttname"><a href="class_scene_object.html#a0a098d608c26c9c0737cbdf2c5fb38dd">SceneObject::objectNumber</a></div><div class="ttdeci">int objectNumber</div><div class="ttdoc">Pole typu int przetrzymujace numer obiektu na scenie.</div><div class="ttdef"><b>Definition:</b> <a href="scene__object_8hh_source.html#l00037">scene_object.hh:37</a></div></div>
 <div class="ttc" id="aclass_scene_object_html_a83761e486fe39b6634f31e862fd3b66f"><div class="ttname"><a href="class_scene_object.html#a83761e486fe39b6634f31e862fd3b66f">SceneObject::GetNumber</a></div><div class="ttdeci">int GetNumber() const</div><div class="ttdoc">Metoda zwracajaca numer obiektu na liscie.</div><div class="ttdef"><b>Definition:</b> <a href="scene__object_8cpp_source.html#l00022">scene_object.cpp:22</a></div></div>
 <div class="ttc" id="aclass_scene_object_html"><div class="ttname"><a href="class_scene_object.html">SceneObject</a></div><div class="ttdoc">Definicja klasy SceneObject reprezentujaca obiekt na scenie.</div><div class="ttdef"><b>Definition:</b> <a href="scene__object_8hh_source.html#l00023">scene_object.hh:23</a></div></div>
 <div class="ttc" id="avector3_d_8hh_html"><div class="ttname"><a href="vector3_d_8hh.html">vector3D.hh</a></div><div class="ttdoc">Plik zawierający definicję klasy Vector3D.</div></div>
@@ -132,7 +135,8 @@ $(document).ready(function(){initNavTree('scene__object_8hh_source.html',''); in
 <div class="ttc" id="aclass_scene_object_html_ab258d6b94e982d5ae71ad4d7652381f4"><div class="ttname"><a href="class_scene_object.html#ab258d6b94e982d5ae71ad4d7652381f4">SceneObject::~SceneObject</a></div><div class="ttdeci">virtual ~SceneObject()</div><div class="ttdoc">Destruktor wirtualny klasy SceneObject.</div><div class="ttdef"><b>Definition:</b> <a href="scene__object_8cpp_source.html#l00034">scene_object.cpp:34</a></div></div>
 <div class="ttc" id="aclass_vector_html"><div class="ttname"><a href="class_vector.html">Vector&lt; 3 &gt;</a></div></div>
 <div class="ttc" id="aclass_scene_object_html_a85a0e1801879b1adc8eb91ae841fd5fc"><div class="ttname"><a href="class_scene_object.html#a85a0e1801879b1adc8eb91ae841fd5fc">SceneObject::GetType</a></div><div class="ttdeci">std::string GetType() const</div><div class="ttdoc">Metoda zwracajaca typ obiektu.</div><div class="ttdef"><b>Definition:</b> <a href="scene__object_8cpp_source.html#l00028">scene_object.cpp:28</a></div></div>
-<div class="ttc" id="aclass_scene_object_html_a822b304132a1952ab328c14b3dea6fa1"><div class="ttname"><a href="class_scene_object.html#a822b304132a1952ab328c14b3dea6fa1">SceneObject::objectType</a></div><div class="ttdeci">std::string objectType</div><div class="ttdoc">Pole typu std::string przetrzymujace typ obiektu.</div><div class="ttdef"><b>Definition:</b> <a href="scene__object_8hh_source.html#l00030">scene_object.hh:30</a></div></div>
+<div class="ttc" id="aclass_scene_object_html_a0dcf5fc2a3c0923cfcdbed3268c23c45"><div class="ttname"><a href="class_scene_object.html#a0dcf5fc2a3c0923cfcdbed3268c23c45">SceneObject::Get_Scale</a></div><div class="ttdeci">virtual Vector3D Get_Scale()=0</div><div class="ttdoc">Metoda wirtualna zwracajaca skale obiektu sceny.</div></div>
+<div class="ttc" id="aclass_scene_object_html_a2e1b05b44fbb77471bb869054e68183d"><div class="ttname"><a href="class_scene_object.html#a2e1b05b44fbb77471bb869054e68183d">SceneObject::Collision</a></div><div class="ttdeci">virtual bool Collision(std::shared_ptr&lt; SceneObject &gt; ObjectPtr)=0</div><div class="ttdoc">Metoda sprawdzajaca kolizje obiektu sceny.</div></div>
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>

@@ -32,7 +32,7 @@ DOXYFILE_ENCODING      = UTF-8
 # title of most generated pages and in a few other places.
 # The default value is: My Project.
 
-PROJECT_NAME           = "Dron 5.1"
+PROJECT_NAME           = Dron5.3
 
 # The PROJECT_NUMBER tag can be used to enter a project or revision number. This
 # could be handy for archiving the generated documentation or if some version
@@ -58,7 +58,7 @@ PROJECT_LOGO           =
 # entered, it will be relative to the location where doxygen was started. If
 # left blank the current directory will be used.
 
-OUTPUT_DIRECTORY       = /home/antek/Documents/PO/zad5/zad5_1-AntoniJeziorski/dox
+OUTPUT_DIRECTORY       = /home/antek/Documents/PO/zad5/zad5_3-AntoniJeziorski/dox
 
 # If the CREATE_SUBDIRS tag is set to YES then doxygen will create 4096 sub-
 # directories (in 2 levels) under the output directory of each output format and
@@ -467,13 +467,13 @@ LOOKUP_CACHE_SIZE      = 0
 # normally produced when WARNINGS is set to YES.
 # The default value is: NO.
 
-EXTRACT_ALL            = YES
+EXTRACT_ALL            = NO
 
 # If the EXTRACT_PRIVATE tag is set to YES, all private members of a class will
 # be included in the documentation.
 # The default value is: NO.
 
-EXTRACT_PRIVATE        = YES
+EXTRACT_PRIVATE        = NO
 
 # If the EXTRACT_PRIV_VIRTUAL tag is set to YES, documented private virtual
 # methods of a class will be included in the documentation.
@@ -762,7 +762,7 @@ CITE_BIB_FILES         =
 # messages are off.
 # The default value is: NO.
 
-QUIET                  = YES
+QUIET                  = NO
 
 # The WARNINGS tag can be used to turn on/off the warning messages that are
 # generated to standard error (stderr) by doxygen. If WARNINGS is set to YES
@@ -795,7 +795,7 @@ WARN_IF_DOC_ERROR      = YES
 # EXTRACT_ALL is set to YES then this flag will automatically be disabled.
 # The default value is: NO.
 
-WARN_NO_PARAMDOC       = YES
+WARN_NO_PARAMDOC       = NO
 
 # If the WARN_AS_ERROR tag is set to YES then doxygen will immediately stop when
 # a warning is encountered.
@@ -829,8 +829,7 @@ WARN_LOGFILE           =
 # spaces. See also FILE_PATTERNS and EXTENSION_MAPPING
 # Note: If this tag is empty the current directory is searched.
 
-INPUT                  = /home/antek/Documents/PO/zad5/zad5_1-AntoniJeziorski \
-                         /home/antek/Documents/PO/zad5/zad5_1-AntoniJeziorski/homepage.dox
+INPUT                  = /home/antek/Documents/PO/zad5/zad5_3-AntoniJeziorski
 
 # This tag can be used to specify the character encoding of the source files
 # that doxygen parses. Internally doxygen uses the UTF-8 encoding. Doxygen uses
@@ -918,16 +917,16 @@ RECURSIVE              = YES
 # Note that relative paths are relative to the directory from which doxygen is
 # run.
 
-EXCLUDE                = /home/antek/Documents/PO/zad5/zad5_1-AntoniJeziorski/build \
-                         /home/antek/Documents/PO/zad5/zad5_1-AntoniJeziorski/cmake \
-                         /home/antek/Documents/PO/zad5/zad5_1-AntoniJeziorski/datasets \
-                         /home/antek/Documents/PO/zad5/zad5_1-AntoniJeziorski/dox \
-                         /home/antek/Documents/PO/zad5/zad5_1-AntoniJeziorski/tests \
-                         /home/antek/Documents/PO/zad5/zad5_1-AntoniJeziorski/appveyor.yml \
-                         /home/antek/Documents/PO/zad5/zad5_1-AntoniJeziorski/CMakeLists.txt \
-                         /home/antek/Documents/PO/zad5/zad5_1-AntoniJeziorski/README.md \
-                         /home/antek/Documents/PO/zad5/zad5_1-AntoniJeziorski/LICENSE \
-                         /home/antek/Documents/PO/zad5/zad5_1-AntoniJeziorski/Doxyfile.in
+EXCLUDE                = /home/antek/Documents/PO/zad5/zad5_3-AntoniJeziorski/appveyor.yml \
+                         /home/antek/Documents/PO/zad5/zad5_3-AntoniJeziorski/CMakeLists.txt \
+                         /home/antek/Documents/PO/zad5/zad5_3-AntoniJeziorski/Doxyfile.in \
+                         /home/antek/Documents/PO/zad5/zad5_3-AntoniJeziorski/LICENSE \
+                         /home/antek/Documents/PO/zad5/zad5_3-AntoniJeziorski/README.md \
+                         /home/antek/Documents/PO/zad5/zad5_3-AntoniJeziorski/build \
+                         /home/antek/Documents/PO/zad5/zad5_3-AntoniJeziorski/cmake \
+                         /home/antek/Documents/PO/zad5/zad5_3-AntoniJeziorski/datasets \
+                         /home/antek/Documents/PO/zad5/zad5_3-AntoniJeziorski/dox \
+                         /home/antek/Documents/PO/zad5/zad5_3-AntoniJeziorski/tests
 
 # The EXCLUDE_SYMLINKS tag can be used to select whether or not files or
 # directories that are symbolic links (a Unix file system feature) are excluded
@@ -980,7 +979,7 @@ EXAMPLE_RECURSIVE      = NO
 # that contain images that are to be included in the documentation (see the
 # \image command).
 
-IMAGE_PATH             = /home/antek/Documents/PO/zad5/zad5_1-AntoniJeziorski/UML.png
+IMAGE_PATH             = /home/antek/Documents/PO/zad5/zad5_3-AntoniJeziorski/UML5.3.png
 
 # The INPUT_FILTER tag can be used to specify a program that doxygen should
 # invoke to filter for each input file. Doxygen will invoke the filter program
@@ -1553,7 +1552,7 @@ DISABLE_INDEX          = NO
 # The default value is: NO.
 # This tag requires that the tag GENERATE_HTML is set to YES.
 
-GENERATE_TREEVIEW      = NO
+GENERATE_TREEVIEW      = YES
 
 # The ENUM_VALUES_PER_LINE tag can be used to set the number of enum values that
 # doxygen will group on one line in the generated HTML documentation.
@@ -2426,7 +2425,7 @@ INCLUDED_BY_GRAPH      = YES
 # The default value is: NO.
 # This tag requires that the tag HAVE_DOT is set to YES.
 
-CALL_GRAPH             = YES
+CALL_GRAPH             = NO
 
 # If the CALLER_GRAPH tag is set to YES then doxygen will generate a caller
 # dependency graph for every global function or class method.
@@ -2438,7 +2437,7 @@ CALL_GRAPH             = YES
 # The default value is: NO.
 # This tag requires that the tag HAVE_DOT is set to YES.
 
-CALLER_GRAPH           = YES
+CALLER_GRAPH           = NO
 
 # If the GRAPHICAL_HIERARCHY tag is set to YES then doxygen will graphical
 # hierarchy of all classes instead of a textual one.

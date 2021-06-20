@@ -6,6 +6,7 @@ var dir_bfccd401955b95cf8c75461437045ac0 =
     [ "drone.hh", "drone_8hh.html", [
       [ "Drone", "class_drone.html", "class_drone" ]
     ] ],
+    [ "example.h", "example_8h_source.html", null ],
     [ "hexagonal_prism.hh", "hexagonal__prism_8hh.html", [
       [ "HexPrism", "class_hex_prism.html", "class_hex_prism" ]
     ] ],

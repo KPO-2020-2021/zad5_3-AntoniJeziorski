@@ -5,7 +5,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=9"/>
 <meta name="generator" content="Doxygen 1.8.17"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>Dron 5.2: Dokumentacja klasy Scene</title>
+<title>Dron5.3: Dokumentacja klasy Scene</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
@@ -25,7 +25,7 @@
  <tbody>
  <tr style="height: 56px;">
   <td id="projectalign" style="padding-left: 0.5em;">
-   <div id="projectname">Dron 5.2
+   <div id="projectname">Dron5.3
    &#160;<span id="projectnumber">1.1</span>
    </div>
    <div id="projectbrief">Antoni Jeziorski 259254</div>
@@ -85,7 +85,6 @@ $(document).ready(function(){initNavTree('class_scene.html',''); initResizable()
 <div class="header">
   <div class="summary">
 <a href="#pub-methods">Metody publiczne</a> &#124;
-<a href="#pri-attribs">Atrybuty prywatne</a> &#124;
 <a href="class_scene-members.html">Lista wszystkich składowych</a>  </div>
   <div class="headertitle">
 <div class="title">Dokumentacja klasy Scene</div>  </div>
@@ -96,24 +95,16 @@ $(document).ready(function(){initNavTree('class_scene.html',''); initResizable()
  <a href="class_scene.html#details">Więcej...</a></p>
 
 <p><code>#include &lt;<a class="el" href="scene_8hh_source.html">scene.hh</a>&gt;</code></p>
-<div class="dynheader">
-Diagram współpracy dla Scene:</div>
-<div class="dyncontent">
-<div class="center"><img src="class_scene__coll__graph.png" border="0" usemap="#_scene_coll__map" alt="Collaboration graph"/></div>
-<map name="_scene_coll__map" id="_scene_coll__map">
-<area shape="rect" title="Definicja klasy Scene reprezentujacej scene z dronami i przeszkodami." alt="" coords="61,95,123,121"/>
-<area shape="rect" href="class_pz_g_1_1_lacze_do_g_n_u_plota.html" title="Klasa realizuje interfejs do programu GNUPlot." alt="" coords="5,5,179,32"/>
-</map>
-<center><span class="legend">[<a target="top" href="graph_legend.html">legenda</a>]</span></center></div>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
 Metody publiczne</h2></td></tr>
 <tr class="memitem:ab8cbe110bd847a3fcb4b8fd8a06bbbc3"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_scene.html#ab8cbe110bd847a3fcb4b8fd8a06bbbc3">Scene</a> (<a class="el" href="class_pz_g_1_1_lacze_do_g_n_u_plota.html">PzG::LaczeDoGNUPlota</a> *L)</td></tr>
 <tr class="memdesc:ab8cbe110bd847a3fcb4b8fd8a06bbbc3"><td class="mdescLeft">&#160;</td><td class="mdescRight">Konstruktor parametryczny klasy scena.  <a href="class_scene.html#ab8cbe110bd847a3fcb4b8fd8a06bbbc3">Więcej...</a><br /></td></tr>
 <tr class="separator:ab8cbe110bd847a3fcb4b8fd8a06bbbc3"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a3b8cec2e32546713915f8c6303c951f1"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_scene.html#a3b8cec2e32546713915f8c6303c951f1">~Scene</a> ()</td></tr>
+<tr class="memitem:a3b8cec2e32546713915f8c6303c951f1"><td class="memItemLeft" align="right" valign="top"><a id="a3b8cec2e32546713915f8c6303c951f1"></a>
+&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_scene.html#a3b8cec2e32546713915f8c6303c951f1">~Scene</a> ()</td></tr>
 <tr class="memdesc:a3b8cec2e32546713915f8c6303c951f1"><td class="mdescLeft">&#160;</td><td class="mdescRight">Destruktor klasy scena<br  />
- Po zakonczeniu pracy programu usuwa pliki zawierajace wspolrzedne przeszkod.  <a href="class_scene.html#a3b8cec2e32546713915f8c6303c951f1">Więcej...</a><br /></td></tr>
+ Po zakonczeniu pracy programu usuwa pliki zawierajace wspolrzedne przeszkod. <br /></td></tr>
 <tr class="separator:a3b8cec2e32546713915f8c6303c951f1"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ad9775b551e87d0a0f729bdb1e4974bd4"><td class="memItemLeft" align="right" valign="top">std::shared_ptr&lt; <a class="el" href="class_drone.html">Drone</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_scene.html#ad9775b551e87d0a0f729bdb1e4974bd4">UseDrone</a> (int droneNumber)</td></tr>
 <tr class="memdesc:ad9775b551e87d0a0f729bdb1e4974bd4"><td class="mdescLeft">&#160;</td><td class="mdescRight">Metoda zwracajaca wskaznik na drona, ktorego chcemy uzyc.  <a href="class_scene.html#ad9775b551e87d0a0f729bdb1e4974bd4">Więcej...</a><br /></td></tr>
@@ -124,30 +115,13 @@ Metody publiczne</h2></td></tr>
 <tr class="memitem:ab17c11c297273c18421b018b13c84787"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_scene.html#ab17c11c297273c18421b018b13c84787">DeleteObstacle</a> (int number)</td></tr>
 <tr class="memdesc:ab17c11c297273c18421b018b13c84787"><td class="mdescLeft">&#160;</td><td class="mdescRight">Metoda sluzaca do usuwania przeszkod ze sceny.  <a href="class_scene.html#ab17c11c297273c18421b018b13c84787">Więcej...</a><br /></td></tr>
 <tr class="separator:ab17c11c297273c18421b018b13c84787"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:abcb47c5169e5900b00295dbd15a3a1e9"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_scene.html#abcb47c5169e5900b00295dbd15a3a1e9">PrintObstacles</a> () const</td></tr>
-<tr class="memdesc:abcb47c5169e5900b00295dbd15a3a1e9"><td class="mdescLeft">&#160;</td><td class="mdescRight">Metoda sluzaca do wypisywania przeszkod na scenie.  <a href="class_scene.html#abcb47c5169e5900b00295dbd15a3a1e9">Więcej...</a><br /></td></tr>
+<tr class="memitem:abcb47c5169e5900b00295dbd15a3a1e9"><td class="memItemLeft" align="right" valign="top"><a id="abcb47c5169e5900b00295dbd15a3a1e9"></a>
+void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_scene.html#abcb47c5169e5900b00295dbd15a3a1e9">PrintObstacles</a> () const</td></tr>
+<tr class="memdesc:abcb47c5169e5900b00295dbd15a3a1e9"><td class="mdescLeft">&#160;</td><td class="mdescRight">Metoda sluzaca do wypisywania przeszkod na scenie. <br /></td></tr>
 <tr class="separator:abcb47c5169e5900b00295dbd15a3a1e9"><td class="memSeparator" colspan="2">&#160;</td></tr>
-</table><table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pri-attribs"></a>
-Atrybuty prywatne</h2></td></tr>
-<tr class="memitem:a7417c5023147fc7e027f6ade63f02549"><td class="memItemLeft" align="right" valign="top">std::list&lt; std::shared_ptr&lt; <a class="el" href="class_drone.html">Drone</a> &gt; &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_scene.html#a7417c5023147fc7e027f6ade63f02549">listOfDrones</a></td></tr>
-<tr class="memdesc:a7417c5023147fc7e027f6ade63f02549"><td class="mdescLeft">&#160;</td><td class="mdescRight">Pole typu std::list bedace lista wskaznikow na drony znajdujace sie na scenie.  <a href="class_scene.html#a7417c5023147fc7e027f6ade63f02549">Więcej...</a><br /></td></tr>
-<tr class="separator:a7417c5023147fc7e027f6ade63f02549"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a7346cb442785e9954d699403ae8c5140"><td class="memItemLeft" align="right" valign="top">std::list&lt; std::shared_ptr&lt; <a class="el" href="class_scene_object.html">SceneObject</a> &gt; &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_scene.html#a7346cb442785e9954d699403ae8c5140">listOfObjects</a></td></tr>
-<tr class="memdesc:a7346cb442785e9954d699403ae8c5140"><td class="mdescLeft">&#160;</td><td class="mdescRight">Pole typu std::list bedace lista wskaznikow na wszystkie obiekty znajdujace sie na scenie.  <a href="class_scene.html#a7346cb442785e9954d699403ae8c5140">Więcej...</a><br /></td></tr>
-<tr class="separator:a7346cb442785e9954d699403ae8c5140"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:adc73452a42141f0cd951ea3785b388fc"><td class="memItemLeft" align="right" valign="top">std::list&lt; std::shared_ptr&lt; <a class="el" href="class_scene_object.html">SceneObject</a> &gt; &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_scene.html#adc73452a42141f0cd951ea3785b388fc">listOfObstacles</a></td></tr>
-<tr class="memdesc:adc73452a42141f0cd951ea3785b388fc"><td class="mdescLeft">&#160;</td><td class="mdescRight">Pole typu std::list bedace lista wskaznikow na przeszkody znajdujace sie na scenie.  <a href="class_scene.html#adc73452a42141f0cd951ea3785b388fc">Więcej...</a><br /></td></tr>
-<tr class="separator:adc73452a42141f0cd951ea3785b388fc"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aa6a22289add1439dcff173ec515e3e67"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_pz_g_1_1_lacze_do_g_n_u_plota.html">PzG::LaczeDoGNUPlota</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_scene.html#aa6a22289add1439dcff173ec515e3e67">Link</a></td></tr>
-<tr class="memdesc:aa6a22289add1439dcff173ec515e3e67"><td class="mdescLeft">&#160;</td><td class="mdescRight">Pole typu *PzG::LaczeDOGNUPlota bedace wskanzikiem na lacze.  <a href="class_scene.html#aa6a22289add1439dcff173ec515e3e67">Więcej...</a><br /></td></tr>
-<tr class="separator:aa6a22289add1439dcff173ec515e3e67"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aacd0010f89c86c1b1e91cbf02c8e521e"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_scene.html#aacd0010f89c86c1b1e91cbf02c8e521e">numberOfDrones</a></td></tr>
-<tr class="memdesc:aacd0010f89c86c1b1e91cbf02c8e521e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Pole typu int przetrzymujace ilosc dronow na scenie.  <a href="class_scene.html#aacd0010f89c86c1b1e91cbf02c8e521e">Więcej...</a><br /></td></tr>
-<tr class="separator:aacd0010f89c86c1b1e91cbf02c8e521e"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a4daac0e971133c095ab532f22faedef4"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_scene.html#a4daac0e971133c095ab532f22faedef4">numberOfObstacles</a></td></tr>
-<tr class="memdesc:a4daac0e971133c095ab532f22faedef4"><td class="mdescLeft">&#160;</td><td class="mdescRight">Pole typu int przetrzymujace ilosc przeszkod na scenie.  <a href="class_scene.html#a4daac0e971133c095ab532f22faedef4">Więcej...</a><br /></td></tr>
-<tr class="separator:a4daac0e971133c095ab532f22faedef4"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a49242c5066ce98f3d363be389f3ef4c9"><td class="memItemLeft" align="right" valign="top"><a id="a49242c5066ce98f3d363be389f3ef4c9"></a>
+bool&#160;</td><td class="memItemRight" valign="bottom"><b>CheckCollision</b> (int droneNumber)</td></tr>
+<tr class="separator:a49242c5066ce98f3d363be389f3ef4c9"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Opis szczegółowy</h2>
 <div class="textblock"><p>Definicja klasy <a class="el" href="class_scene.html" title="Definicja klasy Scene reprezentujacej scene z dronami i przeszkodami.">Scene</a> reprezentujacej scene z dronami i przeszkodami. </p>
@@ -179,28 +153,6 @@ Atrybuty prywatne</h2></td></tr>
 </dl>
 
 <p class="definition">Definicja w linii <a class="el" href="scene_8cpp_source.html#l00009">9</a> pliku <a class="el" href="scene_8cpp_source.html">scene.cpp</a>.</p>
-
-</div>
-</div>
-<a id="a3b8cec2e32546713915f8c6303c951f1"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a3b8cec2e32546713915f8c6303c951f1">&#9670;&nbsp;</a></span>~Scene()</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">Scene::~Scene </td>
-          <td>(</td>
-          <td class="paramname"></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>Destruktor klasy scena<br  />
- Po zakonczeniu pracy programu usuwa pliki zawierajace wspolrzedne przeszkod. </p>
-
-<p class="definition">Definicja w linii <a class="el" href="scene_8cpp_source.html#l00028">28</a> pliku <a class="el" href="scene_8cpp_source.html">scene.cpp</a>.</p>
 
 </div>
 </div>
@@ -248,15 +200,6 @@ Atrybuty prywatne</h2></td></tr>
 </dl>
 
 <p class="definition">Definicja w linii <a class="el" href="scene_8cpp_source.html#l00052">52</a> pliku <a class="el" href="scene_8cpp_source.html">scene.cpp</a>.</p>
-<div class="dynheader">
-Oto graf wywoływań tej funkcji:</div>
-<div class="dyncontent">
-<div class="center"><img src="class_scene_a7f24c9f7c2426272f12e53ae0c90ccb0_icgraph.png" border="0" usemap="#class_scene_a7f24c9f7c2426272f12e53ae0c90ccb0_icgraph" alt=""/></div>
-<map name="class_scene_a7f24c9f7c2426272f12e53ae0c90ccb0_icgraph" id="class_scene_a7f24c9f7c2426272f12e53ae0c90ccb0_icgraph">
-<area shape="rect" title="Metoda sluzaca do dodawania przeszkody na scene o zadanej wielkosci w danym miejscu." alt="" coords="108,5,259,32"/>
-<area shape="rect" href="main_8cpp.html#ae66f6b31b5ad750f1fe042a706a4e3d4" title=" " alt="" coords="5,5,60,32"/>
-</map>
-</div>
 
 </div>
 </div>
@@ -285,45 +228,6 @@ Oto graf wywoływań tej funkcji:</div>
 </dl>
 
 <p class="definition">Definicja w linii <a class="el" href="scene_8cpp_source.html#l00098">98</a> pliku <a class="el" href="scene_8cpp_source.html">scene.cpp</a>.</p>
-<div class="dynheader">
-Oto graf wywoływań tej funkcji:</div>
-<div class="dyncontent">
-<div class="center"><img src="class_scene_ab17c11c297273c18421b018b13c84787_icgraph.png" border="0" usemap="#class_scene_ab17c11c297273c18421b018b13c84787_icgraph" alt=""/></div>
-<map name="class_scene_ab17c11c297273c18421b018b13c84787_icgraph" id="class_scene_ab17c11c297273c18421b018b13c84787_icgraph">
-<area shape="rect" title="Metoda sluzaca do usuwania przeszkod ze sceny." alt="" coords="108,5,277,32"/>
-<area shape="rect" href="main_8cpp.html#ae66f6b31b5ad750f1fe042a706a4e3d4" title=" " alt="" coords="5,5,60,32"/>
-</map>
-</div>
-
-</div>
-</div>
-<a id="abcb47c5169e5900b00295dbd15a3a1e9"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#abcb47c5169e5900b00295dbd15a3a1e9">&#9670;&nbsp;</a></span>PrintObstacles()</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">void Scene::PrintObstacles </td>
-          <td>(</td>
-          <td class="paramname"></td><td>)</td>
-          <td> const</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>Metoda sluzaca do wypisywania przeszkod na scenie. </p>
-
-<p class="definition">Definicja w linii <a class="el" href="scene_8cpp_source.html#l00088">88</a> pliku <a class="el" href="scene_8cpp_source.html">scene.cpp</a>.</p>
-<div class="dynheader">
-Oto graf wywoływań tej funkcji:</div>
-<div class="dyncontent">
-<div class="center"><img src="class_scene_abcb47c5169e5900b00295dbd15a3a1e9_icgraph.png" border="0" usemap="#class_scene_abcb47c5169e5900b00295dbd15a3a1e9_icgraph" alt=""/></div>
-<map name="class_scene_abcb47c5169e5900b00295dbd15a3a1e9_icgraph" id="class_scene_abcb47c5169e5900b00295dbd15a3a1e9_icgraph">
-<area shape="rect" title="Metoda sluzaca do wypisywania przeszkod na scenie." alt="" coords="108,5,271,32"/>
-<area shape="rect" href="main_8cpp.html#ae66f6b31b5ad750f1fe042a706a4e3d4" title=" " alt="" coords="5,5,60,32"/>
-</map>
-</div>
 
 </div>
 </div>
@@ -353,178 +257,12 @@ Oto graf wywoływań tej funkcji:</div>
 <dl class="section return"><dt>Zwraca</dt><dd>Wskaznik na drona o zadanym numerze </dd></dl>
 
 <p class="definition">Definicja w linii <a class="el" href="scene_8cpp_source.html#l00038">38</a> pliku <a class="el" href="scene_8cpp_source.html">scene.cpp</a>.</p>
-<div class="dynheader">
-Oto graf wywoływań tej funkcji:</div>
-<div class="dyncontent">
-<div class="center"><img src="class_scene_ad9775b551e87d0a0f729bdb1e4974bd4_icgraph.png" border="0" usemap="#class_scene_ad9775b551e87d0a0f729bdb1e4974bd4_icgraph" alt=""/></div>
-<map name="class_scene_ad9775b551e87d0a0f729bdb1e4974bd4_icgraph" id="class_scene_ad9775b551e87d0a0f729bdb1e4974bd4_icgraph">
-<area shape="rect" title="Metoda zwracajaca wskaznik na drona, ktorego chcemy uzyc." alt="" coords="108,5,241,32"/>
-<area shape="rect" href="main_8cpp.html#ae66f6b31b5ad750f1fe042a706a4e3d4" title=" " alt="" coords="5,5,60,32"/>
-</map>
-</div>
-
-</div>
-</div>
-<h2 class="groupheader">Dokumentacja atrybutów składowych</h2>
-<a id="aa6a22289add1439dcff173ec515e3e67"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aa6a22289add1439dcff173ec515e3e67">&#9670;&nbsp;</a></span>Link</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="class_pz_g_1_1_lacze_do_g_n_u_plota.html">PzG::LaczeDoGNUPlota</a>* Scene::Link</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">private</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p>Pole typu *PzG::LaczeDOGNUPlota bedace wskanzikiem na lacze. </p>
-
-<p class="definition">Definicja w linii <a class="el" href="scene_8hh_source.html#l00047">47</a> pliku <a class="el" href="scene_8hh_source.html">scene.hh</a>.</p>
-
-</div>
-</div>
-<a id="a7417c5023147fc7e027f6ade63f02549"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a7417c5023147fc7e027f6ade63f02549">&#9670;&nbsp;</a></span>listOfDrones</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">std::list&lt;std::shared_ptr&lt;<a class="el" href="class_drone.html">Drone</a>&gt; &gt; Scene::listOfDrones</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">private</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p>Pole typu std::list bedace lista wskaznikow na drony znajdujace sie na scenie. </p>
-
-<p class="definition">Definicja w linii <a class="el" href="scene_8hh_source.html#l00026">26</a> pliku <a class="el" href="scene_8hh_source.html">scene.hh</a>.</p>
-
-</div>
-</div>
-<a id="a7346cb442785e9954d699403ae8c5140"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a7346cb442785e9954d699403ae8c5140">&#9670;&nbsp;</a></span>listOfObjects</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">std::list&lt;std::shared_ptr&lt;<a class="el" href="class_scene_object.html">SceneObject</a>&gt; &gt; Scene::listOfObjects</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">private</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p>Pole typu std::list bedace lista wskaznikow na wszystkie obiekty znajdujace sie na scenie. </p>
-
-<p class="definition">Definicja w linii <a class="el" href="scene_8hh_source.html#l00033">33</a> pliku <a class="el" href="scene_8hh_source.html">scene.hh</a>.</p>
-
-</div>
-</div>
-<a id="adc73452a42141f0cd951ea3785b388fc"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#adc73452a42141f0cd951ea3785b388fc">&#9670;&nbsp;</a></span>listOfObstacles</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">std::list&lt;std::shared_ptr&lt;<a class="el" href="class_scene_object.html">SceneObject</a>&gt; &gt; Scene::listOfObstacles</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">private</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p>Pole typu std::list bedace lista wskaznikow na przeszkody znajdujace sie na scenie. </p>
-
-<p class="definition">Definicja w linii <a class="el" href="scene_8hh_source.html#l00040">40</a> pliku <a class="el" href="scene_8hh_source.html">scene.hh</a>.</p>
-
-</div>
-</div>
-<a id="aacd0010f89c86c1b1e91cbf02c8e521e"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aacd0010f89c86c1b1e91cbf02c8e521e">&#9670;&nbsp;</a></span>numberOfDrones</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">int Scene::numberOfDrones</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">private</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p>Pole typu int przetrzymujace ilosc dronow na scenie. </p>
-
-<p class="definition">Definicja w linii <a class="el" href="scene_8hh_source.html#l00054">54</a> pliku <a class="el" href="scene_8hh_source.html">scene.hh</a>.</p>
-
-</div>
-</div>
-<a id="a4daac0e971133c095ab532f22faedef4"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a4daac0e971133c095ab532f22faedef4">&#9670;&nbsp;</a></span>numberOfObstacles</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">int Scene::numberOfObstacles</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">private</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p>Pole typu int przetrzymujace ilosc przeszkod na scenie. </p>
-
-<p class="definition">Definicja w linii <a class="el" href="scene_8hh_source.html#l00061">61</a> pliku <a class="el" href="scene_8hh_source.html">scene.hh</a>.</p>
 
 </div>
 </div>
 <hr/>Dokumentacja dla tej klasy została wygenerowana z plików:<ul>
-<li>/home/antek/Documents/PO/zad5/zad5_2-AntoniJeziorski/inc/<a class="el" href="scene_8hh_source.html">scene.hh</a></li>
-<li>/home/antek/Documents/PO/zad5/zad5_2-AntoniJeziorski/src/<a class="el" href="scene_8cpp_source.html">scene.cpp</a></li>
+<li>/home/antek/Documents/PO/zad5/zad5_3-AntoniJeziorski/inc/<a class="el" href="scene_8hh_source.html">scene.hh</a></li>
+<li>/home/antek/Documents/PO/zad5/zad5_3-AntoniJeziorski/src/<a class="el" href="scene_8cpp_source.html">scene.cpp</a></li>
 </ul>
 </div><!-- contents -->
 </div><!-- doc-content -->
