@@ -117,6 +117,8 @@ class Scene {
 
         void PrintObstacles() const;
 
+        bool CheckCollision(int droneNumber);
+
 };
 
 

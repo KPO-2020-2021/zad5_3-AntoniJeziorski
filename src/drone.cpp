@@ -209,7 +209,11 @@ void Drone::PlanPath(double angle, double distance) {
 
     FileStream << BodyCenter << std::endl;
 
-    BodyCenter[2] += 80;
+    if(BodyCenter[2] <= 80) {
+
+        BodyCenter[2] += 80;
+        
+    }
 
     FileStream << BodyCenter << std::endl;
 
@@ -287,20 +291,40 @@ Vector3D Drone::Location() const {
 
 double Drone::Radius() {
 
-    Vector3D tmp = location;
-    tmp[2] = 0;
-
-    double r = sqrt(pow((body(0)[0] - tmp[0]),2)+pow((body(0)[1] - tmp[1]),2)+pow((body(0)[2] - tmp[2]),2)) + sqrt(1 + sqrt(2)*sqrt(pow(rotor[0][0][0] - rotor[0][3][0],2) + pow(rotor[0][0][1] - rotor[0][3][1],2) + pow(rotor[0][0][2] - rotor[0][3][2],2)) / 2);
+    double r = sqrt(pow((body(0)[0] - location[0]),2) + pow((body(0)[1] - location[1]),2)) + rotor[0].GetScale()[0] / 2;
 
     return r;
 
 }
 
-/* bool Drone::Collision(std::shared_ptr<SceneObject> ObjectPtr) const {
+bool Drone::Collision(std::shared_ptr<SceneObject> ObjectPtr) {
 
     if(ObjectPtr.get() == this) {
+
         return false;
+
+    }
+    if(ObjectPtr->GetType() != "dron") {
+
+        if((location[0] >= ObjectPtr->Location()[0] - ObjectPtr->Get_Scale()[0]/2 - Radius()) && (location[0] <= ObjectPtr->Location()[0] + ObjectPtr->Get_Scale()[0]/2 + Radius())) {
+            
+            if((location[1] >= ObjectPtr->Location()[1] - ObjectPtr->Get_Scale()[1]/2 - Radius()) && (location[1] <= ObjectPtr->Location()[1] + ObjectPtr->Get_Scale()[1]/2 + Radius())) {
+
+                std::cout << "Kolizja z " << ObjectPtr->GetType() << " (" << ObjectPtr->Location() << ")" << std::endl << std::endl;
+                return true;
+            
+            }
+
+        }
+
     }
 
+    return false;
 
-}  */
+}  
+
+Vector3D Drone::Get_Scale() {
+
+    return body.GetScale();
+
+}

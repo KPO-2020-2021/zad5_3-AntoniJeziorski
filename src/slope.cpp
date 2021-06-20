@@ -60,3 +60,9 @@ Vector3D Slope::Location() const {
     return GetLocation();
 
 }
+
+Vector3D Slope::Get_Scale() {
+
+    return GetScale();
+
+}

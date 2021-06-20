@@ -123,3 +123,28 @@ void Scene::DeleteObstacle(int number) {
     listOfObjects.erase(objectIterator);
 
 }
+
+bool Scene::CheckCollision(int droneNumber) {
+
+    auto CheckNumber = [droneNumber](std::shared_ptr<Drone> Ptr) -> bool {
+
+		return (Ptr->GetNumber() == droneNumber); 
+
+    };
+    std::list<std::shared_ptr<Drone>>::iterator DroneIterator = std::find_if(listOfDrones.begin(), listOfDrones.end(), CheckNumber);
+    if (DroneIterator == listOfDrones.end()) 
+        std::cout << "Brak drona o danym numerze" << std::endl;
+    
+    for (std::shared_ptr<SceneObject> ObjectPtr : listOfObjects) {
+
+        if((*DroneIterator)->Collision(ObjectPtr)) {
+
+            return true;
+
+        }
+
+    }
+    
+    return false;
+
+}

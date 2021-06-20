@@ -43,6 +43,7 @@ int main() {
     PzG::LaczeDoGNUPlota  Link;  // Ta zmienna jest potrzebna do wizualizacji
                                 // rysunku prostokata
     Scene scene(&Link);
+
    //-------------------------------------------------------
    //  Wspolrzedne wierzcholkow beda zapisywane w pliku "prostokat.dat"
    //  Ponizsze metody powoduja, ze dane z pliku beda wizualizowane
@@ -123,7 +124,7 @@ int main() {
     scene.AddObstacle(2,S1Scale, S1Loc);
     
     Link.Rysuj(); // <- Tutaj gnuplot rysuje, to co zapisaliśmy do pliku
-    std::cout << scene.UseDrone(0)->Radius();
+
     try {
         while(option != 'k') { // Dopoki nie zostanie podane k
 
@@ -186,6 +187,15 @@ int main() {
                     scene.UseDrone(droneNumber-1)->VerticalFlight(tr, Link, droneNumber);
                     std::cout << "Lot..." << std::endl;
                     scene.UseDrone(droneNumber-1)->HorizontalFlight(distance, angle, Link, droneNumber);
+                    while(scene.CheckCollision(droneNumber-1)) {
+
+                        scene.UseDrone(droneNumber-1)->PlanPath(0, 15);
+                        std::cout << "Planuje sciezke..." << std::endl;
+                        usleep(1000000);
+                        Link.Rysuj();
+                        scene.UseDrone(droneNumber-1)->HorizontalFlight(15, 0, Link, droneNumber);
+
+                    }
                     scene.UseDrone(droneNumber-1)->VerticalFlight(tr2, Link, droneNumber);
                     std::cout << "Dron wyladowal..." << std::endl;
 

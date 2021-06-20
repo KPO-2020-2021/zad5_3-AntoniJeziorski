@@ -199,6 +199,8 @@ class Drone : public  SceneObject {
 
         double Radius();
 
-        /* bool Collision(std::shared_ptr<SceneObject> ObjectPtr) const override final;  */
+        bool Collision(std::shared_ptr<SceneObject> ObjectPtr) override final;
+
+        Vector3D Get_Scale() override final;
 
 };

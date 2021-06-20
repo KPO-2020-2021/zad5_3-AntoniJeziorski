@@ -68,3 +68,9 @@ Vector3D Mount::Location() const {
     return GetLocation();
 
 }
+
+Vector3D Mount::Get_Scale() {
+
+    return GetScale();
+
+}

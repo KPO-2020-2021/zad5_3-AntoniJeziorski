@@ -116,4 +116,6 @@ class HexPrism: public Solid {
 
         Vector3D* GetLocalCorners();
 
+        
+
 };

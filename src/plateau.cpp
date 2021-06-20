@@ -57,3 +57,9 @@ Vector3D Plateau::Location() const {
     return GetLocation();
 
 }
+
+Vector3D Plateau::Get_Scale() {
+
+    return GetScale();
+
+}
