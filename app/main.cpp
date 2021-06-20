@@ -190,7 +190,7 @@ int main() {
                     scene.UseDrone(droneNumber-1)->HorizontalFlight(distance, angle, Link, droneNumber);
                     while(scene.CheckCollision(droneNumber-1)) {
                         
-                        scene.UseDrone(droneNumber-1)->PlanPath(0, distance+=15, tmpDroneLocation);
+                        scene.UseDrone(droneNumber-1)->PlanPath(0, distance += 15, tmpDroneLocation);
                         std::cout << "Planuje sciezke..." << std::endl;
                         usleep(1000000);
                         Link.Rysuj();

@@ -310,13 +310,22 @@ bool Drone::Collision(std::shared_ptr<SceneObject> ObjectPtr) {
             
             if((location[1] >= ObjectPtr->Location()[1] - ObjectPtr->Get_Scale()[1]/2 - Radius()) && (location[1] <= ObjectPtr->Location()[1] + ObjectPtr->Get_Scale()[1]/2 + Radius())) {
 
-                std::cout << "Kolizja z " << ObjectPtr->GetType() << " (" << ObjectPtr->Location() << ")" << std::endl << std::endl;
+                std::cout << "Kolizja z " << ObjectPtr->GetType() << " (" << ObjectPtr->Location() << ")" << std::endl;
                 return true;
             
             }
 
         }
 
+    }
+    else {
+
+        if(sqrt(pow(location[0] - ObjectPtr->Location()[0],2) + pow(location[1] - ObjectPtr->Location()[1],2)) <= 2 * Radius()) {
+
+            std::cout << "Kolizja z " << ObjectPtr->GetType() << " (" << ObjectPtr->Location() << ")" << std::endl;
+            return true;
+            
+        }
     }
 
     return false;
