@@ -66,6 +66,13 @@ class Plateau : public SceneObject, public Cuboid {
 
         bool Collision(std::shared_ptr<SceneObject> ObjectPtr) override final{std::cout <<ObjectPtr->GetType(); return false;} 
 
+        /*!
+         *
+         * \brief Metoda zwracajaca skale plaskowyzu
+         * 
+         * \return wektor reprezentujacy skale plaskowyzu
+         */
+
         Vector3D Get_Scale() override final;
 
 };

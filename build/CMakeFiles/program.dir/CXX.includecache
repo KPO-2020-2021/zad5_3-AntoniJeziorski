@@ -56,6 +56,34 @@ cmath
 matrix.hh
 ../inc/matrix.hh
 
+../inc/mount.hh
+fstream
+-
+cuboid.hh
+../inc/cuboid.hh
+scene_object.hh
+../inc/scene_object.hh
+
+../inc/plateau.hh
+fstream
+-
+scene_object.hh
+../inc/scene_object.hh
+cuboid.hh
+../inc/cuboid.hh
+
+../inc/scene.hh
+drone.hh
+../inc/drone.hh
+plateau.hh
+../inc/plateau.hh
+slope.hh
+../inc/slope.hh
+mount.hh
+../inc/mount.hh
+scene_object.hh
+../inc/scene_object.hh
+
 ../inc/scene_object.hh
 iostream
 -
@@ -73,6 +101,14 @@ vector3D.hh
 ../inc/vector3D.hh
 
 ../inc/size.hh
+
+../inc/slope.hh
+fstream
+-
+scene_object.hh
+../inc/scene_object.hh
+cuboid.hh
+../inc/cuboid.hh
 
 ../inc/solid.hh
 vector3D.hh
@@ -99,4 +135,24 @@ vector.hh
 /home/antek/Documents/PO/zad5/zad5_3-AntoniJeziorski/src/drone.cpp
 drone.hh
 /home/antek/Documents/PO/zad5/zad5_3-AntoniJeziorski/src/drone.hh
+
+/home/antek/Documents/PO/zad5/zad5_3-AntoniJeziorski/src/mount.cpp
+mount.hh
+/home/antek/Documents/PO/zad5/zad5_3-AntoniJeziorski/src/mount.hh
+
+/home/antek/Documents/PO/zad5/zad5_3-AntoniJeziorski/src/plateau.cpp
+plateau.hh
+/home/antek/Documents/PO/zad5/zad5_3-AntoniJeziorski/src/plateau.hh
+
+/home/antek/Documents/PO/zad5/zad5_3-AntoniJeziorski/src/scene.cpp
+scene.hh
+/home/antek/Documents/PO/zad5/zad5_3-AntoniJeziorski/src/scene.hh
+
+/home/antek/Documents/PO/zad5/zad5_3-AntoniJeziorski/src/scene_object.cpp
+scene_object.hh
+-
+
+/home/antek/Documents/PO/zad5/zad5_3-AntoniJeziorski/src/slope.cpp
+slope.hh
+/home/antek/Documents/PO/zad5/zad5_3-AntoniJeziorski/src/slope.hh
 

@@ -102,9 +102,18 @@ class SceneObject {
         /*!
          *
          * \brief Metoda sprawdzajaca kolizje obiektu sceny
+         * 
+         * \return true - jesli wykryto kolizje\n false - jesli nie wykryto kolizji
          */
 
         virtual bool Collision(std::shared_ptr<SceneObject> ObjectPtr) = 0;
+
+        /*!
+         *
+         * \brief Metoda wirtualna zwracajaca skale obiektu sceny
+         * 
+         * \return Wektor reprezentujacy skale obiektu sceny
+         */
 
         virtual Vector3D Get_Scale() = 0;
 

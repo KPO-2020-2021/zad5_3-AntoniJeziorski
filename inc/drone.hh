@@ -197,9 +197,33 @@ class Drone : public  SceneObject {
 
         std::string Filename() override final;
 
+        /*!
+         *
+         * 
+         * \brief Metoda obliczajaca promien okregu opisanego na dronie
+         * 
+         * \return Zmienna typu double reprezentujaca promien okregu
+         */
+
         double Radius();
 
+        /*!
+         *
+         * \brief Metoda sprawdzajaca kolizje drona z obiektami na scenie
+         * 
+         * \param ObjectPtr - wskaznik na obiekt sceny
+         * 
+         * \return true - jesli wykryto kolizje\n false - jesli nie wykryto kolizji
+         */
+
         bool Collision(std::shared_ptr<SceneObject> ObjectPtr) override final;
+
+        /*!
+         *
+         * \brief Metoda zwracajaca skale korpusu
+         * 
+         * \return Wektor reprezentujacy skale korpusu
+         */
 
         Vector3D Get_Scale() override final;
 
