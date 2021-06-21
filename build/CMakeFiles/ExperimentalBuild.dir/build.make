@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/antek/Documents/PO/zad5/zad5_3-AntoniJeziorski
+CMAKE_SOURCE_DIR = /home/antek/Videos/zad5_3-AntoniJeziorski
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/antek/Documents/PO/zad5/zad5_3-AntoniJeziorski/build
+CMAKE_BINARY_DIR = /home/antek/Videos/zad5_3-AntoniJeziorski/build
 
 # Utility rule file for ExperimentalBuild.
 
@@ -71,6 +71,6 @@ CMakeFiles/ExperimentalBuild.dir/clean:
 .PHONY : CMakeFiles/ExperimentalBuild.dir/clean
 
 CMakeFiles/ExperimentalBuild.dir/depend:
-	cd /home/antek/Documents/PO/zad5/zad5_3-AntoniJeziorski/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/antek/Documents/PO/zad5/zad5_3-AntoniJeziorski /home/antek/Documents/PO/zad5/zad5_3-AntoniJeziorski /home/antek/Documents/PO/zad5/zad5_3-AntoniJeziorski/build /home/antek/Documents/PO/zad5/zad5_3-AntoniJeziorski/build /home/antek/Documents/PO/zad5/zad5_3-AntoniJeziorski/build/CMakeFiles/ExperimentalBuild.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/antek/Videos/zad5_3-AntoniJeziorski/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/antek/Videos/zad5_3-AntoniJeziorski /home/antek/Videos/zad5_3-AntoniJeziorski /home/antek/Videos/zad5_3-AntoniJeziorski/build /home/antek/Videos/zad5_3-AntoniJeziorski/build /home/antek/Videos/zad5_3-AntoniJeziorski/build/CMakeFiles/ExperimentalBuild.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/ExperimentalBuild.dir/depend
 

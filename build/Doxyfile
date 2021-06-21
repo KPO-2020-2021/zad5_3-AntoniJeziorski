@@ -32,7 +32,7 @@ DOXYFILE_ENCODING      = UTF-8
 # title of most generated pages and in a few other places.
 # The default value is: My Project.
 
-PROJECT_NAME           = "Dron 5.3"
+PROJECT_NAME           = Dron5.3
 
 # The PROJECT_NUMBER tag can be used to enter a project or revision number. This
 # could be handy for archiving the generated documentation or if some version
@@ -762,7 +762,7 @@ CITE_BIB_FILES         =
 # messages are off.
 # The default value is: NO.
 
-QUIET                  = YES
+QUIET                  = NO
 
 # The WARNINGS tag can be used to turn on/off the warning messages that are
 # generated to standard error (stderr) by doxygen. If WARNINGS is set to YES
@@ -795,13 +795,13 @@ WARN_IF_DOC_ERROR      = YES
 # EXTRACT_ALL is set to YES then this flag will automatically be disabled.
 # The default value is: NO.
 
-WARN_NO_PARAMDOC       = YES
+WARN_NO_PARAMDOC       = NO
 
 # If the WARN_AS_ERROR tag is set to YES then doxygen will immediately stop when
 # a warning is encountered.
 # The default value is: NO.
 
-WARN_AS_ERROR          = YES
+WARN_AS_ERROR          = NO
 
 # The WARN_FORMAT tag determines the format of the warning messages that doxygen
 # can produce. The string should contain the $file, $line, and $text tags, which
@@ -917,18 +917,16 @@ RECURSIVE              = YES
 # Note that relative paths are relative to the directory from which doxygen is
 # run.
 
-EXCLUDE                = /home/antek/Documents/PO/zad5/zad5_3-AntoniJeziorski/dox \
-                         /home/antek/Documents/PO/zad5/zad5_3-AntoniJeziorski/tests \
-                         /home/antek/Documents/PO/zad5/zad5_3-AntoniJeziorski/cmake \
-                         /home/antek/Documents/PO/zad5/zad5_3-AntoniJeziorski/build \
-                         /home/antek/Documents/PO/zad5/zad5_3-AntoniJeziorski/datasets \
-                         /home/antek/Documents/PO/zad5/zad5_3-AntoniJeziorski/appveyor.yml \
+EXCLUDE                = /home/antek/Documents/PO/zad5/zad5_3-AntoniJeziorski/appveyor.yml \
                          /home/antek/Documents/PO/zad5/zad5_3-AntoniJeziorski/CMakeLists.txt \
                          /home/antek/Documents/PO/zad5/zad5_3-AntoniJeziorski/Doxyfile.in \
-                         /home/antek/Documents/PO/zad5/zad5_3-AntoniJeziorski/homepage.dox \
                          /home/antek/Documents/PO/zad5/zad5_3-AntoniJeziorski/LICENSE \
                          /home/antek/Documents/PO/zad5/zad5_3-AntoniJeziorski/README.md \
-                         /home/antek/Documents/PO/zad5/zad5_3-AntoniJeziorski/UML.png
+                         /home/antek/Documents/PO/zad5/zad5_3-AntoniJeziorski/build \
+                         /home/antek/Documents/PO/zad5/zad5_3-AntoniJeziorski/cmake \
+                         /home/antek/Documents/PO/zad5/zad5_3-AntoniJeziorski/datasets \
+                         /home/antek/Documents/PO/zad5/zad5_3-AntoniJeziorski/dox \
+                         /home/antek/Documents/PO/zad5/zad5_3-AntoniJeziorski/tests
 
 # The EXCLUDE_SYMLINKS tag can be used to select whether or not files or
 # directories that are symbolic links (a Unix file system feature) are excluded
@@ -981,7 +979,7 @@ EXAMPLE_RECURSIVE      = NO
 # that contain images that are to be included in the documentation (see the
 # \image command).
 
-IMAGE_PATH             = /home/antek/Documents/PO/zad5/zad5_3-AntoniJeziorski/UML.png
+IMAGE_PATH             = /home/antek/Documents/PO/zad5/zad5_3-AntoniJeziorski/UML5.3.png
 
 # The INPUT_FILTER tag can be used to specify a program that doxygen should
 # invoke to filter for each input file. Doxygen will invoke the filter program

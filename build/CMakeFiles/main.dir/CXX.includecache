@@ -138,9 +138,9 @@ iomanip
 vector.hh
 ../inc/vector.hh
 
-/home/antek/Documents/PO/zad5/zad5_3-AntoniJeziorski/app/main.cpp
+/home/antek/Videos/zad5_3-AntoniJeziorski/app/main.cpp
 ../tests/doctest/doctest.h
-/home/antek/Documents/PO/zad5/zad5_3-AntoniJeziorski/tests/doctest/doctest.h
+/home/antek/Videos/zad5_3-AntoniJeziorski/tests/doctest/doctest.h
 iostream
 -
 iomanip
@@ -152,25 +152,25 @@ fstream
 string
 -
 exampleConfig.h.in
-/home/antek/Documents/PO/zad5/zad5_3-AntoniJeziorski/app/exampleConfig.h.in
+/home/antek/Videos/zad5_3-AntoniJeziorski/app/exampleConfig.h.in
 solid.hh
-/home/antek/Documents/PO/zad5/zad5_3-AntoniJeziorski/app/solid.hh
+/home/antek/Videos/zad5_3-AntoniJeziorski/app/solid.hh
 cuboid.hh
-/home/antek/Documents/PO/zad5/zad5_3-AntoniJeziorski/app/cuboid.hh
+/home/antek/Videos/zad5_3-AntoniJeziorski/app/cuboid.hh
 drone.hh
-/home/antek/Documents/PO/zad5/zad5_3-AntoniJeziorski/app/drone.hh
+/home/antek/Videos/zad5_3-AntoniJeziorski/app/drone.hh
 example.h
-/home/antek/Documents/PO/zad5/zad5_3-AntoniJeziorski/app/example.h
+/home/antek/Videos/zad5_3-AntoniJeziorski/app/example.h
 vector3D.hh
-/home/antek/Documents/PO/zad5/zad5_3-AntoniJeziorski/app/vector3D.hh
+/home/antek/Videos/zad5_3-AntoniJeziorski/app/vector3D.hh
 matrix3D.hh
-/home/antek/Documents/PO/zad5/zad5_3-AntoniJeziorski/app/matrix3D.hh
+/home/antek/Videos/zad5_3-AntoniJeziorski/app/matrix3D.hh
 scene.hh
-/home/antek/Documents/PO/zad5/zad5_3-AntoniJeziorski/app/scene.hh
+/home/antek/Videos/zad5_3-AntoniJeziorski/app/scene.hh
 ../inc/lacze_do_gnuplota.hh
-/home/antek/Documents/PO/zad5/zad5_3-AntoniJeziorski/inc/lacze_do_gnuplota.hh
+/home/antek/Videos/zad5_3-AntoniJeziorski/inc/lacze_do_gnuplota.hh
 
-/home/antek/Documents/PO/zad5/zad5_3-AntoniJeziorski/inc/lacze_do_gnuplota.hh
+/home/antek/Videos/zad5_3-AntoniJeziorski/inc/lacze_do_gnuplota.hh
 string
 -
 list
@@ -178,7 +178,7 @@ list
 vector
 -
 
-/home/antek/Documents/PO/zad5/zad5_3-AntoniJeziorski/tests/doctest/doctest.h
+/home/antek/Videos/zad5_3-AntoniJeziorski/tests/doctest/doctest.h
 signal.h
 -
 iosfwd
@@ -192,7 +192,7 @@ ciso646
 type_traits
 -
 doctest_fwd.h
-/home/antek/Documents/PO/zad5/zad5_3-AntoniJeziorski/tests/doctest/doctest_fwd.h
+/home/antek/Videos/zad5_3-AntoniJeziorski/tests/doctest/doctest_fwd.h
 ctime
 -
 cmath

@@ -6,5 +6,5 @@ CXX_FLAGS = -g   -Wall -Wextra -Wpedantic -Wno-switch-enum -Werror -std=c++17
 
 CXX_DEFINES = -DENABLE_DOCTEST_IN_LIBRARY
 
-CXX_INCLUDES = -I/home/antek/Documents/PO/zad5/zad5_3-AntoniJeziorski/build -I/home/antek/Documents/PO/zad5/zad5_3-AntoniJeziorski/inc -I/home/antek/Documents/PO/zad5/zad5_3-AntoniJeziorski/external/doctest/doctest 
+CXX_INCLUDES = -I/home/antek/Videos/zad5_3-AntoniJeziorski/build -I/home/antek/Videos/zad5_3-AntoniJeziorski/inc -I/home/antek/Videos/zad5_3-AntoniJeziorski/external/doctest/doctest 
 

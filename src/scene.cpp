@@ -37,15 +37,19 @@ Scene::~Scene() {
 
 std::shared_ptr<Drone> Scene::UseDrone(int droneNumber) {
 
-    auto CheckNumber = [droneNumber](std::shared_ptr<Drone> Ptr) -> bool {
+    std::list<std::shared_ptr<Drone>>::iterator droneIterator;
 
-		return (Ptr->GetNumber() == droneNumber); 
+    for(droneIterator = listOfDrones.begin(); droneIterator != listOfDrones.end(); ++droneIterator) {
 
-    };
-    std::list<std::shared_ptr<Drone>>::iterator DroneIterator = std::find_if(listOfDrones.begin(), listOfDrones.end(), CheckNumber);
-    if (DroneIterator == listOfDrones.end()) 
-      std::cout << "Brak drona o danym numerze" << std::endl;
-    return *DroneIterator;
+        if(droneNumber == (*droneIterator)->GetNumber()) {
+
+            break;
+            
+        }
+
+    }
+
+    return *droneIterator;
 
 }
 
@@ -97,47 +101,43 @@ void Scene::PrintObstacles() const {
 
 void Scene::DeleteObstacle(int number) {
 
-    auto CheckNumber = [number](std::shared_ptr<SceneObject> obstaclePtr) -> bool {
+    std::list<std::shared_ptr<SceneObject>>::iterator obstacleIterator;
 
-		return (obstaclePtr->GetNumber() == number && obstaclePtr->GetType() != "dron"); 
+    for(obstacleIterator = listOfObjects.begin() ; obstacleIterator != listOfObjects.end(); ++obstacleIterator) {
 
-    };
+        if((*obstacleIterator)->GetNumber() == number && (*obstacleIterator)->GetType() != "dron") {
 
-    std::list<std::shared_ptr<SceneObject>>::iterator obstacleIterator = std::find_if(listOfObstacles.begin(),listOfObstacles.end(), CheckNumber);
-    if (obstacleIterator == listOfObstacles.end()) {
-
-      throw std::invalid_argument("Zly numer przeszkody!!!");
-
-    }
-
-    std::list<std::shared_ptr<SceneObject>>::iterator objectIterator = std::find(listOfObjects.begin(),listOfObjects.end(), (*obstacleIterator));
-    if (objectIterator == listOfObjects.end()) {
-
-        throw std::invalid_argument("Zly numer przeszkody!!!");
+            (*Link).UsunNazwePliku((*obstacleIterator)->Filename().c_str());
+            remove((*obstacleIterator)->Filename().c_str());
+            listOfObstacles.remove((*obstacleIterator));
+            listOfObjects.remove((*obstacleIterator));
+            break;
+            
+        }
 
     }
+    if(obstacleIterator == listOfObjects.end()) {
 
-    (*Link).UsunNazwePliku((*obstacleIterator)->Filename().c_str());
-    remove((*obstacleIterator)->Filename().c_str());
-    listOfObstacles.erase(obstacleIterator);
-    listOfObjects.erase(objectIterator);
+        throw(std::invalid_argument("Nie ma takiego obiektu!!!"));
+
+    }
 
 }
 
 bool Scene::CheckCollision(int droneNumber) {
 
-    auto CheckNumber = [droneNumber](std::shared_ptr<Drone> Ptr) -> bool {
+    std::list<std::shared_ptr<Drone>>::iterator droneIterator;
 
-		return (Ptr->GetNumber() == droneNumber); 
+    for(droneIterator = listOfDrones.begin(); droneIterator != listOfDrones.end(); ++droneIterator) {
 
-    };
-    std::list<std::shared_ptr<Drone>>::iterator DroneIterator = std::find_if(listOfDrones.begin(), listOfDrones.end(), CheckNumber);
-    if (DroneIterator == listOfDrones.end()) 
-        std::cout << "Brak drona o danym numerze" << std::endl;
-    
+        if(droneNumber == (*droneIterator)->GetNumber()) 
+            break;
+
+    }
+
     for (std::shared_ptr<SceneObject> ObjectPtr : listOfObjects) {
 
-        if((*DroneIterator)->Collision(ObjectPtr)) {
+        if((*droneIterator)->Collision(ObjectPtr)) {
 
             return true;
 

@@ -1,4 +1,4 @@
-# Install script for directory: /home/antek/Documents/PO/zad5/zad5_3-AntoniJeziorski/tests
+# Install script for directory: /home/antek/Videos/zad5_3-AntoniJeziorski/tests
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
