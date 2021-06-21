@@ -4,18 +4,18 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/home/antek/Videos/zad5_3-AntoniJeziorski/src/cuboid.cpp" "/home/antek/Videos/zad5_3-AntoniJeziorski/build/CMakeFiles/program.dir/src/cuboid.cpp.o"
-  "/home/antek/Videos/zad5_3-AntoniJeziorski/src/drone.cpp" "/home/antek/Videos/zad5_3-AntoniJeziorski/build/CMakeFiles/program.dir/src/drone.cpp.o"
-  "/home/antek/Videos/zad5_3-AntoniJeziorski/src/example.cpp" "/home/antek/Videos/zad5_3-AntoniJeziorski/build/CMakeFiles/program.dir/src/example.cpp.o"
-  "/home/antek/Videos/zad5_3-AntoniJeziorski/src/hexagonal_prism.cpp" "/home/antek/Videos/zad5_3-AntoniJeziorski/build/CMakeFiles/program.dir/src/hexagonal_prism.cpp.o"
-  "/home/antek/Videos/zad5_3-AntoniJeziorski/src/lacze_do_gnuplota.cpp" "/home/antek/Videos/zad5_3-AntoniJeziorski/build/CMakeFiles/program.dir/src/lacze_do_gnuplota.cpp.o"
-  "/home/antek/Videos/zad5_3-AntoniJeziorski/src/matrix3D.cpp" "/home/antek/Videos/zad5_3-AntoniJeziorski/build/CMakeFiles/program.dir/src/matrix3D.cpp.o"
-  "/home/antek/Videos/zad5_3-AntoniJeziorski/src/mount.cpp" "/home/antek/Videos/zad5_3-AntoniJeziorski/build/CMakeFiles/program.dir/src/mount.cpp.o"
-  "/home/antek/Videos/zad5_3-AntoniJeziorski/src/plateau.cpp" "/home/antek/Videos/zad5_3-AntoniJeziorski/build/CMakeFiles/program.dir/src/plateau.cpp.o"
-  "/home/antek/Videos/zad5_3-AntoniJeziorski/src/scene.cpp" "/home/antek/Videos/zad5_3-AntoniJeziorski/build/CMakeFiles/program.dir/src/scene.cpp.o"
-  "/home/antek/Videos/zad5_3-AntoniJeziorski/src/scene_object.cpp" "/home/antek/Videos/zad5_3-AntoniJeziorski/build/CMakeFiles/program.dir/src/scene_object.cpp.o"
-  "/home/antek/Videos/zad5_3-AntoniJeziorski/src/slope.cpp" "/home/antek/Videos/zad5_3-AntoniJeziorski/build/CMakeFiles/program.dir/src/slope.cpp.o"
-  "/home/antek/Videos/zad5_3-AntoniJeziorski/src/solid.cpp" "/home/antek/Videos/zad5_3-AntoniJeziorski/build/CMakeFiles/program.dir/src/solid.cpp.o"
+  "/home/antek/testy/zad5_3-AntoniJeziorski/src/cuboid.cpp" "/home/antek/testy/zad5_3-AntoniJeziorski/build/CMakeFiles/program.dir/src/cuboid.cpp.o"
+  "/home/antek/testy/zad5_3-AntoniJeziorski/src/drone.cpp" "/home/antek/testy/zad5_3-AntoniJeziorski/build/CMakeFiles/program.dir/src/drone.cpp.o"
+  "/home/antek/testy/zad5_3-AntoniJeziorski/src/example.cpp" "/home/antek/testy/zad5_3-AntoniJeziorski/build/CMakeFiles/program.dir/src/example.cpp.o"
+  "/home/antek/testy/zad5_3-AntoniJeziorski/src/hexagonal_prism.cpp" "/home/antek/testy/zad5_3-AntoniJeziorski/build/CMakeFiles/program.dir/src/hexagonal_prism.cpp.o"
+  "/home/antek/testy/zad5_3-AntoniJeziorski/src/lacze_do_gnuplota.cpp" "/home/antek/testy/zad5_3-AntoniJeziorski/build/CMakeFiles/program.dir/src/lacze_do_gnuplota.cpp.o"
+  "/home/antek/testy/zad5_3-AntoniJeziorski/src/matrix3D.cpp" "/home/antek/testy/zad5_3-AntoniJeziorski/build/CMakeFiles/program.dir/src/matrix3D.cpp.o"
+  "/home/antek/testy/zad5_3-AntoniJeziorski/src/mount.cpp" "/home/antek/testy/zad5_3-AntoniJeziorski/build/CMakeFiles/program.dir/src/mount.cpp.o"
+  "/home/antek/testy/zad5_3-AntoniJeziorski/src/plateau.cpp" "/home/antek/testy/zad5_3-AntoniJeziorski/build/CMakeFiles/program.dir/src/plateau.cpp.o"
+  "/home/antek/testy/zad5_3-AntoniJeziorski/src/scene.cpp" "/home/antek/testy/zad5_3-AntoniJeziorski/build/CMakeFiles/program.dir/src/scene.cpp.o"
+  "/home/antek/testy/zad5_3-AntoniJeziorski/src/scene_object.cpp" "/home/antek/testy/zad5_3-AntoniJeziorski/build/CMakeFiles/program.dir/src/scene_object.cpp.o"
+  "/home/antek/testy/zad5_3-AntoniJeziorski/src/slope.cpp" "/home/antek/testy/zad5_3-AntoniJeziorski/build/CMakeFiles/program.dir/src/slope.cpp.o"
+  "/home/antek/testy/zad5_3-AntoniJeziorski/src/solid.cpp" "/home/antek/testy/zad5_3-AntoniJeziorski/build/CMakeFiles/program.dir/src/solid.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 

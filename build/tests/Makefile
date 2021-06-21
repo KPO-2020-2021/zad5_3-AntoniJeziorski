@@ -48,10 +48,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/antek/Videos/zad5_3-AntoniJeziorski
+CMAKE_SOURCE_DIR = /home/antek/testy/zad5_3-AntoniJeziorski
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/antek/Videos/zad5_3-AntoniJeziorski/build
+CMAKE_BINARY_DIR = /home/antek/testy/zad5_3-AntoniJeziorski/build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -91,14 +91,14 @@ test/fast: test
 
 # The main all target
 all: cmake_check_build_system
-	cd /home/antek/Videos/zad5_3-AntoniJeziorski/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/antek/Videos/zad5_3-AntoniJeziorski/build/CMakeFiles /home/antek/Videos/zad5_3-AntoniJeziorski/build/tests/CMakeFiles/progress.marks
-	cd /home/antek/Videos/zad5_3-AntoniJeziorski/build && $(MAKE) -f CMakeFiles/Makefile2 tests/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/antek/Videos/zad5_3-AntoniJeziorski/build/CMakeFiles 0
+	cd /home/antek/testy/zad5_3-AntoniJeziorski/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/antek/testy/zad5_3-AntoniJeziorski/build/CMakeFiles /home/antek/testy/zad5_3-AntoniJeziorski/build/tests/CMakeFiles/progress.marks
+	cd /home/antek/testy/zad5_3-AntoniJeziorski/build && $(MAKE) -f CMakeFiles/Makefile2 tests/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/antek/testy/zad5_3-AntoniJeziorski/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /home/antek/Videos/zad5_3-AntoniJeziorski/build && $(MAKE) -f CMakeFiles/Makefile2 tests/clean
+	cd /home/antek/testy/zad5_3-AntoniJeziorski/build && $(MAKE) -f CMakeFiles/Makefile2 tests/clean
 .PHONY : clean
 
 # The main clean target
@@ -108,22 +108,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /home/antek/Videos/zad5_3-AntoniJeziorski/build && $(MAKE) -f CMakeFiles/Makefile2 tests/preinstall
+	cd /home/antek/testy/zad5_3-AntoniJeziorski/build && $(MAKE) -f CMakeFiles/Makefile2 tests/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /home/antek/Videos/zad5_3-AntoniJeziorski/build && $(MAKE) -f CMakeFiles/Makefile2 tests/preinstall
+	cd /home/antek/testy/zad5_3-AntoniJeziorski/build && $(MAKE) -f CMakeFiles/Makefile2 tests/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /home/antek/Videos/zad5_3-AntoniJeziorski/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /home/antek/testy/zad5_3-AntoniJeziorski/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 tests/CMakeFiles/fulltest.dir/rule:
-	cd /home/antek/Videos/zad5_3-AntoniJeziorski/build && $(MAKE) -f CMakeFiles/Makefile2 tests/CMakeFiles/fulltest.dir/rule
+	cd /home/antek/testy/zad5_3-AntoniJeziorski/build && $(MAKE) -f CMakeFiles/Makefile2 tests/CMakeFiles/fulltest.dir/rule
 .PHONY : tests/CMakeFiles/fulltest.dir/rule
 
 # Convenience name for target.
@@ -133,12 +133,12 @@ fulltest: tests/CMakeFiles/fulltest.dir/rule
 
 # fast build rule for target.
 fulltest/fast:
-	cd /home/antek/Videos/zad5_3-AntoniJeziorski/build && $(MAKE) -f tests/CMakeFiles/fulltest.dir/build.make tests/CMakeFiles/fulltest.dir/build
+	cd /home/antek/testy/zad5_3-AntoniJeziorski/build && $(MAKE) -f tests/CMakeFiles/fulltest.dir/build.make tests/CMakeFiles/fulltest.dir/build
 .PHONY : fulltest/fast
 
 # Convenience name for target.
 tests/CMakeFiles/coverage.dir/rule:
-	cd /home/antek/Videos/zad5_3-AntoniJeziorski/build && $(MAKE) -f CMakeFiles/Makefile2 tests/CMakeFiles/coverage.dir/rule
+	cd /home/antek/testy/zad5_3-AntoniJeziorski/build && $(MAKE) -f CMakeFiles/Makefile2 tests/CMakeFiles/coverage.dir/rule
 .PHONY : tests/CMakeFiles/coverage.dir/rule
 
 # Convenience name for target.
@@ -148,12 +148,12 @@ coverage: tests/CMakeFiles/coverage.dir/rule
 
 # fast build rule for target.
 coverage/fast:
-	cd /home/antek/Videos/zad5_3-AntoniJeziorski/build && $(MAKE) -f tests/CMakeFiles/coverage.dir/build.make tests/CMakeFiles/coverage.dir/build
+	cd /home/antek/testy/zad5_3-AntoniJeziorski/build && $(MAKE) -f tests/CMakeFiles/coverage.dir/build.make tests/CMakeFiles/coverage.dir/build
 .PHONY : coverage/fast
 
 # Convenience name for target.
 tests/CMakeFiles/unit_tests.dir/rule:
-	cd /home/antek/Videos/zad5_3-AntoniJeziorski/build && $(MAKE) -f CMakeFiles/Makefile2 tests/CMakeFiles/unit_tests.dir/rule
+	cd /home/antek/testy/zad5_3-AntoniJeziorski/build && $(MAKE) -f CMakeFiles/Makefile2 tests/CMakeFiles/unit_tests.dir/rule
 .PHONY : tests/CMakeFiles/unit_tests.dir/rule
 
 # Convenience name for target.
@@ -163,7 +163,7 @@ unit_tests: tests/CMakeFiles/unit_tests.dir/rule
 
 # fast build rule for target.
 unit_tests/fast:
-	cd /home/antek/Videos/zad5_3-AntoniJeziorski/build && $(MAKE) -f tests/CMakeFiles/unit_tests.dir/build.make tests/CMakeFiles/unit_tests.dir/build
+	cd /home/antek/testy/zad5_3-AntoniJeziorski/build && $(MAKE) -f tests/CMakeFiles/unit_tests.dir/build.make tests/CMakeFiles/unit_tests.dir/build
 .PHONY : unit_tests/fast
 
 main.o: main.cpp.o
@@ -172,7 +172,7 @@ main.o: main.cpp.o
 
 # target to build an object file
 main.cpp.o:
-	cd /home/antek/Videos/zad5_3-AntoniJeziorski/build && $(MAKE) -f tests/CMakeFiles/unit_tests.dir/build.make tests/CMakeFiles/unit_tests.dir/main.cpp.o
+	cd /home/antek/testy/zad5_3-AntoniJeziorski/build && $(MAKE) -f tests/CMakeFiles/unit_tests.dir/build.make tests/CMakeFiles/unit_tests.dir/main.cpp.o
 .PHONY : main.cpp.o
 
 main.i: main.cpp.i
@@ -181,7 +181,7 @@ main.i: main.cpp.i
 
 # target to preprocess a source file
 main.cpp.i:
-	cd /home/antek/Videos/zad5_3-AntoniJeziorski/build && $(MAKE) -f tests/CMakeFiles/unit_tests.dir/build.make tests/CMakeFiles/unit_tests.dir/main.cpp.i
+	cd /home/antek/testy/zad5_3-AntoniJeziorski/build && $(MAKE) -f tests/CMakeFiles/unit_tests.dir/build.make tests/CMakeFiles/unit_tests.dir/main.cpp.i
 .PHONY : main.cpp.i
 
 main.s: main.cpp.s
@@ -190,7 +190,7 @@ main.s: main.cpp.s
 
 # target to generate assembly for a file
 main.cpp.s:
-	cd /home/antek/Videos/zad5_3-AntoniJeziorski/build && $(MAKE) -f tests/CMakeFiles/unit_tests.dir/build.make tests/CMakeFiles/unit_tests.dir/main.cpp.s
+	cd /home/antek/testy/zad5_3-AntoniJeziorski/build && $(MAKE) -f tests/CMakeFiles/unit_tests.dir/build.make tests/CMakeFiles/unit_tests.dir/main.cpp.s
 .PHONY : main.cpp.s
 
 test_cuboid.o: test_cuboid.cpp.o
@@ -199,7 +199,7 @@ test_cuboid.o: test_cuboid.cpp.o
 
 # target to build an object file
 test_cuboid.cpp.o:
-	cd /home/antek/Videos/zad5_3-AntoniJeziorski/build && $(MAKE) -f tests/CMakeFiles/unit_tests.dir/build.make tests/CMakeFiles/unit_tests.dir/test_cuboid.cpp.o
+	cd /home/antek/testy/zad5_3-AntoniJeziorski/build && $(MAKE) -f tests/CMakeFiles/unit_tests.dir/build.make tests/CMakeFiles/unit_tests.dir/test_cuboid.cpp.o
 .PHONY : test_cuboid.cpp.o
 
 test_cuboid.i: test_cuboid.cpp.i
@@ -208,7 +208,7 @@ test_cuboid.i: test_cuboid.cpp.i
 
 # target to preprocess a source file
 test_cuboid.cpp.i:
-	cd /home/antek/Videos/zad5_3-AntoniJeziorski/build && $(MAKE) -f tests/CMakeFiles/unit_tests.dir/build.make tests/CMakeFiles/unit_tests.dir/test_cuboid.cpp.i
+	cd /home/antek/testy/zad5_3-AntoniJeziorski/build && $(MAKE) -f tests/CMakeFiles/unit_tests.dir/build.make tests/CMakeFiles/unit_tests.dir/test_cuboid.cpp.i
 .PHONY : test_cuboid.cpp.i
 
 test_cuboid.s: test_cuboid.cpp.s
@@ -217,7 +217,7 @@ test_cuboid.s: test_cuboid.cpp.s
 
 # target to generate assembly for a file
 test_cuboid.cpp.s:
-	cd /home/antek/Videos/zad5_3-AntoniJeziorski/build && $(MAKE) -f tests/CMakeFiles/unit_tests.dir/build.make tests/CMakeFiles/unit_tests.dir/test_cuboid.cpp.s
+	cd /home/antek/testy/zad5_3-AntoniJeziorski/build && $(MAKE) -f tests/CMakeFiles/unit_tests.dir/build.make tests/CMakeFiles/unit_tests.dir/test_cuboid.cpp.s
 .PHONY : test_cuboid.cpp.s
 
 test_drone.o: test_drone.cpp.o
@@ -226,7 +226,7 @@ test_drone.o: test_drone.cpp.o
 
 # target to build an object file
 test_drone.cpp.o:
-	cd /home/antek/Videos/zad5_3-AntoniJeziorski/build && $(MAKE) -f tests/CMakeFiles/unit_tests.dir/build.make tests/CMakeFiles/unit_tests.dir/test_drone.cpp.o
+	cd /home/antek/testy/zad5_3-AntoniJeziorski/build && $(MAKE) -f tests/CMakeFiles/unit_tests.dir/build.make tests/CMakeFiles/unit_tests.dir/test_drone.cpp.o
 .PHONY : test_drone.cpp.o
 
 test_drone.i: test_drone.cpp.i
@@ -235,7 +235,7 @@ test_drone.i: test_drone.cpp.i
 
 # target to preprocess a source file
 test_drone.cpp.i:
-	cd /home/antek/Videos/zad5_3-AntoniJeziorski/build && $(MAKE) -f tests/CMakeFiles/unit_tests.dir/build.make tests/CMakeFiles/unit_tests.dir/test_drone.cpp.i
+	cd /home/antek/testy/zad5_3-AntoniJeziorski/build && $(MAKE) -f tests/CMakeFiles/unit_tests.dir/build.make tests/CMakeFiles/unit_tests.dir/test_drone.cpp.i
 .PHONY : test_drone.cpp.i
 
 test_drone.s: test_drone.cpp.s
@@ -244,7 +244,7 @@ test_drone.s: test_drone.cpp.s
 
 # target to generate assembly for a file
 test_drone.cpp.s:
-	cd /home/antek/Videos/zad5_3-AntoniJeziorski/build && $(MAKE) -f tests/CMakeFiles/unit_tests.dir/build.make tests/CMakeFiles/unit_tests.dir/test_drone.cpp.s
+	cd /home/antek/testy/zad5_3-AntoniJeziorski/build && $(MAKE) -f tests/CMakeFiles/unit_tests.dir/build.make tests/CMakeFiles/unit_tests.dir/test_drone.cpp.s
 .PHONY : test_drone.cpp.s
 
 test_hexagonal_prism.o: test_hexagonal_prism.cpp.o
@@ -253,7 +253,7 @@ test_hexagonal_prism.o: test_hexagonal_prism.cpp.o
 
 # target to build an object file
 test_hexagonal_prism.cpp.o:
-	cd /home/antek/Videos/zad5_3-AntoniJeziorski/build && $(MAKE) -f tests/CMakeFiles/unit_tests.dir/build.make tests/CMakeFiles/unit_tests.dir/test_hexagonal_prism.cpp.o
+	cd /home/antek/testy/zad5_3-AntoniJeziorski/build && $(MAKE) -f tests/CMakeFiles/unit_tests.dir/build.make tests/CMakeFiles/unit_tests.dir/test_hexagonal_prism.cpp.o
 .PHONY : test_hexagonal_prism.cpp.o
 
 test_hexagonal_prism.i: test_hexagonal_prism.cpp.i
@@ -262,7 +262,7 @@ test_hexagonal_prism.i: test_hexagonal_prism.cpp.i
 
 # target to preprocess a source file
 test_hexagonal_prism.cpp.i:
-	cd /home/antek/Videos/zad5_3-AntoniJeziorski/build && $(MAKE) -f tests/CMakeFiles/unit_tests.dir/build.make tests/CMakeFiles/unit_tests.dir/test_hexagonal_prism.cpp.i
+	cd /home/antek/testy/zad5_3-AntoniJeziorski/build && $(MAKE) -f tests/CMakeFiles/unit_tests.dir/build.make tests/CMakeFiles/unit_tests.dir/test_hexagonal_prism.cpp.i
 .PHONY : test_hexagonal_prism.cpp.i
 
 test_hexagonal_prism.s: test_hexagonal_prism.cpp.s
@@ -271,7 +271,7 @@ test_hexagonal_prism.s: test_hexagonal_prism.cpp.s
 
 # target to generate assembly for a file
 test_hexagonal_prism.cpp.s:
-	cd /home/antek/Videos/zad5_3-AntoniJeziorski/build && $(MAKE) -f tests/CMakeFiles/unit_tests.dir/build.make tests/CMakeFiles/unit_tests.dir/test_hexagonal_prism.cpp.s
+	cd /home/antek/testy/zad5_3-AntoniJeziorski/build && $(MAKE) -f tests/CMakeFiles/unit_tests.dir/build.make tests/CMakeFiles/unit_tests.dir/test_hexagonal_prism.cpp.s
 .PHONY : test_hexagonal_prism.cpp.s
 
 test_matrix3D.o: test_matrix3D.cpp.o
@@ -280,7 +280,7 @@ test_matrix3D.o: test_matrix3D.cpp.o
 
 # target to build an object file
 test_matrix3D.cpp.o:
-	cd /home/antek/Videos/zad5_3-AntoniJeziorski/build && $(MAKE) -f tests/CMakeFiles/unit_tests.dir/build.make tests/CMakeFiles/unit_tests.dir/test_matrix3D.cpp.o
+	cd /home/antek/testy/zad5_3-AntoniJeziorski/build && $(MAKE) -f tests/CMakeFiles/unit_tests.dir/build.make tests/CMakeFiles/unit_tests.dir/test_matrix3D.cpp.o
 .PHONY : test_matrix3D.cpp.o
 
 test_matrix3D.i: test_matrix3D.cpp.i
@@ -289,7 +289,7 @@ test_matrix3D.i: test_matrix3D.cpp.i
 
 # target to preprocess a source file
 test_matrix3D.cpp.i:
-	cd /home/antek/Videos/zad5_3-AntoniJeziorski/build && $(MAKE) -f tests/CMakeFiles/unit_tests.dir/build.make tests/CMakeFiles/unit_tests.dir/test_matrix3D.cpp.i
+	cd /home/antek/testy/zad5_3-AntoniJeziorski/build && $(MAKE) -f tests/CMakeFiles/unit_tests.dir/build.make tests/CMakeFiles/unit_tests.dir/test_matrix3D.cpp.i
 .PHONY : test_matrix3D.cpp.i
 
 test_matrix3D.s: test_matrix3D.cpp.s
@@ -298,7 +298,7 @@ test_matrix3D.s: test_matrix3D.cpp.s
 
 # target to generate assembly for a file
 test_matrix3D.cpp.s:
-	cd /home/antek/Videos/zad5_3-AntoniJeziorski/build && $(MAKE) -f tests/CMakeFiles/unit_tests.dir/build.make tests/CMakeFiles/unit_tests.dir/test_matrix3D.cpp.s
+	cd /home/antek/testy/zad5_3-AntoniJeziorski/build && $(MAKE) -f tests/CMakeFiles/unit_tests.dir/build.make tests/CMakeFiles/unit_tests.dir/test_matrix3D.cpp.s
 .PHONY : test_matrix3D.cpp.s
 
 test_solid.o: test_solid.cpp.o
@@ -307,7 +307,7 @@ test_solid.o: test_solid.cpp.o
 
 # target to build an object file
 test_solid.cpp.o:
-	cd /home/antek/Videos/zad5_3-AntoniJeziorski/build && $(MAKE) -f tests/CMakeFiles/unit_tests.dir/build.make tests/CMakeFiles/unit_tests.dir/test_solid.cpp.o
+	cd /home/antek/testy/zad5_3-AntoniJeziorski/build && $(MAKE) -f tests/CMakeFiles/unit_tests.dir/build.make tests/CMakeFiles/unit_tests.dir/test_solid.cpp.o
 .PHONY : test_solid.cpp.o
 
 test_solid.i: test_solid.cpp.i
@@ -316,7 +316,7 @@ test_solid.i: test_solid.cpp.i
 
 # target to preprocess a source file
 test_solid.cpp.i:
-	cd /home/antek/Videos/zad5_3-AntoniJeziorski/build && $(MAKE) -f tests/CMakeFiles/unit_tests.dir/build.make tests/CMakeFiles/unit_tests.dir/test_solid.cpp.i
+	cd /home/antek/testy/zad5_3-AntoniJeziorski/build && $(MAKE) -f tests/CMakeFiles/unit_tests.dir/build.make tests/CMakeFiles/unit_tests.dir/test_solid.cpp.i
 .PHONY : test_solid.cpp.i
 
 test_solid.s: test_solid.cpp.s
@@ -325,7 +325,7 @@ test_solid.s: test_solid.cpp.s
 
 # target to generate assembly for a file
 test_solid.cpp.s:
-	cd /home/antek/Videos/zad5_3-AntoniJeziorski/build && $(MAKE) -f tests/CMakeFiles/unit_tests.dir/build.make tests/CMakeFiles/unit_tests.dir/test_solid.cpp.s
+	cd /home/antek/testy/zad5_3-AntoniJeziorski/build && $(MAKE) -f tests/CMakeFiles/unit_tests.dir/build.make tests/CMakeFiles/unit_tests.dir/test_solid.cpp.s
 .PHONY : test_solid.cpp.s
 
 test_vector3D.o: test_vector3D.cpp.o
@@ -334,7 +334,7 @@ test_vector3D.o: test_vector3D.cpp.o
 
 # target to build an object file
 test_vector3D.cpp.o:
-	cd /home/antek/Videos/zad5_3-AntoniJeziorski/build && $(MAKE) -f tests/CMakeFiles/unit_tests.dir/build.make tests/CMakeFiles/unit_tests.dir/test_vector3D.cpp.o
+	cd /home/antek/testy/zad5_3-AntoniJeziorski/build && $(MAKE) -f tests/CMakeFiles/unit_tests.dir/build.make tests/CMakeFiles/unit_tests.dir/test_vector3D.cpp.o
 .PHONY : test_vector3D.cpp.o
 
 test_vector3D.i: test_vector3D.cpp.i
@@ -343,7 +343,7 @@ test_vector3D.i: test_vector3D.cpp.i
 
 # target to preprocess a source file
 test_vector3D.cpp.i:
-	cd /home/antek/Videos/zad5_3-AntoniJeziorski/build && $(MAKE) -f tests/CMakeFiles/unit_tests.dir/build.make tests/CMakeFiles/unit_tests.dir/test_vector3D.cpp.i
+	cd /home/antek/testy/zad5_3-AntoniJeziorski/build && $(MAKE) -f tests/CMakeFiles/unit_tests.dir/build.make tests/CMakeFiles/unit_tests.dir/test_vector3D.cpp.i
 .PHONY : test_vector3D.cpp.i
 
 test_vector3D.s: test_vector3D.cpp.s
@@ -352,7 +352,7 @@ test_vector3D.s: test_vector3D.cpp.s
 
 # target to generate assembly for a file
 test_vector3D.cpp.s:
-	cd /home/antek/Videos/zad5_3-AntoniJeziorski/build && $(MAKE) -f tests/CMakeFiles/unit_tests.dir/build.make tests/CMakeFiles/unit_tests.dir/test_vector3D.cpp.s
+	cd /home/antek/testy/zad5_3-AntoniJeziorski/build && $(MAKE) -f tests/CMakeFiles/unit_tests.dir/build.make tests/CMakeFiles/unit_tests.dir/test_vector3D.cpp.s
 .PHONY : test_vector3D.cpp.s
 
 # Help Target
@@ -399,6 +399,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /home/antek/Videos/zad5_3-AntoniJeziorski/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /home/antek/testy/zad5_3-AntoniJeziorski/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

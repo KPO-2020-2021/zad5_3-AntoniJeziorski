@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/antek/Videos/zad5_3-AntoniJeziorski
+CMAKE_SOURCE_DIR = /home/antek/testy/zad5_3-AntoniJeziorski
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/antek/Videos/zad5_3-AntoniJeziorski/build
+CMAKE_BINARY_DIR = /home/antek/testy/zad5_3-AntoniJeziorski/build
 
 # Include any dependencies generated for this target.
 include CMakeFiles/main.dir/depend.make
@@ -59,16 +59,16 @@ include CMakeFiles/main.dir/flags.make
 
 CMakeFiles/main.dir/app/main.cpp.o: CMakeFiles/main.dir/flags.make
 CMakeFiles/main.dir/app/main.cpp.o: ../app/main.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/antek/Videos/zad5_3-AntoniJeziorski/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/main.dir/app/main.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/main.dir/app/main.cpp.o -c /home/antek/Videos/zad5_3-AntoniJeziorski/app/main.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/antek/testy/zad5_3-AntoniJeziorski/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/main.dir/app/main.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/main.dir/app/main.cpp.o -c /home/antek/testy/zad5_3-AntoniJeziorski/app/main.cpp
 
 CMakeFiles/main.dir/app/main.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/main.dir/app/main.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/antek/Videos/zad5_3-AntoniJeziorski/app/main.cpp > CMakeFiles/main.dir/app/main.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/antek/testy/zad5_3-AntoniJeziorski/app/main.cpp > CMakeFiles/main.dir/app/main.cpp.i
 
 CMakeFiles/main.dir/app/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/main.dir/app/main.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/antek/Videos/zad5_3-AntoniJeziorski/app/main.cpp -o CMakeFiles/main.dir/app/main.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/antek/testy/zad5_3-AntoniJeziorski/app/main.cpp -o CMakeFiles/main.dir/app/main.cpp.s
 
 # Object files for target main
 main_OBJECTS = \
@@ -76,18 +76,18 @@ main_OBJECTS = \
 
 # External object files for target main
 main_EXTERNAL_OBJECTS = \
-"/home/antek/Videos/zad5_3-AntoniJeziorski/build/CMakeFiles/program.dir/src/example.cpp.o" \
-"/home/antek/Videos/zad5_3-AntoniJeziorski/build/CMakeFiles/program.dir/src/lacze_do_gnuplota.cpp.o" \
-"/home/antek/Videos/zad5_3-AntoniJeziorski/build/CMakeFiles/program.dir/src/cuboid.cpp.o" \
-"/home/antek/Videos/zad5_3-AntoniJeziorski/build/CMakeFiles/program.dir/src/drone.cpp.o" \
-"/home/antek/Videos/zad5_3-AntoniJeziorski/build/CMakeFiles/program.dir/src/matrix3D.cpp.o" \
-"/home/antek/Videos/zad5_3-AntoniJeziorski/build/CMakeFiles/program.dir/src/solid.cpp.o" \
-"/home/antek/Videos/zad5_3-AntoniJeziorski/build/CMakeFiles/program.dir/src/scene.cpp.o" \
-"/home/antek/Videos/zad5_3-AntoniJeziorski/build/CMakeFiles/program.dir/src/hexagonal_prism.cpp.o" \
-"/home/antek/Videos/zad5_3-AntoniJeziorski/build/CMakeFiles/program.dir/src/scene_object.cpp.o" \
-"/home/antek/Videos/zad5_3-AntoniJeziorski/build/CMakeFiles/program.dir/src/plateau.cpp.o" \
-"/home/antek/Videos/zad5_3-AntoniJeziorski/build/CMakeFiles/program.dir/src/slope.cpp.o" \
-"/home/antek/Videos/zad5_3-AntoniJeziorski/build/CMakeFiles/program.dir/src/mount.cpp.o"
+"/home/antek/testy/zad5_3-AntoniJeziorski/build/CMakeFiles/program.dir/src/example.cpp.o" \
+"/home/antek/testy/zad5_3-AntoniJeziorski/build/CMakeFiles/program.dir/src/lacze_do_gnuplota.cpp.o" \
+"/home/antek/testy/zad5_3-AntoniJeziorski/build/CMakeFiles/program.dir/src/cuboid.cpp.o" \
+"/home/antek/testy/zad5_3-AntoniJeziorski/build/CMakeFiles/program.dir/src/drone.cpp.o" \
+"/home/antek/testy/zad5_3-AntoniJeziorski/build/CMakeFiles/program.dir/src/matrix3D.cpp.o" \
+"/home/antek/testy/zad5_3-AntoniJeziorski/build/CMakeFiles/program.dir/src/solid.cpp.o" \
+"/home/antek/testy/zad5_3-AntoniJeziorski/build/CMakeFiles/program.dir/src/scene.cpp.o" \
+"/home/antek/testy/zad5_3-AntoniJeziorski/build/CMakeFiles/program.dir/src/hexagonal_prism.cpp.o" \
+"/home/antek/testy/zad5_3-AntoniJeziorski/build/CMakeFiles/program.dir/src/scene_object.cpp.o" \
+"/home/antek/testy/zad5_3-AntoniJeziorski/build/CMakeFiles/program.dir/src/plateau.cpp.o" \
+"/home/antek/testy/zad5_3-AntoniJeziorski/build/CMakeFiles/program.dir/src/slope.cpp.o" \
+"/home/antek/testy/zad5_3-AntoniJeziorski/build/CMakeFiles/program.dir/src/mount.cpp.o"
 
 main: CMakeFiles/main.dir/app/main.cpp.o
 main: CMakeFiles/program.dir/src/example.cpp.o
@@ -104,7 +104,7 @@ main: CMakeFiles/program.dir/src/slope.cpp.o
 main: CMakeFiles/program.dir/src/mount.cpp.o
 main: CMakeFiles/main.dir/build.make
 main: CMakeFiles/main.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/antek/Videos/zad5_3-AntoniJeziorski/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable main"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/antek/testy/zad5_3-AntoniJeziorski/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable main"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/main.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -117,6 +117,6 @@ CMakeFiles/main.dir/clean:
 .PHONY : CMakeFiles/main.dir/clean
 
 CMakeFiles/main.dir/depend:
-	cd /home/antek/Videos/zad5_3-AntoniJeziorski/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/antek/Videos/zad5_3-AntoniJeziorski /home/antek/Videos/zad5_3-AntoniJeziorski /home/antek/Videos/zad5_3-AntoniJeziorski/build /home/antek/Videos/zad5_3-AntoniJeziorski/build /home/antek/Videos/zad5_3-AntoniJeziorski/build/CMakeFiles/main.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/antek/testy/zad5_3-AntoniJeziorski/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/antek/testy/zad5_3-AntoniJeziorski /home/antek/testy/zad5_3-AntoniJeziorski /home/antek/testy/zad5_3-AntoniJeziorski/build /home/antek/testy/zad5_3-AntoniJeziorski/build /home/antek/testy/zad5_3-AntoniJeziorski/build/CMakeFiles/main.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/main.dir/depend
 

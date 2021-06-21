@@ -1,102 +1,102 @@
 [
 {
-  "directory": "/home/antek/Videos/zad5_3-AntoniJeziorski/build",
-  "command": "/usr/bin/c++  -DENABLE_DOCTEST_IN_LIBRARY -I/home/antek/Videos/zad5_3-AntoniJeziorski/build -I/home/antek/Videos/zad5_3-AntoniJeziorski/inc -I/home/antek/Videos/zad5_3-AntoniJeziorski/external/doctest/doctest  -g   -Wall -Wextra -Wpedantic -Wno-switch-enum -Werror -std=c++17 -o CMakeFiles/main.dir/app/main.cpp.o -c /home/antek/Videos/zad5_3-AntoniJeziorski/app/main.cpp",
-  "file": "/home/antek/Videos/zad5_3-AntoniJeziorski/app/main.cpp"
+  "directory": "/home/antek/testy/zad5_3-AntoniJeziorski/build",
+  "command": "/usr/bin/c++  -DENABLE_DOCTEST_IN_LIBRARY -I/home/antek/testy/zad5_3-AntoniJeziorski/build -I/home/antek/testy/zad5_3-AntoniJeziorski/inc -I/home/antek/testy/zad5_3-AntoniJeziorski/external/doctest/doctest  -g   -Wall -Wextra -Wpedantic -Wno-switch-enum -Werror -std=c++17 -o CMakeFiles/main.dir/app/main.cpp.o -c /home/antek/testy/zad5_3-AntoniJeziorski/app/main.cpp",
+  "file": "/home/antek/testy/zad5_3-AntoniJeziorski/app/main.cpp"
 },
 {
-  "directory": "/home/antek/Videos/zad5_3-AntoniJeziorski/build",
-  "command": "/usr/bin/c++  -DENABLE_DOCTEST_IN_LIBRARY -I/home/antek/Videos/zad5_3-AntoniJeziorski/build -I/home/antek/Videos/zad5_3-AntoniJeziorski/inc -I/home/antek/Videos/zad5_3-AntoniJeziorski/external/doctest/doctest  -g   -Wall -Wextra -Wpedantic -Wno-switch-enum -Werror -std=c++17 -o CMakeFiles/program.dir/src/example.cpp.o -c /home/antek/Videos/zad5_3-AntoniJeziorski/src/example.cpp",
-  "file": "/home/antek/Videos/zad5_3-AntoniJeziorski/src/example.cpp"
+  "directory": "/home/antek/testy/zad5_3-AntoniJeziorski/build",
+  "command": "/usr/bin/c++  -DENABLE_DOCTEST_IN_LIBRARY -I/home/antek/testy/zad5_3-AntoniJeziorski/build -I/home/antek/testy/zad5_3-AntoniJeziorski/inc -I/home/antek/testy/zad5_3-AntoniJeziorski/external/doctest/doctest  -g   -Wall -Wextra -Wpedantic -Wno-switch-enum -Werror -std=c++17 -o CMakeFiles/program.dir/src/example.cpp.o -c /home/antek/testy/zad5_3-AntoniJeziorski/src/example.cpp",
+  "file": "/home/antek/testy/zad5_3-AntoniJeziorski/src/example.cpp"
 },
 {
-  "directory": "/home/antek/Videos/zad5_3-AntoniJeziorski/build",
-  "command": "/usr/bin/c++  -DENABLE_DOCTEST_IN_LIBRARY -I/home/antek/Videos/zad5_3-AntoniJeziorski/build -I/home/antek/Videos/zad5_3-AntoniJeziorski/inc -I/home/antek/Videos/zad5_3-AntoniJeziorski/external/doctest/doctest  -g   -Wall -Wextra -Wpedantic -Wno-switch-enum -Werror -std=c++17 -o CMakeFiles/program.dir/src/lacze_do_gnuplota.cpp.o -c /home/antek/Videos/zad5_3-AntoniJeziorski/src/lacze_do_gnuplota.cpp",
-  "file": "/home/antek/Videos/zad5_3-AntoniJeziorski/src/lacze_do_gnuplota.cpp"
+  "directory": "/home/antek/testy/zad5_3-AntoniJeziorski/build",
+  "command": "/usr/bin/c++  -DENABLE_DOCTEST_IN_LIBRARY -I/home/antek/testy/zad5_3-AntoniJeziorski/build -I/home/antek/testy/zad5_3-AntoniJeziorski/inc -I/home/antek/testy/zad5_3-AntoniJeziorski/external/doctest/doctest  -g   -Wall -Wextra -Wpedantic -Wno-switch-enum -Werror -std=c++17 -o CMakeFiles/program.dir/src/lacze_do_gnuplota.cpp.o -c /home/antek/testy/zad5_3-AntoniJeziorski/src/lacze_do_gnuplota.cpp",
+  "file": "/home/antek/testy/zad5_3-AntoniJeziorski/src/lacze_do_gnuplota.cpp"
 },
 {
-  "directory": "/home/antek/Videos/zad5_3-AntoniJeziorski/build",
-  "command": "/usr/bin/c++  -DENABLE_DOCTEST_IN_LIBRARY -I/home/antek/Videos/zad5_3-AntoniJeziorski/build -I/home/antek/Videos/zad5_3-AntoniJeziorski/inc -I/home/antek/Videos/zad5_3-AntoniJeziorski/external/doctest/doctest  -g   -Wall -Wextra -Wpedantic -Wno-switch-enum -Werror -std=c++17 -o CMakeFiles/program.dir/src/cuboid.cpp.o -c /home/antek/Videos/zad5_3-AntoniJeziorski/src/cuboid.cpp",
-  "file": "/home/antek/Videos/zad5_3-AntoniJeziorski/src/cuboid.cpp"
+  "directory": "/home/antek/testy/zad5_3-AntoniJeziorski/build",
+  "command": "/usr/bin/c++  -DENABLE_DOCTEST_IN_LIBRARY -I/home/antek/testy/zad5_3-AntoniJeziorski/build -I/home/antek/testy/zad5_3-AntoniJeziorski/inc -I/home/antek/testy/zad5_3-AntoniJeziorski/external/doctest/doctest  -g   -Wall -Wextra -Wpedantic -Wno-switch-enum -Werror -std=c++17 -o CMakeFiles/program.dir/src/cuboid.cpp.o -c /home/antek/testy/zad5_3-AntoniJeziorski/src/cuboid.cpp",
+  "file": "/home/antek/testy/zad5_3-AntoniJeziorski/src/cuboid.cpp"
 },
 {
-  "directory": "/home/antek/Videos/zad5_3-AntoniJeziorski/build",
-  "command": "/usr/bin/c++  -DENABLE_DOCTEST_IN_LIBRARY -I/home/antek/Videos/zad5_3-AntoniJeziorski/build -I/home/antek/Videos/zad5_3-AntoniJeziorski/inc -I/home/antek/Videos/zad5_3-AntoniJeziorski/external/doctest/doctest  -g   -Wall -Wextra -Wpedantic -Wno-switch-enum -Werror -std=c++17 -o CMakeFiles/program.dir/src/drone.cpp.o -c /home/antek/Videos/zad5_3-AntoniJeziorski/src/drone.cpp",
-  "file": "/home/antek/Videos/zad5_3-AntoniJeziorski/src/drone.cpp"
+  "directory": "/home/antek/testy/zad5_3-AntoniJeziorski/build",
+  "command": "/usr/bin/c++  -DENABLE_DOCTEST_IN_LIBRARY -I/home/antek/testy/zad5_3-AntoniJeziorski/build -I/home/antek/testy/zad5_3-AntoniJeziorski/inc -I/home/antek/testy/zad5_3-AntoniJeziorski/external/doctest/doctest  -g   -Wall -Wextra -Wpedantic -Wno-switch-enum -Werror -std=c++17 -o CMakeFiles/program.dir/src/drone.cpp.o -c /home/antek/testy/zad5_3-AntoniJeziorski/src/drone.cpp",
+  "file": "/home/antek/testy/zad5_3-AntoniJeziorski/src/drone.cpp"
 },
 {
-  "directory": "/home/antek/Videos/zad5_3-AntoniJeziorski/build",
-  "command": "/usr/bin/c++  -DENABLE_DOCTEST_IN_LIBRARY -I/home/antek/Videos/zad5_3-AntoniJeziorski/build -I/home/antek/Videos/zad5_3-AntoniJeziorski/inc -I/home/antek/Videos/zad5_3-AntoniJeziorski/external/doctest/doctest  -g   -Wall -Wextra -Wpedantic -Wno-switch-enum -Werror -std=c++17 -o CMakeFiles/program.dir/src/matrix3D.cpp.o -c /home/antek/Videos/zad5_3-AntoniJeziorski/src/matrix3D.cpp",
-  "file": "/home/antek/Videos/zad5_3-AntoniJeziorski/src/matrix3D.cpp"
+  "directory": "/home/antek/testy/zad5_3-AntoniJeziorski/build",
+  "command": "/usr/bin/c++  -DENABLE_DOCTEST_IN_LIBRARY -I/home/antek/testy/zad5_3-AntoniJeziorski/build -I/home/antek/testy/zad5_3-AntoniJeziorski/inc -I/home/antek/testy/zad5_3-AntoniJeziorski/external/doctest/doctest  -g   -Wall -Wextra -Wpedantic -Wno-switch-enum -Werror -std=c++17 -o CMakeFiles/program.dir/src/matrix3D.cpp.o -c /home/antek/testy/zad5_3-AntoniJeziorski/src/matrix3D.cpp",
+  "file": "/home/antek/testy/zad5_3-AntoniJeziorski/src/matrix3D.cpp"
 },
 {
-  "directory": "/home/antek/Videos/zad5_3-AntoniJeziorski/build",
-  "command": "/usr/bin/c++  -DENABLE_DOCTEST_IN_LIBRARY -I/home/antek/Videos/zad5_3-AntoniJeziorski/build -I/home/antek/Videos/zad5_3-AntoniJeziorski/inc -I/home/antek/Videos/zad5_3-AntoniJeziorski/external/doctest/doctest  -g   -Wall -Wextra -Wpedantic -Wno-switch-enum -Werror -std=c++17 -o CMakeFiles/program.dir/src/solid.cpp.o -c /home/antek/Videos/zad5_3-AntoniJeziorski/src/solid.cpp",
-  "file": "/home/antek/Videos/zad5_3-AntoniJeziorski/src/solid.cpp"
+  "directory": "/home/antek/testy/zad5_3-AntoniJeziorski/build",
+  "command": "/usr/bin/c++  -DENABLE_DOCTEST_IN_LIBRARY -I/home/antek/testy/zad5_3-AntoniJeziorski/build -I/home/antek/testy/zad5_3-AntoniJeziorski/inc -I/home/antek/testy/zad5_3-AntoniJeziorski/external/doctest/doctest  -g   -Wall -Wextra -Wpedantic -Wno-switch-enum -Werror -std=c++17 -o CMakeFiles/program.dir/src/solid.cpp.o -c /home/antek/testy/zad5_3-AntoniJeziorski/src/solid.cpp",
+  "file": "/home/antek/testy/zad5_3-AntoniJeziorski/src/solid.cpp"
 },
 {
-  "directory": "/home/antek/Videos/zad5_3-AntoniJeziorski/build",
-  "command": "/usr/bin/c++  -DENABLE_DOCTEST_IN_LIBRARY -I/home/antek/Videos/zad5_3-AntoniJeziorski/build -I/home/antek/Videos/zad5_3-AntoniJeziorski/inc -I/home/antek/Videos/zad5_3-AntoniJeziorski/external/doctest/doctest  -g   -Wall -Wextra -Wpedantic -Wno-switch-enum -Werror -std=c++17 -o CMakeFiles/program.dir/src/scene.cpp.o -c /home/antek/Videos/zad5_3-AntoniJeziorski/src/scene.cpp",
-  "file": "/home/antek/Videos/zad5_3-AntoniJeziorski/src/scene.cpp"
+  "directory": "/home/antek/testy/zad5_3-AntoniJeziorski/build",
+  "command": "/usr/bin/c++  -DENABLE_DOCTEST_IN_LIBRARY -I/home/antek/testy/zad5_3-AntoniJeziorski/build -I/home/antek/testy/zad5_3-AntoniJeziorski/inc -I/home/antek/testy/zad5_3-AntoniJeziorski/external/doctest/doctest  -g   -Wall -Wextra -Wpedantic -Wno-switch-enum -Werror -std=c++17 -o CMakeFiles/program.dir/src/scene.cpp.o -c /home/antek/testy/zad5_3-AntoniJeziorski/src/scene.cpp",
+  "file": "/home/antek/testy/zad5_3-AntoniJeziorski/src/scene.cpp"
 },
 {
-  "directory": "/home/antek/Videos/zad5_3-AntoniJeziorski/build",
-  "command": "/usr/bin/c++  -DENABLE_DOCTEST_IN_LIBRARY -I/home/antek/Videos/zad5_3-AntoniJeziorski/build -I/home/antek/Videos/zad5_3-AntoniJeziorski/inc -I/home/antek/Videos/zad5_3-AntoniJeziorski/external/doctest/doctest  -g   -Wall -Wextra -Wpedantic -Wno-switch-enum -Werror -std=c++17 -o CMakeFiles/program.dir/src/hexagonal_prism.cpp.o -c /home/antek/Videos/zad5_3-AntoniJeziorski/src/hexagonal_prism.cpp",
-  "file": "/home/antek/Videos/zad5_3-AntoniJeziorski/src/hexagonal_prism.cpp"
+  "directory": "/home/antek/testy/zad5_3-AntoniJeziorski/build",
+  "command": "/usr/bin/c++  -DENABLE_DOCTEST_IN_LIBRARY -I/home/antek/testy/zad5_3-AntoniJeziorski/build -I/home/antek/testy/zad5_3-AntoniJeziorski/inc -I/home/antek/testy/zad5_3-AntoniJeziorski/external/doctest/doctest  -g   -Wall -Wextra -Wpedantic -Wno-switch-enum -Werror -std=c++17 -o CMakeFiles/program.dir/src/hexagonal_prism.cpp.o -c /home/antek/testy/zad5_3-AntoniJeziorski/src/hexagonal_prism.cpp",
+  "file": "/home/antek/testy/zad5_3-AntoniJeziorski/src/hexagonal_prism.cpp"
 },
 {
-  "directory": "/home/antek/Videos/zad5_3-AntoniJeziorski/build",
-  "command": "/usr/bin/c++  -DENABLE_DOCTEST_IN_LIBRARY -I/home/antek/Videos/zad5_3-AntoniJeziorski/build -I/home/antek/Videos/zad5_3-AntoniJeziorski/inc -I/home/antek/Videos/zad5_3-AntoniJeziorski/external/doctest/doctest  -g   -Wall -Wextra -Wpedantic -Wno-switch-enum -Werror -std=c++17 -o CMakeFiles/program.dir/src/scene_object.cpp.o -c /home/antek/Videos/zad5_3-AntoniJeziorski/src/scene_object.cpp",
-  "file": "/home/antek/Videos/zad5_3-AntoniJeziorski/src/scene_object.cpp"
+  "directory": "/home/antek/testy/zad5_3-AntoniJeziorski/build",
+  "command": "/usr/bin/c++  -DENABLE_DOCTEST_IN_LIBRARY -I/home/antek/testy/zad5_3-AntoniJeziorski/build -I/home/antek/testy/zad5_3-AntoniJeziorski/inc -I/home/antek/testy/zad5_3-AntoniJeziorski/external/doctest/doctest  -g   -Wall -Wextra -Wpedantic -Wno-switch-enum -Werror -std=c++17 -o CMakeFiles/program.dir/src/scene_object.cpp.o -c /home/antek/testy/zad5_3-AntoniJeziorski/src/scene_object.cpp",
+  "file": "/home/antek/testy/zad5_3-AntoniJeziorski/src/scene_object.cpp"
 },
 {
-  "directory": "/home/antek/Videos/zad5_3-AntoniJeziorski/build",
-  "command": "/usr/bin/c++  -DENABLE_DOCTEST_IN_LIBRARY -I/home/antek/Videos/zad5_3-AntoniJeziorski/build -I/home/antek/Videos/zad5_3-AntoniJeziorski/inc -I/home/antek/Videos/zad5_3-AntoniJeziorski/external/doctest/doctest  -g   -Wall -Wextra -Wpedantic -Wno-switch-enum -Werror -std=c++17 -o CMakeFiles/program.dir/src/plateau.cpp.o -c /home/antek/Videos/zad5_3-AntoniJeziorski/src/plateau.cpp",
-  "file": "/home/antek/Videos/zad5_3-AntoniJeziorski/src/plateau.cpp"
+  "directory": "/home/antek/testy/zad5_3-AntoniJeziorski/build",
+  "command": "/usr/bin/c++  -DENABLE_DOCTEST_IN_LIBRARY -I/home/antek/testy/zad5_3-AntoniJeziorski/build -I/home/antek/testy/zad5_3-AntoniJeziorski/inc -I/home/antek/testy/zad5_3-AntoniJeziorski/external/doctest/doctest  -g   -Wall -Wextra -Wpedantic -Wno-switch-enum -Werror -std=c++17 -o CMakeFiles/program.dir/src/plateau.cpp.o -c /home/antek/testy/zad5_3-AntoniJeziorski/src/plateau.cpp",
+  "file": "/home/antek/testy/zad5_3-AntoniJeziorski/src/plateau.cpp"
 },
 {
-  "directory": "/home/antek/Videos/zad5_3-AntoniJeziorski/build",
-  "command": "/usr/bin/c++  -DENABLE_DOCTEST_IN_LIBRARY -I/home/antek/Videos/zad5_3-AntoniJeziorski/build -I/home/antek/Videos/zad5_3-AntoniJeziorski/inc -I/home/antek/Videos/zad5_3-AntoniJeziorski/external/doctest/doctest  -g   -Wall -Wextra -Wpedantic -Wno-switch-enum -Werror -std=c++17 -o CMakeFiles/program.dir/src/slope.cpp.o -c /home/antek/Videos/zad5_3-AntoniJeziorski/src/slope.cpp",
-  "file": "/home/antek/Videos/zad5_3-AntoniJeziorski/src/slope.cpp"
+  "directory": "/home/antek/testy/zad5_3-AntoniJeziorski/build",
+  "command": "/usr/bin/c++  -DENABLE_DOCTEST_IN_LIBRARY -I/home/antek/testy/zad5_3-AntoniJeziorski/build -I/home/antek/testy/zad5_3-AntoniJeziorski/inc -I/home/antek/testy/zad5_3-AntoniJeziorski/external/doctest/doctest  -g   -Wall -Wextra -Wpedantic -Wno-switch-enum -Werror -std=c++17 -o CMakeFiles/program.dir/src/slope.cpp.o -c /home/antek/testy/zad5_3-AntoniJeziorski/src/slope.cpp",
+  "file": "/home/antek/testy/zad5_3-AntoniJeziorski/src/slope.cpp"
 },
 {
-  "directory": "/home/antek/Videos/zad5_3-AntoniJeziorski/build",
-  "command": "/usr/bin/c++  -DENABLE_DOCTEST_IN_LIBRARY -I/home/antek/Videos/zad5_3-AntoniJeziorski/build -I/home/antek/Videos/zad5_3-AntoniJeziorski/inc -I/home/antek/Videos/zad5_3-AntoniJeziorski/external/doctest/doctest  -g   -Wall -Wextra -Wpedantic -Wno-switch-enum -Werror -std=c++17 -o CMakeFiles/program.dir/src/mount.cpp.o -c /home/antek/Videos/zad5_3-AntoniJeziorski/src/mount.cpp",
-  "file": "/home/antek/Videos/zad5_3-AntoniJeziorski/src/mount.cpp"
+  "directory": "/home/antek/testy/zad5_3-AntoniJeziorski/build",
+  "command": "/usr/bin/c++  -DENABLE_DOCTEST_IN_LIBRARY -I/home/antek/testy/zad5_3-AntoniJeziorski/build -I/home/antek/testy/zad5_3-AntoniJeziorski/inc -I/home/antek/testy/zad5_3-AntoniJeziorski/external/doctest/doctest  -g   -Wall -Wextra -Wpedantic -Wno-switch-enum -Werror -std=c++17 -o CMakeFiles/program.dir/src/mount.cpp.o -c /home/antek/testy/zad5_3-AntoniJeziorski/src/mount.cpp",
+  "file": "/home/antek/testy/zad5_3-AntoniJeziorski/src/mount.cpp"
 },
 {
-  "directory": "/home/antek/Videos/zad5_3-AntoniJeziorski/build/tests",
-  "command": "/usr/bin/c++  -DENABLE_DOCTEST_IN_LIBRARY -I/home/antek/Videos/zad5_3-AntoniJeziorski/build -I/home/antek/Videos/zad5_3-AntoniJeziorski/inc -I/home/antek/Videos/zad5_3-AntoniJeziorski/external/doctest/doctest  -g   -Wall -Wextra -Wpedantic -Wno-switch-enum -Werror -std=c++17 -o CMakeFiles/unit_tests.dir/main.cpp.o -c /home/antek/Videos/zad5_3-AntoniJeziorski/tests/main.cpp",
-  "file": "/home/antek/Videos/zad5_3-AntoniJeziorski/tests/main.cpp"
+  "directory": "/home/antek/testy/zad5_3-AntoniJeziorski/build/tests",
+  "command": "/usr/bin/c++  -DENABLE_DOCTEST_IN_LIBRARY -I/home/antek/testy/zad5_3-AntoniJeziorski/build -I/home/antek/testy/zad5_3-AntoniJeziorski/inc -I/home/antek/testy/zad5_3-AntoniJeziorski/external/doctest/doctest  -g   -Wall -Wextra -Wpedantic -Wno-switch-enum -Werror -std=c++17 -o CMakeFiles/unit_tests.dir/main.cpp.o -c /home/antek/testy/zad5_3-AntoniJeziorski/tests/main.cpp",
+  "file": "/home/antek/testy/zad5_3-AntoniJeziorski/tests/main.cpp"
 },
 {
-  "directory": "/home/antek/Videos/zad5_3-AntoniJeziorski/build/tests",
-  "command": "/usr/bin/c++  -DENABLE_DOCTEST_IN_LIBRARY -I/home/antek/Videos/zad5_3-AntoniJeziorski/build -I/home/antek/Videos/zad5_3-AntoniJeziorski/inc -I/home/antek/Videos/zad5_3-AntoniJeziorski/external/doctest/doctest  -g   -Wall -Wextra -Wpedantic -Wno-switch-enum -Werror -std=c++17 -o CMakeFiles/unit_tests.dir/test_matrix3D.cpp.o -c /home/antek/Videos/zad5_3-AntoniJeziorski/tests/test_matrix3D.cpp",
-  "file": "/home/antek/Videos/zad5_3-AntoniJeziorski/tests/test_matrix3D.cpp"
+  "directory": "/home/antek/testy/zad5_3-AntoniJeziorski/build/tests",
+  "command": "/usr/bin/c++  -DENABLE_DOCTEST_IN_LIBRARY -I/home/antek/testy/zad5_3-AntoniJeziorski/build -I/home/antek/testy/zad5_3-AntoniJeziorski/inc -I/home/antek/testy/zad5_3-AntoniJeziorski/external/doctest/doctest  -g   -Wall -Wextra -Wpedantic -Wno-switch-enum -Werror -std=c++17 -o CMakeFiles/unit_tests.dir/test_matrix3D.cpp.o -c /home/antek/testy/zad5_3-AntoniJeziorski/tests/test_matrix3D.cpp",
+  "file": "/home/antek/testy/zad5_3-AntoniJeziorski/tests/test_matrix3D.cpp"
 },
 {
-  "directory": "/home/antek/Videos/zad5_3-AntoniJeziorski/build/tests",
-  "command": "/usr/bin/c++  -DENABLE_DOCTEST_IN_LIBRARY -I/home/antek/Videos/zad5_3-AntoniJeziorski/build -I/home/antek/Videos/zad5_3-AntoniJeziorski/inc -I/home/antek/Videos/zad5_3-AntoniJeziorski/external/doctest/doctest  -g   -Wall -Wextra -Wpedantic -Wno-switch-enum -Werror -std=c++17 -o CMakeFiles/unit_tests.dir/test_vector3D.cpp.o -c /home/antek/Videos/zad5_3-AntoniJeziorski/tests/test_vector3D.cpp",
-  "file": "/home/antek/Videos/zad5_3-AntoniJeziorski/tests/test_vector3D.cpp"
+  "directory": "/home/antek/testy/zad5_3-AntoniJeziorski/build/tests",
+  "command": "/usr/bin/c++  -DENABLE_DOCTEST_IN_LIBRARY -I/home/antek/testy/zad5_3-AntoniJeziorski/build -I/home/antek/testy/zad5_3-AntoniJeziorski/inc -I/home/antek/testy/zad5_3-AntoniJeziorski/external/doctest/doctest  -g   -Wall -Wextra -Wpedantic -Wno-switch-enum -Werror -std=c++17 -o CMakeFiles/unit_tests.dir/test_vector3D.cpp.o -c /home/antek/testy/zad5_3-AntoniJeziorski/tests/test_vector3D.cpp",
+  "file": "/home/antek/testy/zad5_3-AntoniJeziorski/tests/test_vector3D.cpp"
 },
 {
-  "directory": "/home/antek/Videos/zad5_3-AntoniJeziorski/build/tests",
-  "command": "/usr/bin/c++  -DENABLE_DOCTEST_IN_LIBRARY -I/home/antek/Videos/zad5_3-AntoniJeziorski/build -I/home/antek/Videos/zad5_3-AntoniJeziorski/inc -I/home/antek/Videos/zad5_3-AntoniJeziorski/external/doctest/doctest  -g   -Wall -Wextra -Wpedantic -Wno-switch-enum -Werror -std=c++17 -o CMakeFiles/unit_tests.dir/test_solid.cpp.o -c /home/antek/Videos/zad5_3-AntoniJeziorski/tests/test_solid.cpp",
-  "file": "/home/antek/Videos/zad5_3-AntoniJeziorski/tests/test_solid.cpp"
+  "directory": "/home/antek/testy/zad5_3-AntoniJeziorski/build/tests",
+  "command": "/usr/bin/c++  -DENABLE_DOCTEST_IN_LIBRARY -I/home/antek/testy/zad5_3-AntoniJeziorski/build -I/home/antek/testy/zad5_3-AntoniJeziorski/inc -I/home/antek/testy/zad5_3-AntoniJeziorski/external/doctest/doctest  -g   -Wall -Wextra -Wpedantic -Wno-switch-enum -Werror -std=c++17 -o CMakeFiles/unit_tests.dir/test_solid.cpp.o -c /home/antek/testy/zad5_3-AntoniJeziorski/tests/test_solid.cpp",
+  "file": "/home/antek/testy/zad5_3-AntoniJeziorski/tests/test_solid.cpp"
 },
 {
-  "directory": "/home/antek/Videos/zad5_3-AntoniJeziorski/build/tests",
-  "command": "/usr/bin/c++  -DENABLE_DOCTEST_IN_LIBRARY -I/home/antek/Videos/zad5_3-AntoniJeziorski/build -I/home/antek/Videos/zad5_3-AntoniJeziorski/inc -I/home/antek/Videos/zad5_3-AntoniJeziorski/external/doctest/doctest  -g   -Wall -Wextra -Wpedantic -Wno-switch-enum -Werror -std=c++17 -o CMakeFiles/unit_tests.dir/test_cuboid.cpp.o -c /home/antek/Videos/zad5_3-AntoniJeziorski/tests/test_cuboid.cpp",
-  "file": "/home/antek/Videos/zad5_3-AntoniJeziorski/tests/test_cuboid.cpp"
+  "directory": "/home/antek/testy/zad5_3-AntoniJeziorski/build/tests",
+  "command": "/usr/bin/c++  -DENABLE_DOCTEST_IN_LIBRARY -I/home/antek/testy/zad5_3-AntoniJeziorski/build -I/home/antek/testy/zad5_3-AntoniJeziorski/inc -I/home/antek/testy/zad5_3-AntoniJeziorski/external/doctest/doctest  -g   -Wall -Wextra -Wpedantic -Wno-switch-enum -Werror -std=c++17 -o CMakeFiles/unit_tests.dir/test_cuboid.cpp.o -c /home/antek/testy/zad5_3-AntoniJeziorski/tests/test_cuboid.cpp",
+  "file": "/home/antek/testy/zad5_3-AntoniJeziorski/tests/test_cuboid.cpp"
 },
 {
-  "directory": "/home/antek/Videos/zad5_3-AntoniJeziorski/build/tests",
-  "command": "/usr/bin/c++  -DENABLE_DOCTEST_IN_LIBRARY -I/home/antek/Videos/zad5_3-AntoniJeziorski/build -I/home/antek/Videos/zad5_3-AntoniJeziorski/inc -I/home/antek/Videos/zad5_3-AntoniJeziorski/external/doctest/doctest  -g   -Wall -Wextra -Wpedantic -Wno-switch-enum -Werror -std=c++17 -o CMakeFiles/unit_tests.dir/test_hexagonal_prism.cpp.o -c /home/antek/Videos/zad5_3-AntoniJeziorski/tests/test_hexagonal_prism.cpp",
-  "file": "/home/antek/Videos/zad5_3-AntoniJeziorski/tests/test_hexagonal_prism.cpp"
+  "directory": "/home/antek/testy/zad5_3-AntoniJeziorski/build/tests",
+  "command": "/usr/bin/c++  -DENABLE_DOCTEST_IN_LIBRARY -I/home/antek/testy/zad5_3-AntoniJeziorski/build -I/home/antek/testy/zad5_3-AntoniJeziorski/inc -I/home/antek/testy/zad5_3-AntoniJeziorski/external/doctest/doctest  -g   -Wall -Wextra -Wpedantic -Wno-switch-enum -Werror -std=c++17 -o CMakeFiles/unit_tests.dir/test_hexagonal_prism.cpp.o -c /home/antek/testy/zad5_3-AntoniJeziorski/tests/test_hexagonal_prism.cpp",
+  "file": "/home/antek/testy/zad5_3-AntoniJeziorski/tests/test_hexagonal_prism.cpp"
 },
 {
-  "directory": "/home/antek/Videos/zad5_3-AntoniJeziorski/build/tests",
-  "command": "/usr/bin/c++  -DENABLE_DOCTEST_IN_LIBRARY -I/home/antek/Videos/zad5_3-AntoniJeziorski/build -I/home/antek/Videos/zad5_3-AntoniJeziorski/inc -I/home/antek/Videos/zad5_3-AntoniJeziorski/external/doctest/doctest  -g   -Wall -Wextra -Wpedantic -Wno-switch-enum -Werror -std=c++17 -o CMakeFiles/unit_tests.dir/test_drone.cpp.o -c /home/antek/Videos/zad5_3-AntoniJeziorski/tests/test_drone.cpp",
-  "file": "/home/antek/Videos/zad5_3-AntoniJeziorski/tests/test_drone.cpp"
+  "directory": "/home/antek/testy/zad5_3-AntoniJeziorski/build/tests",
+  "command": "/usr/bin/c++  -DENABLE_DOCTEST_IN_LIBRARY -I/home/antek/testy/zad5_3-AntoniJeziorski/build -I/home/antek/testy/zad5_3-AntoniJeziorski/inc -I/home/antek/testy/zad5_3-AntoniJeziorski/external/doctest/doctest  -g   -Wall -Wextra -Wpedantic -Wno-switch-enum -Werror -std=c++17 -o CMakeFiles/unit_tests.dir/test_drone.cpp.o -c /home/antek/testy/zad5_3-AntoniJeziorski/tests/test_drone.cpp",
+  "file": "/home/antek/testy/zad5_3-AntoniJeziorski/tests/test_drone.cpp"
 }
 ]

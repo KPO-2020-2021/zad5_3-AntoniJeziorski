@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/antek/Videos/zad5_3-AntoniJeziorski
+CMAKE_SOURCE_DIR = /home/antek/testy/zad5_3-AntoniJeziorski
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/antek/Videos/zad5_3-AntoniJeziorski/build
+CMAKE_BINARY_DIR = /home/antek/testy/zad5_3-AntoniJeziorski/build
 
 # Utility rule file for doc.
 
@@ -54,8 +54,8 @@ CMAKE_BINARY_DIR = /home/antek/Videos/zad5_3-AntoniJeziorski/build
 include CMakeFiles/doc.dir/progress.make
 
 CMakeFiles/doc:
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/antek/Videos/zad5_3-AntoniJeziorski/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "[1;35mGenerating API documentation with Doxygen (open ./html/index.html to view)."
-	/usr/bin/doxygen /home/antek/Videos/zad5_3-AntoniJeziorski/build/Doxyfile &> doxygen.log
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/antek/testy/zad5_3-AntoniJeziorski/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "[1;35mGenerating API documentation with Doxygen (open ./html/index.html to view)."
+	/usr/bin/doxygen /home/antek/testy/zad5_3-AntoniJeziorski/build/Doxyfile &> doxygen.log
 
 doc: CMakeFiles/doc
 doc: CMakeFiles/doc.dir/build.make
@@ -72,6 +72,6 @@ CMakeFiles/doc.dir/clean:
 .PHONY : CMakeFiles/doc.dir/clean
 
 CMakeFiles/doc.dir/depend:
-	cd /home/antek/Videos/zad5_3-AntoniJeziorski/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/antek/Videos/zad5_3-AntoniJeziorski /home/antek/Videos/zad5_3-AntoniJeziorski /home/antek/Videos/zad5_3-AntoniJeziorski/build /home/antek/Videos/zad5_3-AntoniJeziorski/build /home/antek/Videos/zad5_3-AntoniJeziorski/build/CMakeFiles/doc.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/antek/testy/zad5_3-AntoniJeziorski/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/antek/testy/zad5_3-AntoniJeziorski /home/antek/testy/zad5_3-AntoniJeziorski /home/antek/testy/zad5_3-AntoniJeziorski/build /home/antek/testy/zad5_3-AntoniJeziorski/build /home/antek/testy/zad5_3-AntoniJeziorski/build/CMakeFiles/doc.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/doc.dir/depend
 

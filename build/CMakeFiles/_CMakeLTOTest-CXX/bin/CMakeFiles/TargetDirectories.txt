@@ -1,4 +1,4 @@
-/home/antek/Videos/zad5_3-AntoniJeziorski/build/CMakeFiles/_CMakeLTOTest-CXX/bin/CMakeFiles/rebuild_cache.dir
-/home/antek/Videos/zad5_3-AntoniJeziorski/build/CMakeFiles/_CMakeLTOTest-CXX/bin/CMakeFiles/edit_cache.dir
-/home/antek/Videos/zad5_3-AntoniJeziorski/build/CMakeFiles/_CMakeLTOTest-CXX/bin/CMakeFiles/boo.dir
-/home/antek/Videos/zad5_3-AntoniJeziorski/build/CMakeFiles/_CMakeLTOTest-CXX/bin/CMakeFiles/foo.dir
+/home/antek/testy/zad5_3-AntoniJeziorski/build/CMakeFiles/_CMakeLTOTest-CXX/bin/CMakeFiles/rebuild_cache.dir
+/home/antek/testy/zad5_3-AntoniJeziorski/build/CMakeFiles/_CMakeLTOTest-CXX/bin/CMakeFiles/edit_cache.dir
+/home/antek/testy/zad5_3-AntoniJeziorski/build/CMakeFiles/_CMakeLTOTest-CXX/bin/CMakeFiles/boo.dir
+/home/antek/testy/zad5_3-AntoniJeziorski/build/CMakeFiles/_CMakeLTOTest-CXX/bin/CMakeFiles/foo.dir

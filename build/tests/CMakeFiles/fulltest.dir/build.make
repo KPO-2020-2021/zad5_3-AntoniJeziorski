@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/antek/Videos/zad5_3-AntoniJeziorski
+CMAKE_SOURCE_DIR = /home/antek/testy/zad5_3-AntoniJeziorski
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/antek/Videos/zad5_3-AntoniJeziorski/build
+CMAKE_BINARY_DIR = /home/antek/testy/zad5_3-AntoniJeziorski/build
 
 # Utility rule file for fulltest.
 
@@ -54,7 +54,7 @@ CMAKE_BINARY_DIR = /home/antek/Videos/zad5_3-AntoniJeziorski/build
 include tests/CMakeFiles/fulltest.dir/progress.make
 
 tests/CMakeFiles/fulltest:
-	cd /home/antek/Videos/zad5_3-AntoniJeziorski/build/tests && /home/antek/Videos/zad5_3-AntoniJeziorski/build/unit_tests -s
+	cd /home/antek/testy/zad5_3-AntoniJeziorski/build/tests && /home/antek/testy/zad5_3-AntoniJeziorski/build/unit_tests -s
 
 fulltest: tests/CMakeFiles/fulltest
 fulltest: tests/CMakeFiles/fulltest.dir/build.make
@@ -67,10 +67,10 @@ tests/CMakeFiles/fulltest.dir/build: fulltest
 .PHONY : tests/CMakeFiles/fulltest.dir/build
 
 tests/CMakeFiles/fulltest.dir/clean:
-	cd /home/antek/Videos/zad5_3-AntoniJeziorski/build/tests && $(CMAKE_COMMAND) -P CMakeFiles/fulltest.dir/cmake_clean.cmake
+	cd /home/antek/testy/zad5_3-AntoniJeziorski/build/tests && $(CMAKE_COMMAND) -P CMakeFiles/fulltest.dir/cmake_clean.cmake
 .PHONY : tests/CMakeFiles/fulltest.dir/clean
 
 tests/CMakeFiles/fulltest.dir/depend:
-	cd /home/antek/Videos/zad5_3-AntoniJeziorski/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/antek/Videos/zad5_3-AntoniJeziorski /home/antek/Videos/zad5_3-AntoniJeziorski/tests /home/antek/Videos/zad5_3-AntoniJeziorski/build /home/antek/Videos/zad5_3-AntoniJeziorski/build/tests /home/antek/Videos/zad5_3-AntoniJeziorski/build/tests/CMakeFiles/fulltest.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/antek/testy/zad5_3-AntoniJeziorski/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/antek/testy/zad5_3-AntoniJeziorski /home/antek/testy/zad5_3-AntoniJeziorski/tests /home/antek/testy/zad5_3-AntoniJeziorski/build /home/antek/testy/zad5_3-AntoniJeziorski/build/tests /home/antek/testy/zad5_3-AntoniJeziorski/build/tests/CMakeFiles/fulltest.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : tests/CMakeFiles/fulltest.dir/depend
 
